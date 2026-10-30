@@ -1,8 +1,8 @@
 {
-  "name": "basira",
+  "name": "shams",
   "version": "1.0.0",
   "private": true,
-  "description": "Bəsirə — responsive prayer companion",
+  "description": "Shams — responsive prayer companion",
   "scripts": { "start": "node serve.cjs", "test": "node check.cjs" },
   "engines": { "node": ">=20" }
 }
