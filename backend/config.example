@@ -1,0 +1,16 @@
+# Node.js 24+. Copy outside tracked files, e.g. backend/config.local (gitignored).
+NODE_ENV=production
+PORT=4173
+SHAMS_HOST=127.0.0.1
+SHAMS_ORIGIN=
+SHAMS_DATA_DIR=
+SHAMS_DATA_KEY=
+SHAMS_ADMIN_PASSWORD_HASH=
+# Keep disabled until the real Android release, service account and RTDN are ready.
+SHAMS_ENABLE_BILLING=false
+PLAY_PACKAGE_NAME=
+PLAY_PRODUCT_ID=
+PLAY_BASE_PLAN_ID=
+GOOGLE_APPLICATION_CREDENTIALS=
+PLAY_RTDN_AUDIENCE=
+PLAY_RTDN_SERVICE_ACCOUNT_EMAIL=
