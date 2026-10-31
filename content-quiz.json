@@ -1,0 +1,4325 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "quran-01",
+      "category": "quran",
+      "difficulty": 1,
+      "question": {
+        "az": "Quranın birinci surəsi hansıdır?",
+        "tr": "Kur’an’ın birinci suresi hangisidir?",
+        "ru": "Какая сура первая в Коране?",
+        "en": "Which is the first surah of the Quran?",
+        "ar": "ما أول سورة في القرآن؟"
+      },
+      "options": [
+        {
+          "az": "Fatihə",
+          "tr": "Fatiha",
+          "ru": "Аль-Фатиха",
+          "en": "Al-Fatihah",
+          "ar": "الفاتحة"
+        },
+        {
+          "az": "Tin",
+          "tr": "Tin",
+          "ru": "Ат-Тин",
+          "en": "At-Tin",
+          "ar": "التين"
+        },
+        {
+          "az": "Əsr",
+          "tr": "Asr",
+          "ru": "Аль-Аср",
+          "en": "Al-Asr",
+          "ar": "العصر"
+        },
+        {
+          "az": "Qədr",
+          "tr": "Kadir",
+          "ru": "Аль-Кадр",
+          "en": "Al-Qadr",
+          "ar": "القدر"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Fatihə Quranın birinci surəsidir.",
+        "tr": "Fatiha Kur’an’ın ilk suresidir.",
+        "ru": "Аль-Фатиха — первая сура Корана.",
+        "en": "Al-Fatihah is the Quran’s first surah.",
+        "ar": "الفاتحة هي السورة الأولى في القرآن."
+      },
+      "source_reference": "Quran 1:2",
+      "source_url": "https://quran.com/1/2",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "quran-02",
+      "category": "quran",
+      "difficulty": 1,
+      "question": {
+        "az": "Qədr gecəsindən danışan 97-ci surənin adı nədir?",
+        "tr": "Kadir gecesini anlatan 97. surenin adı nedir?",
+        "ru": "Как называется 97-я сура о Ночи предопределения?",
+        "en": "What is the name of surah 97, about the Night of Decree?",
+        "ar": "ما اسم السورة ٩٧ التي تتحدث عن ليلة القدر؟"
+      },
+      "options": [
+        {
+          "az": "Qədr",
+          "tr": "Kadir",
+          "ru": "Аль-Кадр",
+          "en": "Al-Qadr",
+          "ar": "القدر"
+        },
+        {
+          "az": "Fələq",
+          "tr": "Felak",
+          "ru": "Аль-Фаляк",
+          "en": "Al-Falaq",
+          "ar": "الفلق"
+        },
+        {
+          "az": "Tin",
+          "tr": "Tin",
+          "ru": "Ат-Тин",
+          "en": "At-Tin",
+          "ar": "التين"
+        },
+        {
+          "az": "Ələq",
+          "tr": "Alak",
+          "ru": "Аль-Аляк",
+          "en": "Al-Alaq",
+          "ar": "العلق"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Qədr surəsinin ilk üç ayəsi bu gecəni təsvir edir.",
+        "tr": "Kadir suresinin ilk üç ayeti bu geceyi anlatır.",
+        "ru": "Первые три аята суры Аль-Кадр описывают эту ночь.",
+        "en": "The first three verses of Al-Qadr describe this night.",
+        "ar": "تصف الآيات الثلاث الأولى من سورة القدر هذه الليلة."
+      },
+      "source_reference": "Quran 97:1-3",
+      "source_url": "https://quran.com/97/1-3",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "quran-03",
+      "category": "quran",
+      "difficulty": 1,
+      "question": {
+        "az": "«Qul huvəllahu əhəd» ilə hansı surə başlayır?",
+        "tr": "“Kul hüvallahu ehad” ile hangi sure başlar?",
+        "ru": "Какая сура начинается словами «Куль хува-Ллаху ахад»?",
+        "en": "Which surah begins “Qul huwa Allahu ahad”?",
+        "ar": "أي سورة تبدأ بـ«قل هو الله أحد»؟"
+      },
+      "options": [
+        {
+          "az": "İxlas",
+          "tr": "İhlas",
+          "ru": "Аль-Ихляс",
+          "en": "Al-Ikhlas",
+          "ar": "الإخلاص"
+        },
+        {
+          "az": "Qədr",
+          "tr": "Kadir",
+          "ru": "Аль-Кадр",
+          "en": "Al-Qadr",
+          "ar": "القدر"
+        },
+        {
+          "az": "Tin",
+          "tr": "Tin",
+          "ru": "Ат-Тин",
+          "en": "At-Tin",
+          "ar": "التين"
+        },
+        {
+          "az": "Fələq",
+          "tr": "Felak",
+          "ru": "Аль-Фаляк",
+          "en": "Al-Falaq",
+          "ar": "الفلق"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bu sözlər İxlas surəsinin birinci ayəsidir.",
+        "tr": "Bu sözler İhlas suresinin ilk ayetidir.",
+        "ru": "Это первый аят суры Аль-Ихляс.",
+        "en": "These words form the first verse of Al-Ikhlas.",
+        "ar": "هذه الكلمات هي الآية الأولى من سورة الإخلاص."
+      },
+      "source_reference": "Quran 112:1",
+      "source_url": "https://quran.com/112/1",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "quran-04",
+      "category": "quran",
+      "difficulty": 1,
+      "question": {
+        "az": "Ayətəl-Kürsi hansı surədədir?",
+        "tr": "Ayetel Kürsi hangi surededir?",
+        "ru": "В какой суре находится аят Аль-Курси?",
+        "en": "Which surah contains Ayat al-Kursi?",
+        "ar": "في أي سورة تقع آية الكرسي؟"
+      },
+      "options": [
+        {
+          "az": "Bəqərə",
+          "tr": "Bakara",
+          "ru": "Аль-Бакара",
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "az": "İxlas",
+          "tr": "İhlas",
+          "ru": "Аль-Ихляс",
+          "en": "Al-Ikhlas",
+          "ar": "الإخلاص"
+        },
+        {
+          "az": "Əsr",
+          "tr": "Asr",
+          "ru": "Аль-Аср",
+          "en": "Al-Asr",
+          "ar": "العصر"
+        },
+        {
+          "az": "Ələq",
+          "tr": "Alak",
+          "ru": "Аль-Аляк",
+          "en": "Al-Alaq",
+          "ar": "العلق"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayətəl-Kürsi Bəqərə surəsinin 255-ci ayəsidir.",
+        "tr": "Ayetel Kürsi Bakara suresinin 255. ayetidir.",
+        "ru": "Аль-Курси — аят 255 суры Аль-Бакара.",
+        "en": "Ayat al-Kursi is verse 255 of Al-Baqarah.",
+        "ar": "آية الكرسي هي الآية ٢٥٥ من سورة البقرة."
+      },
+      "source_reference": "Quran 2:255",
+      "source_url": "https://quran.com/2/255",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "quran-05",
+      "category": "quran",
+      "difficulty": 1,
+      "question": {
+        "az": "Hansı surə əncir və zeytuna andla başlayır?",
+        "tr": "Hangi sure incir ve zeytine yeminle başlar?",
+        "ru": "Какая сура начинается клятвой смоковницей и оливой?",
+        "en": "Which surah opens with an oath by the fig and olive?",
+        "ar": "أي سورة تبدأ بالقسم بالتين والزيتون؟"
+      },
+      "options": [
+        {
+          "az": "Tin",
+          "tr": "Tin",
+          "ru": "Ат-Тин",
+          "en": "At-Tin",
+          "ar": "التين"
+        },
+        {
+          "az": "Əsr",
+          "tr": "Asr",
+          "ru": "Аль-Аср",
+          "en": "Al-Asr",
+          "ar": "العصر"
+        },
+        {
+          "az": "Şəms",
+          "tr": "Şems",
+          "ru": "Аш-Шамс",
+          "en": "Ash-Shams",
+          "ar": "الشمس"
+        },
+        {
+          "az": "Ənkəbut",
+          "tr": "Ankebut",
+          "ru": "Аль-Анкабут",
+          "en": "Al-Ankabut",
+          "ar": "العنكبوت"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Tin surəsinin ilk ayəsində əncir və zeytun çəkilir.",
+        "tr": "Tin suresinin ilk ayetinde incir ve zeytin geçer.",
+        "ru": "В первом аяте Ат-Тин названы смоковница и олива.",
+        "en": "The fig and olive appear in At-Tin’s first verse.",
+        "ar": "يُذكر التين والزيتون في أول آية من سورة التين."
+      },
+      "source_reference": "Quran 95:1",
+      "source_url": "https://quran.com/95/1",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "quran-06",
+      "category": "quran",
+      "difficulty": 1,
+      "question": {
+        "az": "«Sübhün Rəbbinə sığınıram» məzmunu ilə hansı surə başlayır?",
+        "tr": "“Sabahın Rabbine sığınırım” anlamıyla hangi sure başlar?",
+        "ru": "Какая сура начинается обращением к Господу рассвета?",
+        "en": "Which surah opens by seeking refuge in the Lord of daybreak?",
+        "ar": "أي سورة تبدأ بالاستعاذة برب الفلق؟"
+      },
+      "options": [
+        {
+          "az": "Fələq",
+          "tr": "Felak",
+          "ru": "Аль-Фаляк",
+          "en": "Al-Falaq",
+          "ar": "الفلق"
+        },
+        {
+          "az": "Qədr",
+          "tr": "Kadir",
+          "ru": "Аль-Кадр",
+          "en": "Al-Qadr",
+          "ar": "القدر"
+        },
+        {
+          "az": "Ələq",
+          "tr": "Alak",
+          "ru": "Аль-Аляк",
+          "en": "Al-Alaq",
+          "ar": "العلق"
+        },
+        {
+          "az": "Bəqərə",
+          "tr": "Bakara",
+          "ru": "Аль-Бакара",
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Fələq surəsi sübhün Rəbbinə sığınmaqla başlayır.",
+        "tr": "Felak suresi sabahın Rabbine sığınmayla başlar.",
+        "ru": "Аль-Фаляк начинается с просьбы о защите Господа рассвета.",
+        "en": "Al-Falaq opens with refuge in the Lord of daybreak.",
+        "ar": "تبدأ سورة الفلق بالاستعاذة برب الفلق."
+      },
+      "source_reference": "Quran 113:1",
+      "source_url": "https://quran.com/113/1",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "quran-07",
+      "category": "quran",
+      "difficulty": 1,
+      "question": {
+        "az": "Hansı surə zamana andla başlayır?",
+        "tr": "Hangi sure zamana yeminle başlar?",
+        "ru": "Какая сура начинается клятвой временем?",
+        "en": "Which surah begins with an oath by time?",
+        "ar": "أي سورة تبدأ بالقسم بالعصر؟"
+      },
+      "options": [
+        {
+          "az": "Əsr",
+          "tr": "Asr",
+          "ru": "Аль-Аср",
+          "en": "Al-Asr",
+          "ar": "العصر"
+        },
+        {
+          "az": "Tin",
+          "tr": "Tin",
+          "ru": "Ат-Тин",
+          "en": "At-Tin",
+          "ar": "التين"
+        },
+        {
+          "az": "Fələq",
+          "tr": "Felak",
+          "ru": "Аль-Фаляк",
+          "en": "Al-Falaq",
+          "ar": "الفلق"
+        },
+        {
+          "az": "İxlas",
+          "tr": "İhlas",
+          "ru": "Аль-Ихляс",
+          "en": "Al-Ikhlas",
+          "ar": "الإخلاص"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Əsr surəsinin ilk ayəsində zamana and içilir.",
+        "tr": "Asr suresinin ilk ayetinde zamana yemin edilir.",
+        "ru": "Первый аят Аль-Аср содержит клятву временем.",
+        "en": "The first verse of Al-Asr is an oath by time.",
+        "ar": "الآية الأولى من سورة العصر قسم بالعصر."
+      },
+      "source_reference": "Quran 103:1",
+      "source_url": "https://quran.com/103/1",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "quran-08",
+      "category": "quran",
+      "difficulty": 1,
+      "question": {
+        "az": "«Oxu!» əmri ilə hansı surə başlayır?",
+        "tr": "“Oku!” emriyle hangi sure başlar?",
+        "ru": "Какая сура начинается повелением «Читай!»?",
+        "en": "Which surah begins with the command “Read!”?",
+        "ar": "أي سورة تبدأ بالأمر «اقرأ»؟"
+      },
+      "options": [
+        {
+          "az": "Ələq",
+          "tr": "Alak",
+          "ru": "Аль-Аляк",
+          "en": "Al-Alaq",
+          "ar": "العلق"
+        },
+        {
+          "az": "Bəqərə",
+          "tr": "Bakara",
+          "ru": "Аль-Бакара",
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "az": "Qədr",
+          "tr": "Kadir",
+          "ru": "Аль-Кадр",
+          "en": "Al-Qadr",
+          "ar": "القدر"
+        },
+        {
+          "az": "Şəms",
+          "tr": "Şems",
+          "ru": "Аш-Шамс",
+          "en": "Ash-Shams",
+          "ar": "الشمس"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ələq surəsinin ilk ayəsi oxumağı əmr edir.",
+        "tr": "Alak suresinin ilk ayeti okumayı emreder.",
+        "ru": "Первый аят Аль-Аляк повелевает читать.",
+        "en": "The first verse of Al-Alaq commands reading.",
+        "ar": "تأمر الآية الأولى من سورة العلق بالقراءة."
+      },
+      "source_reference": "Quran 96:1",
+      "source_url": "https://quran.com/96/1",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "quran-09",
+      "category": "quran",
+      "difficulty": 3,
+      "question": {
+        "az": "Hörümçək evi bənzətməsi hansı surədədir?",
+        "tr": "Örümcek evi benzetmesi hangi surededir?",
+        "ru": "В какой суре приведён пример паучьего дома?",
+        "en": "Which surah contains the parable of a spider’s house?",
+        "ar": "في أي سورة ورد مثل بيت العنكبوت؟"
+      },
+      "options": [
+        {
+          "az": "Ənkəbut",
+          "tr": "Ankebut",
+          "ru": "Аль-Анкабут",
+          "en": "Al-Ankabut",
+          "ar": "العنكبوت"
+        },
+        {
+          "az": "Fatihə",
+          "tr": "Fatiha",
+          "ru": "Аль-Фатиха",
+          "en": "Al-Fatihah",
+          "ar": "الفاتحة"
+        },
+        {
+          "az": "İxlas",
+          "tr": "İhlas",
+          "ru": "Аль-Ихляс",
+          "en": "Al-Ikhlas",
+          "ar": "الإخلاص"
+        },
+        {
+          "az": "Əsr",
+          "tr": "Asr",
+          "ru": "Аль-Аср",
+          "en": "Al-Asr",
+          "ar": "العصر"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ənkəbut 29:41-də hörümçək evindən misal verilir.",
+        "tr": "Ankebut 29:41’de örümcek evi örnek verilir.",
+        "ru": "В Аль-Анкабут 29:41 приводится паучий дом.",
+        "en": "Al-Ankabut 29:41 uses a spider’s house as a parable.",
+        "ar": "يَرِد مثل بيت العنكبوت في العنكبوت ٢٩:٤١."
+      },
+      "source_reference": "Quran 29:41",
+      "source_url": "https://quran.com/29/41",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "quran-10",
+      "category": "quran",
+      "difficulty": 4,
+      "question": {
+        "az": "Hansı surə günəşə və onun işığına andla başlayır?",
+        "tr": "Hangi sure güneşe ve aydınlığına yeminle başlar?",
+        "ru": "Какая сура начинается клятвой солнцем и его сиянием?",
+        "en": "Which surah opens with an oath by the sun and its brightness?",
+        "ar": "أي سورة تبدأ بالقسم بالشمس وضحاها؟"
+      },
+      "options": [
+        {
+          "az": "Şəms",
+          "tr": "Şems",
+          "ru": "Аш-Шамс",
+          "en": "Ash-Shams",
+          "ar": "الشمس"
+        },
+        {
+          "az": "Ələq",
+          "tr": "Alak",
+          "ru": "Аль-Аляк",
+          "en": "Al-Alaq",
+          "ar": "العلق"
+        },
+        {
+          "az": "Qədr",
+          "tr": "Kadir",
+          "ru": "Аль-Кадр",
+          "en": "Al-Qadr",
+          "ar": "القدر"
+        },
+        {
+          "az": "Fələq",
+          "tr": "Felak",
+          "ru": "Аль-Фаляк",
+          "en": "Al-Falaq",
+          "ar": "الفلق"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Şəms surəsi günəşə və onun işığına andla başlayır.",
+        "tr": "Şems suresi güneşe ve aydınlığına yeminle başlar.",
+        "ru": "Аш-Шамс начинается клятвой солнцем и сиянием.",
+        "en": "Ash-Shams opens with the sun and its brightness.",
+        "ar": "تبدأ سورة الشمس بالقسم بالشمس وضحاها."
+      },
+      "source_reference": "Quran 91:1",
+      "source_url": "https://quran.com/91/1",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prophets-01",
+      "category": "prophets",
+      "difficulty": 1,
+      "question": {
+        "az": "Dənizdən quru yol açmaq əmrini hansı peyğəmbər aldı?",
+        "tr": "Denizde kuru yol açma emrini hangi peygamber aldı?",
+        "ru": "Какому пророку велено проложить сухой путь через море?",
+        "en": "Which prophet was told to make a dry passage through the sea?",
+        "ar": "أي نبي أُمر بشق طريق يابس في البحر؟"
+      },
+      "options": [
+        {
+          "az": "Musa",
+          "tr": "Musa",
+          "ru": "Муса",
+          "en": "Musa (Moses)",
+          "ar": "موسى"
+        },
+        {
+          "az": "Yusif",
+          "tr": "Yusuf",
+          "ru": "Юсуф",
+          "en": "Yusuf (Joseph)",
+          "ar": "يوسف"
+        },
+        {
+          "az": "Davud",
+          "tr": "Davud",
+          "ru": "Дауд",
+          "en": "Dawud (David)",
+          "ar": "داود"
+        },
+        {
+          "az": "Adəm",
+          "tr": "Âdem",
+          "ru": "Адам",
+          "en": "Adam",
+          "ar": "آدم"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Taha 20:77-də Musa bu əmri alır.",
+        "tr": "Taha 20:77’de Musa bu emri alır.",
+        "ru": "В Таха 20:77 это повеление дано Мусе.",
+        "en": "Taha 20:77 gives this command to Musa.",
+        "ar": "ورد هذا الأمر لموسى في طه ٢٠:٧٧."
+      },
+      "source_reference": "Quran 20:77",
+      "source_url": "https://quran.com/20/77",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prophets-02",
+      "category": "prophets",
+      "difficulty": 1,
+      "question": {
+        "az": "Gəmi düzəltmək əmri hansı peyğəmbərə verildi?",
+        "tr": "Gemi yapma emri hangi peygambere verildi?",
+        "ru": "Какому пророку было велено построить ковчег?",
+        "en": "Which prophet was commanded to build the Ark?",
+        "ar": "أي نبي أُمر بصنع الفلك؟"
+      },
+      "options": [
+        {
+          "az": "Nuh",
+          "tr": "Nuh",
+          "ru": "Нух",
+          "en": "Nuh (Noah)",
+          "ar": "نوح"
+        },
+        {
+          "az": "Musa",
+          "tr": "Musa",
+          "ru": "Муса",
+          "en": "Musa (Moses)",
+          "ar": "موسى"
+        },
+        {
+          "az": "İsa",
+          "tr": "İsa",
+          "ru": "Иса",
+          "en": "Isa (Jesus)",
+          "ar": "عيسى"
+        },
+        {
+          "az": "Yəhya",
+          "tr": "Yahya",
+          "ru": "Яхья",
+          "en": "Yahya (John)",
+          "ar": "يحيى"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Hud 11:36–37 Nuhun gəmisindən bəhs edir.",
+        "tr": "Hud 11:36–37 Nuh’un gemisini anlatır.",
+        "ru": "Худ 11:36–37 рассказывает о ковчеге Нуха.",
+        "en": "Hud 11:36–37 describes Nuh’s Ark.",
+        "ar": "تتحدث هود ١١:٣٦–٣٧ عن فلك نوح."
+      },
+      "source_reference": "Quran 11:37",
+      "source_url": "https://quran.com/11/37",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prophets-03",
+      "category": "prophets",
+      "difficulty": 1,
+      "question": {
+        "az": "Qurandakı balıq tərəfindən udulma hekayəsi hansı peyğəmbərlə bağlıdır?",
+        "tr": "Kur’an’daki balık tarafından yutulma kıssası hangi peygamberle ilgilidir?",
+        "ru": "С каким пророком связана история о большой рыбе?",
+        "en": "Which prophet is associated with being swallowed by a great fish?",
+        "ar": "أي نبي تتعلق به قصة ابتلاع الحوت؟"
+      },
+      "options": [
+        {
+          "az": "Yunus",
+          "tr": "Yunus",
+          "ru": "Юнус",
+          "en": "Yunus (Jonah)",
+          "ar": "يونس"
+        },
+        {
+          "az": "Hud",
+          "tr": "Hud",
+          "ru": "Худ",
+          "en": "Hud",
+          "ar": "هود"
+        },
+        {
+          "az": "Saleh",
+          "tr": "Salih",
+          "ru": "Салих",
+          "en": "Salih",
+          "ar": "صالح"
+        },
+        {
+          "az": "İsmayıl",
+          "tr": "İsmail",
+          "ru": "Исмаил",
+          "en": "Ismail (Ishmael)",
+          "ar": "إسماعيل"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Saffat 37:139–142 Yunusun hekayəsini danışır.",
+        "tr": "Saffat 37:139–142 Yunus’un kıssasını anlatır.",
+        "ru": "Ас-Саффат 37:139–142 рассказывает о Юнусе.",
+        "en": "As-Saffat 37:139–142 recounts Yunus’s story.",
+        "ar": "تروي الصافات ٣٧:١٣٩–١٤٢ قصة يونس."
+      },
+      "source_reference": "Quran 37:142",
+      "source_url": "https://quran.com/37/142",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prophets-04",
+      "category": "prophets",
+      "difficulty": 1,
+      "question": {
+        "az": "Yuxusunda on bir ulduz, günəş və ayı görən kim idi?",
+        "tr": "Rüyasında on bir yıldız, güneş ve ayı gören kimdi?",
+        "ru": "Кто увидел во сне одиннадцать звёзд, солнце и луну?",
+        "en": "Who dreamt of eleven stars, the sun and the moon?",
+        "ar": "من رأى أحد عشر كوكباً والشمس والقمر في المنام؟"
+      },
+      "options": [
+        {
+          "az": "Yusif",
+          "tr": "Yusuf",
+          "ru": "Юсуф",
+          "en": "Yusuf (Joseph)",
+          "ar": "يوسف"
+        },
+        {
+          "az": "Süleyman",
+          "tr": "Süleyman",
+          "ru": "Сулейман",
+          "en": "Sulayman (Solomon)",
+          "ar": "سليمان"
+        },
+        {
+          "az": "Nuh",
+          "tr": "Nuh",
+          "ru": "Нух",
+          "en": "Nuh (Noah)",
+          "ar": "نوح"
+        },
+        {
+          "az": "Zəkəriyya",
+          "tr": "Zekeriya",
+          "ru": "Закария",
+          "en": "Zakariyya (Zechariah)",
+          "ar": "زكريا"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Yusif 12:4-də bu yuxunu atasına danışır.",
+        "tr": "Yusuf 12:4’te bu rüyayı babasına anlatır.",
+        "ru": "Юсуф рассказывает этот сон отцу в 12:4.",
+        "en": "Yusuf tells his father this dream in 12:4.",
+        "ar": "يحكي يوسف هذا المنام لأبيه في يوسف ١٢:٤."
+      },
+      "source_reference": "Quran 12:4",
+      "source_url": "https://quran.com/12/4",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prophets-05",
+      "category": "prophets",
+      "difficulty": 1,
+      "question": {
+        "az": "Kəbənin təməllərini İbrahimlə birlikdə kim ucaltdı?",
+        "tr": "Kâbe’nin temellerini İbrahim ile birlikte kim yükseltti?",
+        "ru": "Кто поднимал основания Каабы вместе с Ибрахимом?",
+        "en": "Who raised the House’s foundations with Ibrahim?",
+        "ar": "من رفع قواعد البيت مع إبراهيم؟"
+      },
+      "options": [
+        {
+          "az": "İsmayıl",
+          "tr": "İsmail",
+          "ru": "Исмаил",
+          "en": "Ismail (Ishmael)",
+          "ar": "إسماعيل"
+        },
+        {
+          "az": "Yəhya",
+          "tr": "Yahya",
+          "ru": "Яхья",
+          "en": "Yahya (John)",
+          "ar": "يحيى"
+        },
+        {
+          "az": "Yunus",
+          "tr": "Yunus",
+          "ru": "Юнус",
+          "en": "Yunus (Jonah)",
+          "ar": "يونس"
+        },
+        {
+          "az": "Hud",
+          "tr": "Hud",
+          "ru": "Худ",
+          "en": "Hud",
+          "ar": "هود"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bəqərə 2:127 İbrahim və İsmayılı birlikdə qeyd edir.",
+        "tr": "Bakara 2:127 İbrahim ile İsmail’i birlikte anar.",
+        "ru": "Аль-Бакара 2:127 называет Ибрахима и Исмаила.",
+        "en": "Al-Baqarah 2:127 names Ibrahim and Ismail together.",
+        "ar": "تذكر البقرة ٢:١٢٧ إبراهيم وإسماعيل معاً."
+      },
+      "source_reference": "Quran 2:127",
+      "source_url": "https://quran.com/2/127",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prophets-06",
+      "category": "prophets",
+      "difficulty": 1,
+      "question": {
+        "az": "Zəburun verildiyi peyğəmbər kimdir?",
+        "tr": "Zebur verilen peygamber kimdir?",
+        "ru": "Какому пророку был дан Забур?",
+        "en": "Which prophet was given the Zabur (Psalms)?",
+        "ar": "أي نبي أُوتي الزبور؟"
+      },
+      "options": [
+        {
+          "az": "Davud",
+          "tr": "Davud",
+          "ru": "Дауд",
+          "en": "Dawud (David)",
+          "ar": "داود"
+        },
+        {
+          "az": "Yusif",
+          "tr": "Yusuf",
+          "ru": "Юсуф",
+          "en": "Yusuf (Joseph)",
+          "ar": "يوسف"
+        },
+        {
+          "az": "Zəkəriyya",
+          "tr": "Zekeriya",
+          "ru": "Закария",
+          "en": "Zakariyya (Zechariah)",
+          "ar": "زكريا"
+        },
+        {
+          "az": "Saleh",
+          "tr": "Salih",
+          "ru": "Салих",
+          "en": "Salih",
+          "ar": "صالح"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Nisa 4:163-də Davuda Zəbur verildiyi bildirilir.",
+        "tr": "Nisa 4:163’te Davud’a Zebur verildiği bildirilir.",
+        "ru": "Ан-Ниса 4:163 сообщает о Забуре, данном Дауду.",
+        "en": "An-Nisa 4:163 states that Dawud received the Zabur.",
+        "ar": "تذكر النساء ٤:١٦٣ أن داود أُوتي الزبور."
+      },
+      "source_reference": "Quran 4:163",
+      "source_url": "https://quran.com/4/163",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prophets-07",
+      "category": "prophets",
+      "difficulty": 1,
+      "question": {
+        "az": "Quranda «Məryəm oğlu» adlandırılan peyğəmbər kimdir?",
+        "tr": "Kur’an’da “Meryem oğlu” denilen peygamber kimdir?",
+        "ru": "Какой пророк назван в Коране сыном Марьям?",
+        "en": "Which prophet is called the son of Maryam in the Quran?",
+        "ar": "أي نبي وصفه القرآن بابن مريم؟"
+      },
+      "options": [
+        {
+          "az": "İsa",
+          "tr": "İsa",
+          "ru": "Иса",
+          "en": "Isa (Jesus)",
+          "ar": "عيسى"
+        },
+        {
+          "az": "Yəhya",
+          "tr": "Yahya",
+          "ru": "Яхья",
+          "en": "Yahya (John)",
+          "ar": "يحيى"
+        },
+        {
+          "az": "Adəm",
+          "tr": "Âdem",
+          "ru": "Адам",
+          "en": "Adam",
+          "ar": "آدم"
+        },
+        {
+          "az": "İsmayıl",
+          "tr": "İsmail",
+          "ru": "Исмаил",
+          "en": "Ismail (Ishmael)",
+          "ar": "إسماعيل"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Məryəm 19:34-də İsa, Məryəm oğlu kimi göstərilir.",
+        "tr": "Meryem 19:34’te İsa, Meryem oğlu olarak anılır.",
+        "ru": "Марьям 19:34 называет Ису сыном Марьям.",
+        "en": "Maryam 19:34 identifies Isa as Maryam’s son.",
+        "ar": "تذكر مريم ١٩:٣٤ عيسى ابن مريم."
+      },
+      "source_reference": "Quran 19:34",
+      "source_url": "https://quran.com/19/34",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prophets-08",
+      "category": "prophets",
+      "difficulty": 1,
+      "question": {
+        "az": "Allah hər şeyin adlarını kimə öyrətdi?",
+        "tr": "Allah her şeyin isimlerini kime öğretti?",
+        "ru": "Кому Аллах научил именам всех вещей?",
+        "en": "Whom did Allah teach the names of all things?",
+        "ar": "من علّمه الله الأسماء كلها؟"
+      },
+      "options": [
+        {
+          "az": "Adəm",
+          "tr": "Âdem",
+          "ru": "Адам",
+          "en": "Adam",
+          "ar": "آدم"
+        },
+        {
+          "az": "Nuh",
+          "tr": "Nuh",
+          "ru": "Нух",
+          "en": "Nuh (Noah)",
+          "ar": "نوح"
+        },
+        {
+          "az": "Yusif",
+          "tr": "Yusuf",
+          "ru": "Юсуф",
+          "en": "Yusuf (Joseph)",
+          "ar": "يوسف"
+        },
+        {
+          "az": "Davud",
+          "tr": "Davud",
+          "ru": "Дауд",
+          "en": "Dawud (David)",
+          "ar": "داود"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bəqərə 2:31-də adların Adəmə öyrədildiyi bildirilir.",
+        "tr": "Bakara 2:31’de isimlerin Âdem’e öğretildiği belirtilir.",
+        "ru": "Аль-Бакара 2:31 говорит об обучении Адама именам.",
+        "en": "Al-Baqarah 2:31 describes Adam being taught the names.",
+        "ar": "تخبر البقرة ٢:٣١ بتعليم آدم الأسماء."
+      },
+      "source_reference": "Quran 2:31",
+      "source_url": "https://quran.com/2/31",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prophets-09",
+      "category": "prophets",
+      "difficulty": 3,
+      "question": {
+        "az": "Qarışqaların vadisi hekayəsində hansı peyğəmbər var?",
+        "tr": "Karıncalar vadisi kıssasında hangi peygamber vardır?",
+        "ru": "Какой пророк упоминается в истории о долине муравьёв?",
+        "en": "Which prophet appears in the valley-of-ants account?",
+        "ar": "أي نبي ذُكر في قصة وادي النمل؟"
+      },
+      "options": [
+        {
+          "az": "Süleyman",
+          "tr": "Süleyman",
+          "ru": "Сулейман",
+          "en": "Sulayman (Solomon)",
+          "ar": "سليمان"
+        },
+        {
+          "az": "Hud",
+          "tr": "Hud",
+          "ru": "Худ",
+          "en": "Hud",
+          "ar": "هود"
+        },
+        {
+          "az": "Yunus",
+          "tr": "Yunus",
+          "ru": "Юнус",
+          "en": "Yunus (Jonah)",
+          "ar": "يونس"
+        },
+        {
+          "az": "İsa",
+          "tr": "İsa",
+          "ru": "Иса",
+          "en": "Isa (Jesus)",
+          "ar": "عيسى"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Nəml 27:18-də qarışqa Süleymanın ordusundan danışır.",
+        "tr": "Neml 27:18’de karınca Süleyman’ın ordusunu anar.",
+        "ru": "В Ан-Намль 27:18 муравей говорит о войске Сулеймана.",
+        "en": "In An-Naml 27:18, an ant mentions Sulayman’s army.",
+        "ar": "تذكر النملة جيش سليمان في النمل ٢٧:١٨."
+      },
+      "source_reference": "Quran 27:18",
+      "source_url": "https://quran.com/27/18",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prophets-10",
+      "category": "prophets",
+      "difficulty": 4,
+      "question": {
+        "az": "Zəkəriyyaya hansı adlı oğul müjdələndi?",
+        "tr": "Zekeriya’ya hangi isimde bir oğul müjdelendi?",
+        "ru": "О рождении сына с каким именем сообщили Закарии?",
+        "en": "What was the name of the son promised to Zakariyya?",
+        "ar": "ما اسم الغلام الذي بُشّر به زكريا؟"
+      },
+      "options": [
+        {
+          "az": "Yəhya",
+          "tr": "Yahya",
+          "ru": "Яхья",
+          "en": "Yahya (John)",
+          "ar": "يحيى"
+        },
+        {
+          "az": "İsmayıl",
+          "tr": "İsmail",
+          "ru": "Исмаил",
+          "en": "Ismail (Ishmael)",
+          "ar": "إسماعيل"
+        },
+        {
+          "az": "Musa",
+          "tr": "Musa",
+          "ru": "Муса",
+          "en": "Musa (Moses)",
+          "ar": "موسى"
+        },
+        {
+          "az": "Davud",
+          "tr": "Davud",
+          "ru": "Дауд",
+          "en": "Dawud (David)",
+          "ar": "داود"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Məryəm 19:7-də Yəhyanın adı açıq çəkilir.",
+        "tr": "Meryem 19:7’de Yahya’nın adı açıkça anılır.",
+        "ru": "В Марьям 19:7 прямо назван Яхья.",
+        "en": "Maryam 19:7 explicitly gives the name Yahya.",
+        "ar": "ورد اسم يحيى صريحاً في مريم ١٩:٧."
+      },
+      "source_reference": "Quran 19:7",
+      "source_url": "https://quran.com/19/7",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "history-01",
+      "category": "history",
+      "difficulty": 1,
+      "question": {
+        "az": "Ali-İmran 3:123-də hansı döyüşün adı çəkilir?",
+        "tr": "Âl-i İmran 3:123’te hangi savaş anılır?",
+        "ru": "Какая битва названа в Аль-Имран 3:123?",
+        "en": "Which battle is named in Ali Imran 3:123?",
+        "ar": "ما المعركة المذكورة في آل عمران ٣:١٢٣؟"
+      },
+      "options": [
+        {
+          "az": "Bədr",
+          "tr": "Bedir",
+          "ru": "Бадр",
+          "en": "Badr",
+          "ar": "بدر"
+        },
+        {
+          "az": "Xəndək",
+          "tr": "Hendek",
+          "ru": "Хандак",
+          "en": "The Trench",
+          "ar": "الخندق"
+        },
+        {
+          "az": "Mütə",
+          "tr": "Mute",
+          "ru": "Мута",
+          "en": "Mutah",
+          "ar": "مؤتة"
+        },
+        {
+          "az": "Yərmuk",
+          "tr": "Yermük",
+          "ru": "Ярмук",
+          "en": "Yarmuk",
+          "ar": "اليرموك"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayə Bədrdə verilən köməyi xatırladır.",
+        "tr": "Ayet Bedir’de verilen yardımı hatırlatır.",
+        "ru": "Аят напоминает о помощи при Бадре.",
+        "en": "The verse recalls help granted at Badr.",
+        "ar": "تذكّر الآية بالنصر في بدر."
+      },
+      "source_reference": "Quran 3:123",
+      "source_url": "https://quran.com/3/123",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "history-02",
+      "category": "history",
+      "difficulty": 2,
+      "question": {
+        "az": "Tövbə 9:25-də say çoxluğuna güvənilən hansı gün xatırlanır?",
+        "tr": "Tevbe 9:25’te çokluğa güvenilen hangi gün anılır?",
+        "ru": "Какой день чрезмерной уверенности в численности назван в 9:25?",
+        "en": "Which battle day, when numbers inspired pride, is recalled in 9:25?",
+        "ar": "أي يوم ذُكر في التوبة ٩:٢٥ حين أعجبت المؤمنين كثرتهم؟"
+      },
+      "options": [
+        {
+          "az": "Hüneyn",
+          "tr": "Huneyn",
+          "ru": "Хунайн",
+          "en": "Hunayn",
+          "ar": "حنين"
+        },
+        {
+          "az": "Bədr",
+          "tr": "Bedir",
+          "ru": "Бадр",
+          "en": "Badr",
+          "ar": "بدر"
+        },
+        {
+          "az": "Yərmuk",
+          "tr": "Yermük",
+          "ru": "Ярмук",
+          "en": "Yarmuk",
+          "ar": "اليرموك"
+        },
+        {
+          "az": "Qadisiyyə",
+          "tr": "Kadisiye",
+          "ru": "Кадисия",
+          "en": "Qadisiyyah",
+          "ar": "القادسية"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayədə Hüneyn günü açıq adlandırılır.",
+        "tr": "Ayette Huneyn günü açıkça adlandırılır.",
+        "ru": "Аят прямо называет день Хунайна.",
+        "en": "The verse explicitly names the day of Hunayn.",
+        "ar": "تسمّي الآية يوم حنين صراحة."
+      },
+      "source_reference": "Quran 9:25",
+      "source_url": "https://quran.com/9/25",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "history-03",
+      "category": "history",
+      "difficulty": 1,
+      "question": {
+        "az": "Əshabi-kəhf hansı məkanla əlaqələndirilir?",
+        "tr": "Ashab-ı Kehf hangi mekânla ilişkilidir?",
+        "ru": "С каким убежищем связаны люди Аль-Кахф?",
+        "en": "What shelter is associated with the people of Al-Kahf?",
+        "ar": "بأي مأوى ارتبط أصحاب الكهف؟"
+      },
+      "options": [
+        {
+          "az": "Mağara",
+          "tr": "Mağara",
+          "ru": "Пещера",
+          "en": "A cave",
+          "ar": "كهف"
+        },
+        {
+          "az": "Gəmi",
+          "tr": "Gemi",
+          "ru": "Ковчег",
+          "en": "An ark",
+          "ar": "فلك"
+        },
+        {
+          "az": "Saray",
+          "tr": "Saray",
+          "ru": "Дворец",
+          "en": "A palace",
+          "ar": "قصر"
+        },
+        {
+          "az": "Qala",
+          "tr": "Kale",
+          "ru": "Крепость",
+          "en": "A fortress",
+          "ar": "حصن"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Kəhf 18:9 mağara əhlini xatırladır.",
+        "tr": "Kehf 18:9 mağara ehlini hatırlatır.",
+        "ru": "Аль-Кахф 18:9 упоминает людей пещеры.",
+        "en": "Al-Kahf 18:9 mentions the people of the cave.",
+        "ar": "تذكر الكهف ١٨:٩ أصحاب الكهف."
+      },
+      "source_reference": "Quran 18:9",
+      "source_url": "https://quran.com/18/9",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "history-04",
+      "category": "history",
+      "difficulty": 2,
+      "question": {
+        "az": "Dağları yonub evlər düzəldən qövm hansıdır?",
+        "tr": "Dağları yontarak ev yapan kavim hangisidir?",
+        "ru": "Какой народ высекал дома в горах?",
+        "en": "Which people carved homes into mountains?",
+        "ar": "أي قوم نحتوا من الجبال بيوتاً؟"
+      },
+      "options": [
+        {
+          "az": "Səmud",
+          "tr": "Semud",
+          "ru": "Самуд",
+          "en": "Thamud",
+          "ar": "ثمود"
+        },
+        {
+          "az": "Mədyən",
+          "tr": "Medyen",
+          "ru": "Мадьян",
+          "en": "Madyan",
+          "ar": "مدين"
+        },
+        {
+          "az": "Rum",
+          "tr": "Rum",
+          "ru": "Римляне",
+          "en": "The Romans",
+          "ar": "الروم"
+        },
+        {
+          "az": "Səba",
+          "tr": "Sebe",
+          "ru": "Саба",
+          "en": "Saba",
+          "ar": "سبأ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Əraf 7:73–74 bu təsviri Səmud hekayəsində verir.",
+        "tr": "Araf 7:73–74 bunu Semud kıssasında anlatır.",
+        "ru": "Аль-Араф 7:73–74 описывает это в рассказе о Самуде.",
+        "en": "Al-Araf 7:73–74 gives this detail in the Thamud account.",
+        "ar": "يَرِد هذا الوصف في قصة ثمود في الأعراف ٧:٧٣–٧٤."
+      },
+      "source_reference": "Quran 7:73-74",
+      "source_url": "https://quran.com/7/73-74",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "history-05",
+      "category": "history",
+      "difficulty": 1,
+      "question": {
+        "az": "Ad qövmünə hansı peyğəmbər göndərildi?",
+        "tr": "Âd kavmine hangi peygamber gönderildi?",
+        "ru": "Какой пророк был послан к народу Ад?",
+        "en": "Which prophet was sent to the people of Ad?",
+        "ar": "أي نبي أُرسل إلى عاد؟"
+      },
+      "options": [
+        {
+          "az": "Hud",
+          "tr": "Hud",
+          "ru": "Худ",
+          "en": "Hud",
+          "ar": "هود"
+        },
+        {
+          "az": "Yəhya",
+          "tr": "Yahya",
+          "ru": "Яхья",
+          "en": "Yahya (John)",
+          "ar": "يحيى"
+        },
+        {
+          "az": "Zəkəriyya",
+          "tr": "Zekeriya",
+          "ru": "Закария",
+          "en": "Zakariyya (Zechariah)",
+          "ar": "زكريا"
+        },
+        {
+          "az": "İsa",
+          "tr": "İsa",
+          "ru": "Иса",
+          "en": "Isa (Jesus)",
+          "ar": "عيسى"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Hud 11:50 Ad qövmü ilə Hudu əlaqələndirir.",
+        "tr": "Hud 11:50 Âd kavmiyle Hud’u ilişkilendirir.",
+        "ru": "Худ 11:50 называет Худа посланником к Ад.",
+        "en": "Hud 11:50 connects Hud with the people of Ad.",
+        "ar": "تذكر هود ١١:٥٠ إرسال هود إلى عاد."
+      },
+      "source_reference": "Quran 11:50",
+      "source_url": "https://quran.com/11/50",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "history-06",
+      "category": "history",
+      "difficulty": 2,
+      "question": {
+        "az": "Mədyən xalqına göndərilən peyğəmbər kimdir?",
+        "tr": "Medyen halkına gönderilen peygamber kimdir?",
+        "ru": "Какой пророк был послан к Мадьяну?",
+        "en": "Which prophet was sent to Madyan?",
+        "ar": "أي نبي أُرسل إلى مدين؟"
+      },
+      "options": [
+        {
+          "az": "Şüeyb",
+          "tr": "Şuayb",
+          "ru": "Шуайб",
+          "en": "Shuayb",
+          "ar": "شعيب"
+        },
+        {
+          "az": "Süleyman",
+          "tr": "Süleyman",
+          "ru": "Сулейман",
+          "en": "Sulayman (Solomon)",
+          "ar": "سليمان"
+        },
+        {
+          "az": "İsmayıl",
+          "tr": "İsmail",
+          "ru": "Исмаил",
+          "en": "Ismail (Ishmael)",
+          "ar": "إسماعيل"
+        },
+        {
+          "az": "Davud",
+          "tr": "Davud",
+          "ru": "Дауд",
+          "en": "Dawud (David)",
+          "ar": "داود"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Əraf 7:85-də Mədyən və Şüeyb birlikdə çəkilir.",
+        "tr": "Araf 7:85’te Medyen ve Şuayb birlikte anılır.",
+        "ru": "Аль-Араф 7:85 вместе упоминает Мадьян и Шуайба.",
+        "en": "Al-Araf 7:85 names Madyan and Shuayb together.",
+        "ar": "تذكر الأعراف ٧:٨٥ مدين وشعيباً معاً."
+      },
+      "source_reference": "Quran 7:85",
+      "source_url": "https://quran.com/7/85",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "history-07",
+      "category": "history",
+      "difficulty": 1,
+      "question": {
+        "az": "Musa hansı hökmdara göndərilmişdi?",
+        "tr": "Musa hangi hükümdara gönderilmişti?",
+        "ru": "К какому правителю был послан Муса?",
+        "en": "To which ruler was Musa sent?",
+        "ar": "إلى أي حاكم أُرسل موسى؟"
+      },
+      "options": [
+        {
+          "az": "Firon",
+          "tr": "Firavun",
+          "ru": "Фараон",
+          "en": "Pharaoh",
+          "ar": "فرعون"
+        },
+        {
+          "az": "Qarun",
+          "tr": "Karun",
+          "ru": "Карун",
+          "en": "Qarun",
+          "ar": "قارون"
+        },
+        {
+          "az": "Talut",
+          "tr": "Talut",
+          "ru": "Талут",
+          "en": "Talut",
+          "ar": "طالوت"
+        },
+        {
+          "az": "Səba hökmdarı",
+          "tr": "Sebe hükümdarı",
+          "ru": "Правитель Сабы",
+          "en": "The ruler of Saba",
+          "ar": "حاكم سبأ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Əraf 7:103 Musanın Firona göndərilməsini bildirir.",
+        "tr": "Araf 7:103 Musa’nın Firavun’a gönderildiğini bildirir.",
+        "ru": "Аль-Араф 7:103 сообщает о послании Мусы к Фараону.",
+        "en": "Al-Araf 7:103 states that Musa was sent to Pharaoh.",
+        "ar": "تذكر الأعراف ٧:١٠٣ بعثة موسى إلى فرعون."
+      },
+      "source_reference": "Quran 7:103",
+      "source_url": "https://quran.com/7/103",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "history-08",
+      "category": "history",
+      "difficulty": 3,
+      "question": {
+        "az": "Qarun hansı peyğəmbərin qövmündən idi?",
+        "tr": "Karun hangi peygamberin kavmindendi?",
+        "ru": "Из народа какого пророка происходил Карун?",
+        "en": "Qarun belonged to which prophet’s people?",
+        "ar": "من قوم أي نبي كان قارون؟"
+      },
+      "options": [
+        {
+          "az": "Musa",
+          "tr": "Musa",
+          "ru": "Муса",
+          "en": "Musa (Moses)",
+          "ar": "موسى"
+        },
+        {
+          "az": "Nuh",
+          "tr": "Nuh",
+          "ru": "Нух",
+          "en": "Nuh (Noah)",
+          "ar": "نوح"
+        },
+        {
+          "az": "Yunus",
+          "tr": "Yunus",
+          "ru": "Юнус",
+          "en": "Yunus (Jonah)",
+          "ar": "يونس"
+        },
+        {
+          "az": "Hud",
+          "tr": "Hud",
+          "ru": "Худ",
+          "en": "Hud",
+          "ar": "هود"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Qəsəs 28:76 Qarunun Musa qövmündən olduğunu deyir.",
+        "tr": "Kasas 28:76 Karun’un Musa’nın kavminden olduğunu söyler.",
+        "ru": "Аль-Касас 28:76 относит Каруна к народу Мусы.",
+        "en": "Al-Qasas 28:76 identifies Qarun with Musa’s people.",
+        "ar": "تذكر القصص ٢٨:٧٦ أن قارون كان من قوم موسى."
+      },
+      "source_reference": "Quran 28:76",
+      "source_url": "https://quran.com/28/76",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "history-09",
+      "category": "history",
+      "difficulty": 3,
+      "question": {
+        "az": "Oğluna Allaha şərik qoşmamağı tövsiyə edən kim idi?",
+        "tr": "Oğluna Allah’a ortak koşmamayı öğütleyen kimdi?",
+        "ru": "Кто наставлял сына не приобщать Аллаху сотоварищей?",
+        "en": "Who advised his son not to associate partners with Allah in 31:13?",
+        "ar": "من وعظ ابنه بألّا يشرك بالله في لقمان ٣١:١٣؟"
+      },
+      "options": [
+        {
+          "az": "Loğman",
+          "tr": "Lokman",
+          "ru": "Лукман",
+          "en": "Luqman",
+          "ar": "لقمان"
+        },
+        {
+          "az": "Saleh",
+          "tr": "Salih",
+          "ru": "Салих",
+          "en": "Salih",
+          "ar": "صالح"
+        },
+        {
+          "az": "Yəhya",
+          "tr": "Yahya",
+          "ru": "Яхья",
+          "en": "Yahya (John)",
+          "ar": "يحيى"
+        },
+        {
+          "az": "İsmayıl",
+          "tr": "İsmail",
+          "ru": "Исмаил",
+          "en": "Ismail (Ishmael)",
+          "ar": "إسماعيل"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Loğman 31:13-də bu nəsihəti oğluna verir.",
+        "tr": "Lokman 31:13’te bu öğüdü oğluna verir.",
+        "ru": "Лукман даёт сыну это наставление в 31:13.",
+        "en": "Luqman gives this advice to his son in 31:13.",
+        "ar": "يوصي لقمان ابنه بهذا في لقمان ٣١:١٣."
+      },
+      "source_reference": "Quran 31:13",
+      "source_url": "https://quran.com/31/13",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "history-10",
+      "category": "history",
+      "difficulty": 4,
+      "question": {
+        "az": "Rum surəsinin əvvəlində məğlubiyyəti qeyd olunan xalq kimdir?",
+        "tr": "Rum suresinin başında yenilgisi anılan halk hangisidir?",
+        "ru": "Чьё поражение упомянуто в начале суры Ар-Рум?",
+        "en": "Whose defeat is mentioned at the opening of Ar-Rum?",
+        "ar": "من ذُكرت هزيمتهم في أول سورة الروم؟"
+      },
+      "options": [
+        {
+          "az": "Rumlular",
+          "tr": "Romalılar",
+          "ru": "Римляне",
+          "en": "The Romans",
+          "ar": "الروم"
+        },
+        {
+          "az": "Səmud",
+          "tr": "Semud",
+          "ru": "Самуд",
+          "en": "Thamud",
+          "ar": "ثمود"
+        },
+        {
+          "az": "Ad",
+          "tr": "Âd",
+          "ru": "Ад",
+          "en": "Ad",
+          "ar": "عاد"
+        },
+        {
+          "az": "Mədyən",
+          "tr": "Medyen",
+          "ru": "Мадьян",
+          "en": "Madyan",
+          "ar": "مدين"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Rum 30:2–3 rumluların məğlubiyyətini xatırladır.",
+        "tr": "Rum 30:2–3 Romalıların yenilgisini hatırlatır.",
+        "ru": "Ар-Рум 30:2–3 говорит о поражении римлян.",
+        "en": "Ar-Rum 30:2–3 recalls the Romans’ defeat.",
+        "ar": "تذكر الروم ٣٠:٢–٣ هزيمة الروم."
+      },
+      "source_reference": "Quran 30:2-3",
+      "source_url": "https://quran.com/30/2-3",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prayer-01",
+      "category": "prayer",
+      "difficulty": 1,
+      "question": {
+        "az": "Namazda yönəlmək üçün Quranda hansı məscid göstərilir?",
+        "tr": "Namazda yönelmek için Kur’an’da hangi mescit gösterilir?",
+        "ru": "К какой мечети Коран велит обращаться при молитве?",
+        "en": "Which mosque does the Quran name as the direction of prayer?",
+        "ar": "أي مسجد يذكره القرآن جهةً للصلاة؟"
+      },
+      "options": [
+        {
+          "az": "Məscidül-Həram",
+          "tr": "Mescid-i Haram",
+          "ru": "Аль-Масджид аль-Харам",
+          "en": "Al-Masjid al-Haram",
+          "ar": "المسجد الحرام"
+        },
+        {
+          "az": "Məscidün-Nəbəvi",
+          "tr": "Mescid-i Nebevi",
+          "ru": "Мечеть Пророка",
+          "en": "The Prophet’s Mosque",
+          "ar": "المسجد النبوي"
+        },
+        {
+          "az": "Quba məscidi",
+          "tr": "Kuba Mescidi",
+          "ru": "Мечеть Куба",
+          "en": "Quba Mosque",
+          "ar": "مسجد قباء"
+        },
+        {
+          "az": "Əməvi məscidi",
+          "tr": "Emevi Camii",
+          "ru": "Мечеть Омейядов",
+          "en": "The Umayyad Mosque",
+          "ar": "المسجد الأموي"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bəqərə 2:144 Məscidül-Hərama yönəlməyi bildirir.",
+        "tr": "Bakara 2:144 Mescid-i Haram’a yönelmeyi bildirir.",
+        "ru": "Аль-Бакара 2:144 указывает на Аль-Масджид аль-Харам.",
+        "en": "Al-Baqarah 2:144 directs believers toward Al-Masjid al-Haram.",
+        "ar": "تأمر البقرة ٢:١٤٤ بالتوجه إلى المسجد الحرام."
+      },
+      "source_reference": "Quran 2:144",
+      "source_url": "https://quran.com/2/144",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prayer-02",
+      "category": "prayer",
+      "difficulty": 1,
+      "question": {
+        "az": "Maidə 5:6-da namazdan əvvəl hansı hazırlıqdan danışılır?",
+        "tr": "Maide 5:6’da namazdan önce hangi hazırlık anlatılır?",
+        "ru": "Какая подготовка к молитве описана в Аль-Маида 5:6?",
+        "en": "What preparation for prayer is discussed in Al-Maidah 5:6?",
+        "ar": "ما الاستعداد للصلاة المذكور في المائدة ٥:٦؟"
+      },
+      "options": [
+        {
+          "az": "Təmizlənmə və dəstəmaz",
+          "tr": "Temizlik ve abdest",
+          "ru": "Очищение и омовение",
+          "en": "Purification and ablution",
+          "ar": "الطهارة والوضوء"
+        },
+        {
+          "az": "Alış-veriş",
+          "tr": "Alışveriş",
+          "ru": "Торговля",
+          "en": "Trading",
+          "ar": "التجارة"
+        },
+        {
+          "az": "Səyahət planı",
+          "tr": "Seyahat planı",
+          "ru": "План поездки",
+          "en": "A travel plan",
+          "ar": "خطة سفر"
+        },
+        {
+          "az": "Ev tikmək",
+          "tr": "Ev yapmak",
+          "ru": "Строительство дома",
+          "en": "Building a house",
+          "ar": "بناء بيت"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayə namaza hazırlıqda təmizlənməni təsvir edir.",
+        "tr": "Ayet namaza hazırlıkta temizlenmeyi anlatır.",
+        "ru": "Аят описывает очищение перед молитвой.",
+        "en": "The verse describes purification before prayer.",
+        "ar": "تصف الآية الطهارة استعداداً للصلاة."
+      },
+      "source_reference": "Quran 5:6",
+      "source_url": "https://quran.com/5/6",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prayer-03",
+      "category": "prayer",
+      "difficulty": 2,
+      "question": {
+        "az": "Cümə namazına çağırış zamanı hansı işin dayandırılması deyilir?",
+        "tr": "Cuma namazı çağrısında hangi işin bırakılması söylenir?",
+        "ru": "Какое занятие велено оставить при призыве к пятничной молитве?",
+        "en": "What activity should be left when the Friday prayer call is made?",
+        "ar": "أي عمل يُترك عند النداء لصلاة الجمعة؟"
+      },
+      "options": [
+        {
+          "az": "Alış-veriş",
+          "tr": "Alışveriş",
+          "ru": "Торговля",
+          "en": "Trade",
+          "ar": "البيع"
+        },
+        {
+          "az": "Namaz",
+          "tr": "Namaz",
+          "ru": "Молитва",
+          "en": "Prayer",
+          "ar": "الصلاة"
+        },
+        {
+          "az": "Allahı xatırlamaq",
+          "tr": "Allah’ı anmak",
+          "ru": "Поминание Аллаха",
+          "en": "Remembering Allah",
+          "ar": "ذكر الله"
+        },
+        {
+          "az": "Dua",
+          "tr": "Dua",
+          "ru": "Дуа",
+          "en": "Supplication",
+          "ar": "الدعاء"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Cümə 62:9 alış-verişi buraxıb zikrə yönəlməyi deyir.",
+        "tr": "Cuma 62:9 alışverişi bırakıp zikre yönelmeyi söyler.",
+        "ru": "Аль-Джумуа 62:9 велит оставить торговлю ради поминания.",
+        "en": "Al-Jumuah 62:9 says to leave trade for remembrance.",
+        "ar": "تأمر الجمعة ٦٢:٩ بترك البيع والسعي إلى الذكر."
+      },
+      "source_reference": "Quran 62:9",
+      "source_url": "https://quran.com/62/9",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prayer-04",
+      "category": "prayer",
+      "difficulty": 1,
+      "question": {
+        "az": "Taha 20:14-də namaz hansı məqsədlə əlaqələndirilir?",
+        "tr": "Taha 20:14’te namaz hangi amaçla ilişkilendirilir?",
+        "ru": "С какой целью связана молитва в Таха 20:14?",
+        "en": "What purpose is prayer linked to in Taha 20:14?",
+        "ar": "بأي غرض رُبطت الصلاة في طه ٢٠:١٤؟"
+      },
+      "options": [
+        {
+          "az": "Allahı xatırlamaq",
+          "tr": "Allah’ı anmak",
+          "ru": "Поминание Аллаха",
+          "en": "Remembering Allah",
+          "ar": "ذكر الله"
+        },
+        {
+          "az": "Var-dövlət toplamaq",
+          "tr": "Servet biriktirmek",
+          "ru": "Накопление богатства",
+          "en": "Accumulating wealth",
+          "ar": "جمع المال"
+        },
+        {
+          "az": "Şöhrət qazanmaq",
+          "tr": "Şöhret kazanmak",
+          "ru": "Поиск славы",
+          "en": "Seeking fame",
+          "ar": "طلب الشهرة"
+        },
+        {
+          "az": "Rəqabət aparmaq",
+          "tr": "Rekabet etmek",
+          "ru": "Соперничество",
+          "en": "Competition",
+          "ar": "التنافس"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayədə Allahı xatırlamaq üçün namaz qılmaq deyilir.",
+        "tr": "Ayette Allah’ı anmak için namaz kılmak söylenir.",
+        "ru": "Аят связывает молитву с поминанием Аллаха.",
+        "en": "The verse links establishing prayer to remembering Allah.",
+        "ar": "تربط الآية إقامة الصلاة بذكر الله."
+      },
+      "source_reference": "Quran 20:14",
+      "source_url": "https://quran.com/20/14",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prayer-05",
+      "category": "prayer",
+      "difficulty": 2,
+      "question": {
+        "az": "Əraf 7:31 ibadət yerində nə ilə bağlı ədəb öyrədir?",
+        "tr": "Araf 7:31 ibadet yerinde hangi adabı öğretir?",
+        "ru": "Какой этикет места поклонения указан в Аль-Араф 7:31?",
+        "en": "What worship-place etiquette appears in Al-Araf 7:31?",
+        "ar": "ما أدب موضع العبادة في الأعراف ٧:٣١؟"
+      },
+      "options": [
+        {
+          "az": "Münasib geyim",
+          "tr": "Uygun giyim",
+          "ru": "Подобающая одежда",
+          "en": "Appropriate dress",
+          "ar": "اللباس اللائق"
+        },
+        {
+          "az": "Bahalı hədiyyə",
+          "tr": "Pahalı hediye",
+          "ru": "Дорогой подарок",
+          "en": "An expensive gift",
+          "ar": "هدية ثمينة"
+        },
+        {
+          "az": "Ticarət köşkü",
+          "tr": "Ticaret tezgâhı",
+          "ru": "Торговый прилавок",
+          "en": "A market stall",
+          "ar": "دكان تجاري"
+        },
+        {
+          "az": "Yüksək səslə öyünmək",
+          "tr": "Yüksek sesle övünmek",
+          "ru": "Громкое хвастовство",
+          "en": "Loud boasting",
+          "ar": "التفاخر بصوت عالٍ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayə ibadətdə uyğun geyimə diqqət çəkir.",
+        "tr": "Ayet ibadette uygun giyime dikkat çeker.",
+        "ru": "Аят обращает внимание на подобающую одежду.",
+        "en": "The verse draws attention to suitable dress for worship.",
+        "ar": "تلفت الآية إلى اللباس اللائق عند العبادة."
+      },
+      "source_reference": "Quran 7:31",
+      "source_url": "https://quran.com/7/31",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prayer-06",
+      "category": "prayer",
+      "difficulty": 1,
+      "question": {
+        "az": "Quranda namazla yanaşı hansı vasitə ilə kömək istəmək deyilir?",
+        "tr": "Kur’an’da namazla birlikte neyle yardım istenmesi söylenir?",
+        "ru": "Через что вместе с молитвой велено искать помощь?",
+        "en": "Alongside prayer, through what should help be sought?",
+        "ar": "بماذا يُستعان مع الصلاة؟"
+      },
+      "options": [
+        {
+          "az": "Səbir",
+          "tr": "Sabır",
+          "ru": "Терпение",
+          "en": "Patience",
+          "ar": "الصبر"
+        },
+        {
+          "az": "Təkəbbür",
+          "tr": "Kibir",
+          "ru": "Высокомерие",
+          "en": "Arrogance",
+          "ar": "الكبر"
+        },
+        {
+          "az": "İsraf",
+          "tr": "İsraf",
+          "ru": "Расточительство",
+          "en": "Wastefulness",
+          "ar": "الإسراف"
+        },
+        {
+          "az": "Qəzəb",
+          "tr": "Öfke",
+          "ru": "Гнев",
+          "en": "Anger",
+          "ar": "الغضب"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bəqərə 2:45 səbir və namazla yardım istəməyi bildirir.",
+        "tr": "Bakara 2:45 sabır ve namazla yardım istemeyi bildirir.",
+        "ru": "Аль-Бакара 2:45 соединяет терпение и молитву.",
+        "en": "Al-Baqarah 2:45 joins patience and prayer in seeking help.",
+        "ar": "تجمع البقرة ٢:٤٥ بين الصبر والصلاة في الاستعانة."
+      },
+      "source_reference": "Quran 2:45",
+      "source_url": "https://quran.com/2/45",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prayer-07",
+      "category": "prayer",
+      "difficulty": 2,
+      "question": {
+        "az": "Qurana görə namaz insanı nədən çəkindirir?",
+        "tr": "Kur’an’a göre namaz insanı neden alıkoyar?",
+        "ru": "От чего, согласно Корану, удерживает молитва?",
+        "en": "According to the Quran, what should prayer deter?",
+        "ar": "عمّ تنهى الصلاة بحسب القرآن؟"
+      },
+      "options": [
+        {
+          "az": "Əxlaqsızlıq və pislik",
+          "tr": "Hayâsızlık ve kötülük",
+          "ru": "Мерзость и порицаемое",
+          "en": "Indecency and wrongdoing",
+          "ar": "الفحشاء والمنكر"
+        },
+        {
+          "az": "Xeyirxahlıq",
+          "tr": "İyilik",
+          "ru": "Добродетель",
+          "en": "Kindness",
+          "ar": "الإحسان"
+        },
+        {
+          "az": "Şükür",
+          "tr": "Şükür",
+          "ru": "Благодарность",
+          "en": "Gratitude",
+          "ar": "الشكر"
+        },
+        {
+          "az": "Ədalət",
+          "tr": "Adalet",
+          "ru": "Справедливость",
+          "en": "Justice",
+          "ar": "العدل"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ənkəbut 29:45 namazın bu təsirini vurğulayır.",
+        "tr": "Ankebut 29:45 namazın bu etkisini vurgular.",
+        "ru": "Аль-Анкабут 29:45 подчёркивает это действие молитвы.",
+        "en": "Al-Ankabut 29:45 highlights this effect of prayer.",
+        "ar": "تؤكد العنكبوت ٢٩:٤٥ هذا الأثر للصلاة."
+      },
+      "source_reference": "Quran 29:45",
+      "source_url": "https://quran.com/29/45",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prayer-08",
+      "category": "prayer",
+      "difficulty": 1,
+      "question": {
+        "az": "Bəqərə 2:43-də namazla yanaşı hansı ibadət əmr olunur?",
+        "tr": "Bakara 2:43’te namazla birlikte hangi ibadet emredilir?",
+        "ru": "Какое поклонение вместе с молитвой велено в Аль-Бакара 2:43?",
+        "en": "Which act is commanded alongside prayer in Al-Baqarah 2:43?",
+        "ar": "ما العبادة المأمور بها مع الصلاة في البقرة ٢:٤٣؟"
+      },
+      "options": [
+        {
+          "az": "Zəkat",
+          "tr": "Zekât",
+          "ru": "Закят",
+          "en": "Zakat",
+          "ar": "الزكاة"
+        },
+        {
+          "az": "Həcc",
+          "tr": "Hac",
+          "ru": "Хадж",
+          "en": "Hajj",
+          "ar": "الحج"
+        },
+        {
+          "az": "Etikaf",
+          "tr": "İtikâf",
+          "ru": "Итикаф",
+          "en": "Itikaf",
+          "ar": "الاعتكاف"
+        },
+        {
+          "az": "Qurban",
+          "tr": "Kurban",
+          "ru": "Жертвоприношение",
+          "en": "Sacrifice",
+          "ar": "الأضحية"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayə namazı bərpa etməyi və zəkatı verməyi deyir.",
+        "tr": "Ayet namazı kılmayı ve zekâtı vermeyi söyler.",
+        "ru": "Аят велит совершать молитву и выплачивать закят.",
+        "en": "The verse commands prayer and giving zakat.",
+        "ar": "تأمر الآية بإقامة الصلاة وإيتاء الزكاة."
+      },
+      "source_reference": "Quran 2:43",
+      "source_url": "https://quran.com/2/43",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prayer-09",
+      "category": "prayer",
+      "difficulty": 3,
+      "question": {
+        "az": "Nur 24:58-də adı çəkilən sübh namazı hansıdır?",
+        "tr": "Nur 24:58’de adı geçen sabah namazı hangisidir?",
+        "ru": "Как называется рассветная молитва в Ан-Нур 24:58?",
+        "en": "What is the dawn prayer named in An-Nur 24:58?",
+        "ar": "ما اسم صلاة الصباح المذكورة في النور ٢٤:٥٨؟"
+      },
+      "options": [
+        {
+          "az": "Fəcr (Sübh)",
+          "tr": "Fecr (Sabah)",
+          "ru": "Фаджр",
+          "en": "Fajr",
+          "ar": "الفجر"
+        },
+        {
+          "az": "Zöhr",
+          "tr": "Öğle",
+          "ru": "Зухр",
+          "en": "Dhuhr",
+          "ar": "الظهر"
+        },
+        {
+          "az": "Əsr",
+          "tr": "İkindi",
+          "ru": "Аср",
+          "en": "Asr",
+          "ar": "العصر"
+        },
+        {
+          "az": "Məğrib",
+          "tr": "Akşam",
+          "ru": "Магриб",
+          "en": "Maghrib",
+          "ar": "المغرب"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayə fəcr namazından əvvəlki vaxtı qeyd edir.",
+        "tr": "Ayet fecr namazından önceki zamanı anar.",
+        "ru": "Аят упоминает время до молитвы Фаджр.",
+        "en": "The verse mentions the time before Fajr prayer.",
+        "ar": "تذكر الآية الوقت الذي قبل صلاة الفجر."
+      },
+      "source_reference": "Quran 24:58",
+      "source_url": "https://quran.com/24/58",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "prayer-10",
+      "category": "prayer",
+      "difficulty": 4,
+      "question": {
+        "az": "Nisa 4:101-də namazın qısaldılması hansı şəraitdə xatırlanır?",
+        "tr": "Nisa 4:101’de namazın kısaltılması hangi durumda anılır?",
+        "ru": "При каком обстоятельстве в Ан-Ниса 4:101 упомянуто сокращение молитвы?",
+        "en": "In what context does An-Nisa 4:101 mention shortening prayer?",
+        "ar": "في أي سياق تذكر النساء ٤:١٠١ قصر الصلاة؟"
+      },
+      "options": [
+        {
+          "az": "Səfər",
+          "tr": "Yolculuk",
+          "ru": "Путешествие",
+          "en": "Travel",
+          "ar": "السفر"
+        },
+        {
+          "az": "Evdə rahatlıq",
+          "tr": "Evde rahatlık",
+          "ru": "Отдых дома",
+          "en": "Relaxing at home",
+          "ar": "الراحة في البيت"
+        },
+        {
+          "az": "Ticarət gəliri",
+          "tr": "Ticaret kazancı",
+          "ru": "Торговая прибыль",
+          "en": "Business profit",
+          "ar": "الربح التجاري"
+        },
+        {
+          "az": "Toy məclisi",
+          "tr": "Düğün",
+          "ru": "Свадьба",
+          "en": "A wedding",
+          "ar": "حفل زفاف"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayədə yola çıxmaq konteksti verilir; fiqhi təfərrüatlar ayrıca mövzudur.",
+        "tr": "Ayet yolculuk bağlamını verir; fıkhî ayrıntılar ayrı konudur.",
+        "ru": "Аят говорит о пути; подробности фикха рассматриваются отдельно.",
+        "en": "The verse gives a travel context; detailed legal conditions are a separate matter.",
+        "ar": "تذكر الآية سياق السفر، أما الشروط الفقهية التفصيلية فموضوع مستقل."
+      },
+      "source_reference": "Quran 4:101",
+      "source_url": "https://quran.com/4/101",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "ramadan-01",
+      "category": "ramadan",
+      "difficulty": 1,
+      "question": {
+        "az": "Quranda orucun məqsədlərindən biri necə ifadə olunur?",
+        "tr": "Kur’an’da orucun amaçlarından biri nasıl belirtilir?",
+        "ru": "Как в Коране выражена одна из целей поста?",
+        "en": "How does the Quran express one purpose of fasting?",
+        "ar": "كيف يعبّر القرآن عن إحدى غايات الصيام؟"
+      },
+      "options": [
+        {
+          "az": "Təqvaya yönəlmək",
+          "tr": "Takvaya yönelmek",
+          "ru": "Стремиться к богобоязненности",
+          "en": "Growing in mindfulness of Allah",
+          "ar": "تحقيق التقوى"
+        },
+        {
+          "az": "Şöhrət qazanmaq",
+          "tr": "Şöhret kazanmak",
+          "ru": "Стать знаменитым",
+          "en": "Becoming famous",
+          "ar": "اكتساب الشهرة"
+        },
+        {
+          "az": "Öyünmək",
+          "tr": "Övünmek",
+          "ru": "Хвастаться",
+          "en": "Boasting",
+          "ar": "التفاخر"
+        },
+        {
+          "az": "Yalnız sərvət artırmaq",
+          "tr": "Yalnız servet artırmak",
+          "ru": "Лишь увеличить богатство",
+          "en": "Only increasing wealth",
+          "ar": "زيادة المال فقط"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bəqərə 2:183 orucu təqva ilə əlaqələndirir.",
+        "tr": "Bakara 2:183 orucu takvayla ilişkilendirir.",
+        "ru": "Аль-Бакара 2:183 связывает пост с богобоязненностью.",
+        "en": "Al-Baqarah 2:183 connects fasting with taqwa.",
+        "ar": "تربط البقرة ٢:١٨٣ الصيام بالتقوى."
+      },
+      "source_reference": "Quran 2:183",
+      "source_url": "https://quran.com/2/183",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "ramadan-02",
+      "category": "ramadan",
+      "difficulty": 1,
+      "question": {
+        "az": "Quranda Quranın nazil olduğu ay hansı adla çəkilir?",
+        "tr": "Kur’an’da Kur’an’ın indirildiği ay hangi adla anılır?",
+        "ru": "Какой месяц назван месяцем ниспослания Корана?",
+        "en": "Which month is named as the month of the Quran’s revelation?",
+        "ar": "أي شهر ذُكر أنه أُنزل فيه القرآن؟"
+      },
+      "options": [
+        {
+          "az": "Ramazan",
+          "tr": "Ramazan",
+          "ru": "Рамадан",
+          "en": "Ramadan",
+          "ar": "رمضان"
+        },
+        {
+          "az": "Şəvval",
+          "tr": "Şevval",
+          "ru": "Шавваль",
+          "en": "Shawwal",
+          "ar": "شوال"
+        },
+        {
+          "az": "Rəcəb",
+          "tr": "Recep",
+          "ru": "Раджаб",
+          "en": "Rajab",
+          "ar": "رجب"
+        },
+        {
+          "az": "Məhərrəm",
+          "tr": "Muharrem",
+          "ru": "Мухаррам",
+          "en": "Muharram",
+          "ar": "محرم"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bəqərə 2:185 Ramazan ayının adını çəkir.",
+        "tr": "Bakara 2:185 Ramazan ayını adlandırır.",
+        "ru": "Аль-Бакара 2:185 прямо называет Рамадан.",
+        "en": "Al-Baqarah 2:185 explicitly names Ramadan.",
+        "ar": "تسمّي البقرة ٢:١٨٥ شهر رمضان."
+      },
+      "source_reference": "Quran 2:185",
+      "source_url": "https://quran.com/2/185",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "ramadan-03",
+      "category": "ramadan",
+      "difficulty": 2,
+      "question": {
+        "az": "Ramazan ayəsində hansı iki hal üçün başqa günlərdə tamamlamaq xatırlanır?",
+        "tr": "Ramazan ayetinde hangi iki durum için başka günlerde tamamlama anılır?",
+        "ru": "Какие два обстоятельства названы для восполнения поста в другие дни?",
+        "en": "Which two circumstances are named for making up fasts on other days?",
+        "ar": "ما الحالتان المذكورتان لقضاء الصيام في أيام أخر؟"
+      },
+      "options": [
+        {
+          "az": "Xəstəlik və səfər",
+          "tr": "Hastalık ve yolculuk",
+          "ru": "Болезнь и путешествие",
+          "en": "Illness and travel",
+          "ar": "المرض والسفر"
+        },
+        {
+          "az": "Sərvət və şöhrət",
+          "tr": "Servet ve şöhret",
+          "ru": "Богатство и слава",
+          "en": "Wealth and fame",
+          "ar": "المال والشهرة"
+        },
+        {
+          "az": "Sevinc və bayram",
+          "tr": "Sevinç ve bayram",
+          "ru": "Радость и праздник",
+          "en": "Joy and celebration",
+          "ar": "الفرح والاحتفال"
+        },
+        {
+          "az": "Peşə və yaşadığı şəhər",
+          "tr": "Meslek ve yaşadığı şehir",
+          "ru": "Профессия и город",
+          "en": "Profession and city",
+          "ar": "المهنة والمدينة"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bəqərə 2:185 xəstə və səfərdə olan şəxsi qeyd edir.",
+        "tr": "Bakara 2:185 hasta ve yolcu kişiyi anar.",
+        "ru": "Аль-Бакара 2:185 упоминает больного и путника.",
+        "en": "Al-Baqarah 2:185 mentions a person who is ill or travelling.",
+        "ar": "تذكر البقرة ٢:١٨٥ المريض والمسافر."
+      },
+      "source_reference": "Quran 2:185",
+      "source_url": "https://quran.com/2/185",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "ramadan-04",
+      "category": "ramadan",
+      "difficulty": 1,
+      "question": {
+        "az": "Ramazan ayəsində Allah insanlar üçün nə istədiyini bildirir?",
+        "tr": "Ramazan ayetinde Allah insanlar için ne istediğini bildirir?",
+        "ru": "Чего Аллах желает людям согласно аяту о Рамадане?",
+        "en": "What does Allah intend for people in the Ramadan verse?",
+        "ar": "ماذا يريد الله للناس في آية رمضان؟"
+      },
+      "options": [
+        {
+          "az": "Asanlıq",
+          "tr": "Kolaylık",
+          "ru": "Облегчение",
+          "en": "Ease",
+          "ar": "اليسر"
+        },
+        {
+          "az": "Çətinlik",
+          "tr": "Zorluk",
+          "ru": "Затруднение",
+          "en": "Hardship",
+          "ar": "العسر"
+        },
+        {
+          "az": "Lovğalıq",
+          "tr": "Kibir",
+          "ru": "Высокомерие",
+          "en": "Arrogance",
+          "ar": "الكبر"
+        },
+        {
+          "az": "İsraf",
+          "tr": "İsraf",
+          "ru": "Расточительство",
+          "en": "Waste",
+          "ar": "الإسراف"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayədə asanlıq istəndiyi, çətinlik istənmədiyi deyilir.",
+        "tr": "Ayette kolaylık istendiği, zorluk istenmediği söylenir.",
+        "ru": "Аят говорит о желании облегчения, а не затруднения.",
+        "en": "The verse states ease is intended, rather than hardship.",
+        "ar": "تقرر الآية إرادة اليسر لا العسر."
+      },
+      "source_reference": "Quran 2:185",
+      "source_url": "https://quran.com/2/185",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "ramadan-05",
+      "category": "ramadan",
+      "difficulty": 2,
+      "question": {
+        "az": "Oruc ayəsində yemək və içmək üçün hansı sərhəd göstərilir?",
+        "tr": "Oruç ayetinde yeme içme için hangi sınır belirtilir?",
+        "ru": "Какой рубеж для еды и питья указан в аяте о посте?",
+        "en": "What boundary for eating and drinking is described in the fasting verse?",
+        "ar": "ما الحد المذكور للأكل والشرب في آية الصيام؟"
+      },
+      "options": [
+        {
+          "az": "Fəcrin aydınlaşması",
+          "tr": "Fecrin belirmesi",
+          "ru": "Наступление рассвета",
+          "en": "The appearance of dawn",
+          "ar": "تبيّن الفجر"
+        },
+        {
+          "az": "Günorta",
+          "tr": "Öğle",
+          "ru": "Полдень",
+          "en": "Noon",
+          "ar": "الظهر"
+        },
+        {
+          "az": "Gecə yarısı",
+          "tr": "Gece yarısı",
+          "ru": "Полночь",
+          "en": "Midnight",
+          "ar": "منتصف الليل"
+        },
+        {
+          "az": "İkindi",
+          "tr": "İkindi",
+          "ru": "Послеполуденное время",
+          "en": "Late afternoon",
+          "ar": "العصر"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bəqərə 2:187 fəcrin aydınlaşmasından danışır.",
+        "tr": "Bakara 2:187 fecrin belirmesinden söz eder.",
+        "ru": "Аль-Бакара 2:187 говорит о различении рассвета.",
+        "en": "Al-Baqarah 2:187 speaks of dawn becoming distinct.",
+        "ar": "تذكر البقرة ٢:١٨٧ تبيّن الفجر."
+      },
+      "source_reference": "Quran 2:187",
+      "source_url": "https://quran.com/2/187",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "ramadan-06",
+      "category": "ramadan",
+      "difficulty": 2,
+      "question": {
+        "az": "Bəqərə 2:187-də orucun hansı vaxta qədər tamamlanması deyilir?",
+        "tr": "Bakara 2:187’de orucun hangi vakte kadar tamamlanması söylenir?",
+        "ru": "До какого времени велено завершать пост в Аль-Бакара 2:187?",
+        "en": "Until what time is the fast to be completed in Al-Baqarah 2:187?",
+        "ar": "إلى أي وقت يُتم الصيام في البقرة ٢:١٨٧؟"
+      },
+      "options": [
+        {
+          "az": "Gecəyə qədər",
+          "tr": "Geceye kadar",
+          "ru": "До ночи",
+          "en": "Until night",
+          "ar": "إلى الليل"
+        },
+        {
+          "az": "Günortaya qədər",
+          "tr": "Öğleye kadar",
+          "ru": "До полудня",
+          "en": "Until noon",
+          "ar": "إلى الظهر"
+        },
+        {
+          "az": "Növbəti həftəyə qədər",
+          "tr": "Gelecek haftaya kadar",
+          "ru": "До следующей недели",
+          "en": "Until next week",
+          "ar": "إلى الأسبوع التالي"
+        },
+        {
+          "az": "İl sonuna qədər",
+          "tr": "Yıl sonuna kadar",
+          "ru": "До конца года",
+          "en": "Until year-end",
+          "ar": "إلى نهاية السنة"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayə orucun gecəyə qədər tamamlanmasını buyurur.",
+        "tr": "Ayet orucun geceye kadar tamamlanmasını buyurur.",
+        "ru": "Аят предписывает завершить пост до наступления ночи.",
+        "en": "The verse instructs completing the fast until night.",
+        "ar": "تأمر الآية بإتمام الصيام إلى الليل."
+      },
+      "source_reference": "Quran 2:187",
+      "source_url": "https://quran.com/2/187",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "ramadan-07",
+      "category": "ramadan",
+      "difficulty": 3,
+      "question": {
+        "az": "Etikafla bağlı ayədə hansı ibadət məkanı qeyd edilir?",
+        "tr": "İtikâfla ilgili ayette hangi ibadet mekânı anılır?",
+        "ru": "Какое место поклонения названо в аяте об итикафе?",
+        "en": "Which worship place is mentioned in the verse about itikaf?",
+        "ar": "ما موضع العبادة المذكور في آية الاعتكاف؟"
+      },
+      "options": [
+        {
+          "az": "Məscidlər",
+          "tr": "Mescitler",
+          "ru": "Мечети",
+          "en": "Mosques",
+          "ar": "المساجد"
+        },
+        {
+          "az": "Bazarlar",
+          "tr": "Pazarlar",
+          "ru": "Рынки",
+          "en": "Markets",
+          "ar": "الأسواق"
+        },
+        {
+          "az": "Saraylar",
+          "tr": "Saraylar",
+          "ru": "Дворцы",
+          "en": "Palaces",
+          "ar": "القصور"
+        },
+        {
+          "az": "Limanlar",
+          "tr": "Limanlar",
+          "ru": "Порты",
+          "en": "Harbours",
+          "ar": "الموانئ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bəqərə 2:187 məscidlərdə etikafdan bəhs edir.",
+        "tr": "Bakara 2:187 mescitlerde itikâftan söz eder.",
+        "ru": "Аль-Бакара 2:187 упоминает итикаф в мечетях.",
+        "en": "Al-Baqarah 2:187 mentions itikaf in mosques.",
+        "ar": "تذكر البقرة ٢:١٨٧ الاعتكاف في المساجد."
+      },
+      "source_reference": "Quran 2:187",
+      "source_url": "https://quran.com/2/187",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "ramadan-08",
+      "category": "ramadan",
+      "difficulty": 1,
+      "question": {
+        "az": "Qurana görə oruc əvvəlki ümmətlərə də yazılmışdımı?",
+        "tr": "Kur’an’a göre oruç önceki topluluklara da farz kılınmış mıydı?",
+        "ru": "Был ли, согласно Корану, пост предписан прежним общинам?",
+        "en": "According to the Quran, was fasting prescribed to earlier communities too?",
+        "ar": "هل كُتب الصيام على أمم سابقة بحسب القرآن؟"
+      },
+      "options": [
+        {
+          "az": "Bəli, əvvəlkilərə də",
+          "tr": "Evet, öncekilere de",
+          "ru": "Да, прежним общинам тоже",
+          "en": "Yes, to earlier communities too",
+          "ar": "نعم، كُتب على السابقين أيضاً"
+        },
+        {
+          "az": "Yalnız bir ailəyə",
+          "tr": "Yalnız bir aileye",
+          "ru": "Только одной семье",
+          "en": "Only to one family",
+          "ar": "لأسرة واحدة فقط"
+        },
+        {
+          "az": "Yalnız hökmdarlara",
+          "tr": "Yalnız hükümdarlara",
+          "ru": "Только правителям",
+          "en": "Only to rulers",
+          "ar": "للحكام فقط"
+        },
+        {
+          "az": "Heç kimə yazılmayıb",
+          "tr": "Hiç kimseye farz değildi",
+          "ru": "Не был предписан никому",
+          "en": "It was prescribed to nobody",
+          "ar": "لم يُكتب على أحد"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bəqərə 2:183 əvvəlki ümmətləri açıq xatırladır.",
+        "tr": "Bakara 2:183 önceki toplulukları açıkça anar.",
+        "ru": "Аль-Бакара 2:183 прямо упоминает прежние общины.",
+        "en": "Al-Baqarah 2:183 explicitly mentions earlier communities.",
+        "ar": "تذكر البقرة ٢:١٨٣ الذين من قبلنا."
+      },
+      "source_reference": "Quran 2:183",
+      "source_url": "https://quran.com/2/183",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "ramadan-09",
+      "category": "ramadan",
+      "difficulty": 3,
+      "question": {
+        "az": "Qədr gecəsi Quranda nə qədər müddətdən xeyirli sayılır?",
+        "tr": "Kadir gecesi Kur’an’da ne kadar süreden hayırlı sayılır?",
+        "ru": "Лучше какого срока названа Ночь предопределения?",
+        "en": "The Night of Decree is better than what length of time?",
+        "ar": "ليلة القدر خير من أي مدة؟"
+      },
+      "options": [
+        {
+          "az": "Min ay",
+          "tr": "Bin ay",
+          "ru": "Тысяча месяцев",
+          "en": "A thousand months",
+          "ar": "ألف شهر"
+        },
+        {
+          "az": "On gün",
+          "tr": "On gün",
+          "ru": "Десять дней",
+          "en": "Ten days",
+          "ar": "عشرة أيام"
+        },
+        {
+          "az": "Yeddi həftə",
+          "tr": "Yedi hafta",
+          "ru": "Семь недель",
+          "en": "Seven weeks",
+          "ar": "سبعة أسابيع"
+        },
+        {
+          "az": "Bir mövsüm",
+          "tr": "Bir mevsim",
+          "ru": "Один сезон",
+          "en": "One season",
+          "ar": "فصل واحد"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Qədr 97:3-də min ay müqayisəsi verilir.",
+        "tr": "Kadir 97:3’te bin ay karşılaştırması verilir.",
+        "ru": "Аль-Кадр 97:3 указывает тысячу месяцев.",
+        "en": "Al-Qadr 97:3 gives the comparison of a thousand months.",
+        "ar": "تذكر القدر ٩٧:٣ المقارنة بألف شهر."
+      },
+      "source_reference": "Quran 97:3",
+      "source_url": "https://quran.com/97/3",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "ramadan-10",
+      "category": "ramadan",
+      "difficulty": 4,
+      "question": {
+        "az": "Bəqərə 2:184-də fidyə hansı yardımla əlaqələndirilir?",
+        "tr": "Bakara 2:184’te fidye hangi yardımla ilişkilendirilir?",
+        "ru": "С какой помощью связана фидья в Аль-Бакара 2:184?",
+        "en": "What kind of aid is fidyah linked to in Al-Baqarah 2:184?",
+        "ar": "بأي مساعدة رُبطت الفدية في البقرة ٢:١٨٤؟"
+      },
+      "options": [
+        {
+          "az": "Ehtiyacı olanı yedirtmək",
+          "tr": "Yoksulu doyurmak",
+          "ru": "Накормить нуждающегося",
+          "en": "Feeding a person in need",
+          "ar": "إطعام مسكين"
+        },
+        {
+          "az": "Saray tikmək",
+          "tr": "Saray yapmak",
+          "ru": "Построить дворец",
+          "en": "Building a palace",
+          "ar": "بناء قصر"
+        },
+        {
+          "az": "Zinət almaq",
+          "tr": "Takı almak",
+          "ru": "Купить украшения",
+          "en": "Buying jewellery",
+          "ar": "شراء الحلي"
+        },
+        {
+          "az": "Şöhrət qazanmaq",
+          "tr": "Şöhret kazanmak",
+          "ru": "Добиться славы",
+          "en": "Gaining fame",
+          "ar": "اكتساب الشهرة"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayədə fidyə ilə miskini yedirtmək arasında əlaqə qurulur; şəxsi hökm ayrıca soruşulmalıdır.",
+        "tr": "Ayette fidye yoksulu doyurmakla ilişkilidir; kişisel hüküm ayrıca sorulmalıdır.",
+        "ru": "Аят связывает фидью с кормлением нуждающегося; личные условия требуют отдельного разъяснения.",
+        "en": "The verse links fidyah to feeding a needy person; individual rulings require separate guidance.",
+        "ar": "تربط الآية الفدية بإطعام مسكين، وأحكام الحالات الفردية تُسأل على حدة."
+      },
+      "source_reference": "Quran 2:184",
+      "source_url": "https://quran.com/2/184",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "culture-01",
+      "category": "culture",
+      "difficulty": 1,
+      "question": {
+        "az": "Salam verildikdə Quranda necə cavab vermək öyrədilir?",
+        "tr": "Selam verildiğinde Kur’an nasıl karşılık vermeyi öğretir?",
+        "ru": "Как Коран учит отвечать на приветствие?",
+        "en": "How does the Quran teach us to answer a greeting?",
+        "ar": "كيف يعلّم القرآن رد التحية؟"
+      },
+      "options": [
+        {
+          "az": "Daha gözəli və ya eynisi ilə",
+          "tr": "Daha güzeli veya aynısıyla",
+          "ru": "Лучше или так же",
+          "en": "With a better or equal greeting",
+          "ar": "بأحسن منها أو مثلها"
+        },
+        {
+          "az": "Həmişə susmaqla",
+          "tr": "Her zaman susarak",
+          "ru": "Всегда молчанием",
+          "en": "Always with silence",
+          "ar": "بالصمت دائماً"
+        },
+        {
+          "az": "Təhqirlə",
+          "tr": "Hakaretle",
+          "ru": "Оскорблением",
+          "en": "With an insult",
+          "ar": "بالإهانة"
+        },
+        {
+          "az": "Yalnız pul verməklə",
+          "tr": "Yalnız para vererek",
+          "ru": "Только деньгами",
+          "en": "Only by giving money",
+          "ar": "بالمال فقط"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Nisa 4:86 salamı daha gözəli və ya bənzəri ilə qaytarmağı deyir.",
+        "tr": "Nisa 4:86 selamı daha güzeli veya benzeriyle karşılamayı söyler.",
+        "ru": "Ан-Ниса 4:86 предписывает ответить лучше или подобным образом.",
+        "en": "An-Nisa 4:86 teaches responding better or similarly.",
+        "ar": "تعلّم النساء ٤:٨٦ الرد بأحسن من التحية أو بمثلها."
+      },
+      "source_reference": "Quran 4:86",
+      "source_url": "https://quran.com/4/86",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "culture-02",
+      "category": "culture",
+      "difficulty": 1,
+      "question": {
+        "az": "Quran əmanətləri kimə qaytarmağı əmr edir?",
+        "tr": "Kur’an emanetleri kime vermeyi emreder?",
+        "ru": "Кому Коран велит возвращать доверенное?",
+        "en": "To whom does the Quran command trusts to be returned?",
+        "ar": "إلى من يأمر القرآن بأداء الأمانات؟"
+      },
+      "options": [
+        {
+          "az": "Haqq sahiblərinə",
+          "tr": "Hak sahiplerine",
+          "ru": "Законным владельцам",
+          "en": "Their rightful owners",
+          "ar": "أهلها"
+        },
+        {
+          "az": "Yalnız varlılara",
+          "tr": "Yalnız zenginlere",
+          "ru": "Только богатым",
+          "en": "Only the rich",
+          "ar": "الأغنياء فقط"
+        },
+        {
+          "az": "Heç kimə",
+          "tr": "Hiç kimseye",
+          "ru": "Никому",
+          "en": "Nobody",
+          "ar": "لا أحد"
+        },
+        {
+          "az": "Ən güclü şəxsə",
+          "tr": "En güçlü kişiye",
+          "ru": "Самому сильному",
+          "en": "The strongest person",
+          "ar": "الأقوى"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Nisa 4:58 əmanətləri sahiblərinə qaytarmağı buyurur.",
+        "tr": "Nisa 4:58 emanetleri ehline vermeyi buyurur.",
+        "ru": "Ан-Ниса 4:58 повелевает вернуть доверенное владельцам.",
+        "en": "An-Nisa 4:58 commands returning trusts to their owners.",
+        "ar": "تأمر النساء ٤:٥٨ بأداء الأمانات إلى أهلها."
+      },
+      "source_reference": "Quran 4:58",
+      "source_url": "https://quran.com/4/58",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "culture-03",
+      "category": "culture",
+      "difficulty": 2,
+      "question": {
+        "az": "Maidə 5:1-də hansı davranış əmr edilir?",
+        "tr": "Maide 5:1’de hangi davranış emredilir?",
+        "ru": "Какое поведение предписано в Аль-Маида 5:1?",
+        "en": "What conduct is commanded in Al-Maidah 5:1?",
+        "ar": "ما السلوك المأمور به في المائدة ٥:١؟"
+      },
+      "options": [
+        {
+          "az": "Əhd və müqavilələrə riayət",
+          "tr": "Akitlere bağlılık",
+          "ru": "Соблюдение обязательств",
+          "en": "Honouring agreements",
+          "ar": "الوفاء بالعقود"
+        },
+        {
+          "az": "Həmişə sözü pozmaq",
+          "tr": "Daima söz bozmak",
+          "ru": "Всегда нарушать слово",
+          "en": "Always breaking promises",
+          "ar": "نقض العهود دائماً"
+        },
+        {
+          "az": "Aldatmaq",
+          "tr": "Aldatmak",
+          "ru": "Обман",
+          "en": "Deception",
+          "ar": "الخداع"
+        },
+        {
+          "az": "Əmanəti gizlətmək",
+          "tr": "Emaneti gizlemek",
+          "ru": "Присвоение доверенного",
+          "en": "Concealing trusts",
+          "ar": "كتمان الأمانات"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayənin əvvəlində müqavilələrə sadiqlik vurğulanır.",
+        "tr": "Ayetin başında akitlere bağlılık vurgulanır.",
+        "ru": "Начало аята подчёркивает исполнение обязательств.",
+        "en": "The opening of the verse stresses fulfilling agreements.",
+        "ar": "تؤكد بداية الآية الوفاء بالعقود."
+      },
+      "source_reference": "Quran 5:1",
+      "source_url": "https://quran.com/5/1",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "culture-04",
+      "category": "culture",
+      "difficulty": 1,
+      "question": {
+        "az": "Quran ticarətdə ölçü və çəki barədə nə deyir?",
+        "tr": "Kur’an ticarette ölçü ve tartı hakkında ne söyler?",
+        "ru": "Что Коран говорит о мере и весе в торговле?",
+        "en": "What does the Quran teach about measures and weights in trade?",
+        "ar": "ماذا يعلّم القرآن عن الكيل والميزان؟"
+      },
+      "options": [
+        {
+          "az": "Tam və ədalətli olsun",
+          "tr": "Tam ve adil olsun",
+          "ru": "Полная и справедливая мера",
+          "en": "Use full and fair measures",
+          "ar": "إيفاء الكيل والوزن بالعدل"
+        },
+        {
+          "az": "Müştəriyə görə dəyişsin",
+          "tr": "Müşteriye göre değişsin",
+          "ru": "Менять по покупателю",
+          "en": "Change them by customer",
+          "ar": "تغييرها بحسب المشتري"
+        },
+        {
+          "az": "Gizli azaldılsın",
+          "tr": "Gizlice azaltılsın",
+          "ru": "Тайно уменьшать",
+          "en": "Reduce them secretly",
+          "ar": "إنقاصها سراً"
+        },
+        {
+          "az": "Çəkiyə ehtiyac yoxdur",
+          "tr": "Tartıya gerek yok",
+          "ru": "Вес не нужен",
+          "en": "No weighing is needed",
+          "ar": "لا حاجة للوزن"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "İsra 17:35 tam ölçü və düzgün tərəzi öyrədir.",
+        "tr": "İsra 17:35 tam ölçü ve doğru tartıyı öğretir.",
+        "ru": "Аль-Исра 17:35 учит полной мере и верным весам.",
+        "en": "Al-Isra 17:35 teaches full measure and accurate balance.",
+        "ar": "تعلّم الإسراء ١٧:٣٥ إيفاء الكيل والميزان المستقيم."
+      },
+      "source_reference": "Quran 17:35",
+      "source_url": "https://quran.com/17/35",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "culture-05",
+      "category": "culture",
+      "difficulty": 1,
+      "question": {
+        "az": "Valideynlərlə danışıqda Quran nəyi öyrədir?",
+        "tr": "Anne babayla konuşurken Kur’an neyi öğretir?",
+        "ru": "Как Коран учит разговаривать с родителями?",
+        "en": "What speech does the Quran teach towards parents?",
+        "ar": "ما أدب الكلام مع الوالدين في القرآن؟"
+      },
+      "options": [
+        {
+          "az": "Hörmətli və gözəl söz",
+          "tr": "Saygılı ve güzel söz",
+          "ru": "Уважительные слова",
+          "en": "Respectful and noble speech",
+          "ar": "قول كريم"
+        },
+        {
+          "az": "Təhqir",
+          "tr": "Hakaret",
+          "ru": "Оскорбление",
+          "en": "Insults",
+          "ar": "الإهانة"
+        },
+        {
+          "az": "Səbəbsiz qışqırıq",
+          "tr": "Sebepsiz bağırmak",
+          "ru": "Беспричинный крик",
+          "en": "Unprovoked shouting",
+          "ar": "الصراخ بلا سبب"
+        },
+        {
+          "az": "İstehza",
+          "tr": "Alay",
+          "ru": "Насмешка",
+          "en": "Mockery",
+          "ar": "السخرية"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "İsra 17:23 valideynlərə xoş söz deməyi bildirir.",
+        "tr": "İsra 17:23 anne babaya güzel söz söylemeyi bildirir.",
+        "ru": "Аль-Исра 17:23 велит говорить с родителями достойно.",
+        "en": "Al-Isra 17:23 instructs noble speech to parents.",
+        "ar": "تأمر الإسراء ١٧:٢٣ بالقول الكريم للوالدين."
+      },
+      "source_reference": "Quran 17:23",
+      "source_url": "https://quran.com/17/23",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "culture-06",
+      "category": "culture",
+      "difficulty": 2,
+      "question": {
+        "az": "Hucurat 49:11 hansı davranışdan çəkindirir?",
+        "tr": "Hucurat 49:11 hangi davranıştan sakındırır?",
+        "ru": "От какого поведения предостерегает Аль-Худжурат 49:11?",
+        "en": "Which conduct does Al-Hujurat 49:11 warn against?",
+        "ar": "عن أي سلوك تنهى الحجرات ٤٩:١١؟"
+      },
+      "options": [
+        {
+          "az": "Başqalarını ələ salmaq",
+          "tr": "Başkalarıyla alay etmek",
+          "ru": "Высмеивание других",
+          "en": "Mocking others",
+          "ar": "السخرية بالآخرين"
+        },
+        {
+          "az": "Ədalət",
+          "tr": "Adalet",
+          "ru": "Справедливость",
+          "en": "Justice",
+          "ar": "العدل"
+        },
+        {
+          "az": "Hədiyyə vermək",
+          "tr": "Hediye vermek",
+          "ru": "Дарение подарков",
+          "en": "Giving gifts",
+          "ar": "إهداء الهدايا"
+        },
+        {
+          "az": "Elm öyrənmək",
+          "tr": "İlim öğrenmek",
+          "ru": "Учёба",
+          "en": "Learning",
+          "ar": "التعلم"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayədə bir topluluğun digərini ələ salmaması deyilir.",
+        "tr": "Ayette bir topluluğun diğerini küçümsememesi söylenir.",
+        "ru": "Аят запрещает одной группе насмехаться над другой.",
+        "en": "The verse warns one group not to ridicule another.",
+        "ar": "تنهى الآية عن سخرية قوم من قوم."
+      },
+      "source_reference": "Quran 49:11",
+      "source_url": "https://quran.com/49/11",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "culture-07",
+      "category": "culture",
+      "difficulty": 2,
+      "question": {
+        "az": "Hucurat 49:12-də hansı mənfi davranış qadağan edilir?",
+        "tr": "Hucurat 49:12’de hangi olumsuz davranış yasaklanır?",
+        "ru": "Какое отрицательное поведение запрещено в Аль-Худжурат 49:12?",
+        "en": "Which negative conduct is prohibited in Al-Hujurat 49:12?",
+        "ar": "ما السلوك السلبي المنهي عنه في الحجرات ٤٩:١٢؟"
+      },
+      "options": [
+        {
+          "az": "Qeybət",
+          "tr": "Gıybet",
+          "ru": "Злословие",
+          "en": "Backbiting",
+          "ar": "الغيبة"
+        },
+        {
+          "az": "Şükür",
+          "tr": "Şükür",
+          "ru": "Благодарность",
+          "en": "Gratitude",
+          "ar": "الشكر"
+        },
+        {
+          "az": "Qonaqpərvərlik",
+          "tr": "Misafirperverlik",
+          "ru": "Гостеприимство",
+          "en": "Hospitality",
+          "ar": "الضيافة"
+        },
+        {
+          "az": "Xeyriyyə",
+          "tr": "Hayır",
+          "ru": "Благотворительность",
+          "en": "Charity",
+          "ar": "الصدقة"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayə qeybətdən və gizli araşdırmadan çəkindirir.",
+        "tr": "Ayet gıybetten ve gizlice araştırmaktan sakındırır.",
+        "ru": "Аят предостерегает от злословия и слежки.",
+        "en": "The verse warns against backbiting and spying.",
+        "ar": "تنهى الآية عن الغيبة والتجسس."
+      },
+      "source_reference": "Quran 49:12",
+      "source_url": "https://quran.com/49/12",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "culture-08",
+      "category": "culture",
+      "difficulty": 1,
+      "question": {
+        "az": "Başqasının evinə girməzdən əvvəl Quran nəyi öyrədir?",
+        "tr": "Başkasının evine girmeden önce Kur’an neyi öğretir?",
+        "ru": "Что Коран предписывает перед входом в чужой дом?",
+        "en": "What does the Quran teach before entering another person’s home?",
+        "ar": "ماذا يعلّم القرآن قبل دخول بيت غير بيتك؟"
+      },
+      "options": [
+        {
+          "az": "İcazə istəmək və salam vermək",
+          "tr": "İzin istemek ve selam vermek",
+          "ru": "Просить разрешения и приветствовать",
+          "en": "Ask permission and greet",
+          "ar": "الاستئذان والسلام"
+        },
+        {
+          "az": "İcazəsiz daxil olmaq",
+          "tr": "İzinsiz girmek",
+          "ru": "Входить без разрешения",
+          "en": "Enter without permission",
+          "ar": "الدخول بلا إذن"
+        },
+        {
+          "az": "Əşyaları araşdırmaq",
+          "tr": "Eşyaları araştırmak",
+          "ru": "Обыскивать вещи",
+          "en": "Search possessions",
+          "ar": "تفتيش المتاع"
+        },
+        {
+          "az": "Qapını sındırmaq",
+          "tr": "Kapıyı kırmak",
+          "ru": "Ломать дверь",
+          "en": "Break the door",
+          "ar": "كسر الباب"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Nur 24:27 icazə və salam ədəbini bildirir.",
+        "tr": "Nur 24:27 izin ve selam adabını bildirir.",
+        "ru": "Ан-Нур 24:27 учит разрешению и приветствию.",
+        "en": "An-Nur 24:27 teaches permission and greeting.",
+        "ar": "تعلّم النور ٢٤:٢٧ أدب الاستئذان والسلام."
+      },
+      "source_reference": "Quran 24:27",
+      "source_url": "https://quran.com/24/27",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "culture-09",
+      "category": "culture",
+      "difficulty": 3,
+      "question": {
+        "az": "Quran yerdəki ruzidən nə cür yeməyi buyurur?",
+        "tr": "Kur’an yeryüzündeki rızıktan nasıl yemeyi buyurur?",
+        "ru": "Какую пищу Коран велит употреблять из земного удела?",
+        "en": "What kind of earthly provision does the Quran say to eat?",
+        "ar": "أي طعام من رزق الأرض يأمر القرآن بأكله؟"
+      },
+      "options": [
+        {
+          "az": "Halal və pak",
+          "tr": "Helal ve temiz",
+          "ru": "Дозволенное и благое",
+          "en": "Lawful and good",
+          "ar": "الحلال الطيب"
+        },
+        {
+          "az": "Yalnız bahalı",
+          "tr": "Yalnız pahalı",
+          "ru": "Только дорогое",
+          "en": "Only expensive food",
+          "ar": "الغالي فقط"
+        },
+        {
+          "az": "Yalnız nadir",
+          "tr": "Yalnız nadir",
+          "ru": "Только редкое",
+          "en": "Only rare food",
+          "ar": "النادر فقط"
+        },
+        {
+          "az": "İstənilən oğurluq mal",
+          "tr": "Her çalıntı mal",
+          "ru": "Всё украденное",
+          "en": "Any stolen goods",
+          "ar": "كل مسروق"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bəqərə 2:168 halal və təmiz ruzidən danışır.",
+        "tr": "Bakara 2:168 helal ve temiz rızkı anlatır.",
+        "ru": "Аль-Бакара 2:168 говорит о дозволенном и благом.",
+        "en": "Al-Baqarah 2:168 speaks of lawful, good provision.",
+        "ar": "تذكر البقرة ٢:١٦٨ الحلال الطيب."
+      },
+      "source_reference": "Quran 2:168",
+      "source_url": "https://quran.com/2/168",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "culture-10",
+      "category": "culture",
+      "difficulty": 4,
+      "question": {
+        "az": "Yemək və içmək barədə ayə hansı vərdişdən çəkindirir?",
+        "tr": "Yeme içmeyle ilgili ayet hangi alışkanlıktan sakındırır?",
+        "ru": "От какой привычки предостерегает аят о еде и питье?",
+        "en": "What habit does the verse about eating and drinking warn against?",
+        "ar": "عن أي عادة تنهى آية الأكل والشرب؟"
+      },
+      "options": [
+        {
+          "az": "İsraf",
+          "tr": "İsraf",
+          "ru": "Расточительство",
+          "en": "Wastefulness",
+          "ar": "الإسراف"
+        },
+        {
+          "az": "Şükür",
+          "tr": "Şükür",
+          "ru": "Благодарность",
+          "en": "Gratitude",
+          "ar": "الشكر"
+        },
+        {
+          "az": "Paylaşmaq",
+          "tr": "Paylaşmak",
+          "ru": "Делиться",
+          "en": "Sharing",
+          "ar": "المشاركة"
+        },
+        {
+          "az": "Halal ruzi",
+          "tr": "Helal rızık",
+          "ru": "Дозволенный удел",
+          "en": "Lawful provision",
+          "ar": "الرزق الحلال"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Əraf 7:31 yemək və içməkdə israfı rədd edir.",
+        "tr": "Araf 7:31 yeme içmede israfı reddeder.",
+        "ru": "Аль-Араф 7:31 отвергает расточительство в еде и питье.",
+        "en": "Al-Araf 7:31 rejects waste in eating and drinking.",
+        "ar": "تنهى الأعراف ٧:٣١ عن الإسراف في الأكل والشرب."
+      },
+      "source_reference": "Quran 7:31",
+      "source_url": "https://quran.com/7/31",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "names-01",
+      "category": "names",
+      "difficulty": 1,
+      "question": {
+        "az": "«الرَّحْمَٰن» adının mənası hansıdır?",
+        "tr": "“الرَّحْمَٰن” isminin anlamı hangisidir?",
+        "ru": "Что означает имя «الرَّحْمَٰن»?",
+        "en": "What does the name “الرَّحْمَٰن” mean?",
+        "ar": "ما معنى اسم «الرَّحْمَٰن»؟"
+      },
+      "options": [
+        {
+          "az": "Mərhəməti geniş olan",
+          "tr": "Merhameti geniş olan",
+          "ru": "Всемилостивый",
+          "en": "The All-Compassionate",
+          "ar": "واسع الرحمة"
+        },
+        {
+          "az": "Mütləq hökmran",
+          "tr": "Mutlak hükümdar",
+          "ru": "Владыка",
+          "en": "The Sovereign",
+          "ar": "الملك ذو السلطان"
+        },
+        {
+          "az": "Yaradan",
+          "tr": "Yaratan",
+          "ru": "Творец",
+          "en": "The Creator",
+          "ar": "الخالق"
+        },
+        {
+          "az": "Hər şeyi eşidən",
+          "tr": "Her şeyi işiten",
+          "ru": "Всеслышащий",
+          "en": "The All-Hearing",
+          "ar": "السميع لكل شيء"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "الرَّحْمَٰن adı 1:3 ayəsində işlənir; mənası: Mərhəməti geniş olan.",
+        "tr": "الرَّحْمَٰن ismi 1:3 ayetinde geçer; anlamı: Merhameti geniş olan.",
+        "ru": "Имя الرَّحْمَٰن встречается в 1:3; значение: Всемилостивый.",
+        "en": "الرَّحْمَٰن occurs in 1:3; its meaning is The All-Compassionate.",
+        "ar": "يرد اسم الرَّحْمَٰن في 1:3؛ ومعناه: واسع الرحمة."
+      },
+      "source_reference": "Quran 1:3",
+      "source_url": "https://quran.com/1/3",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "names-02",
+      "category": "names",
+      "difficulty": 1,
+      "question": {
+        "az": "«الرَّحِيم» adının mənası hansıdır?",
+        "tr": "“الرَّحِيم” isminin anlamı hangisidir?",
+        "ru": "Что означает имя «الرَّحِيم»?",
+        "en": "What does the name “الرَّحِيم” mean?",
+        "ar": "ما معنى اسم «الرَّحِيم»؟"
+      },
+      "options": [
+        {
+          "az": "Çox mərhəmətli",
+          "tr": "Çok merhametli",
+          "ru": "Милосердный",
+          "en": "The Most Merciful",
+          "ar": "عظيم الرحمة"
+        },
+        {
+          "az": "Yenilməz qüdrət sahibi",
+          "tr": "Yenilmez kudret sahibi",
+          "ru": "Могущественный",
+          "en": "The Almighty",
+          "ar": "الغالب الذي لا يُغلب"
+        },
+        {
+          "az": "Surət və forma verən",
+          "tr": "Şekil ve suret veren",
+          "ru": "Придающий облик",
+          "en": "The Fashioner",
+          "ar": "المعطي الصور"
+        },
+        {
+          "az": "Hər şeyi bilən",
+          "tr": "Her şeyi bilen",
+          "ru": "Всезнающий",
+          "en": "The All-Knowing",
+          "ar": "العالم بكل شيء"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "الرَّحِيم adı 1:3 ayəsində işlənir; mənası: Çox mərhəmətli.",
+        "tr": "الرَّحِيم ismi 1:3 ayetinde geçer; anlamı: Çok merhametli.",
+        "ru": "Имя الرَّحِيم встречается в 1:3; значение: Милосердный.",
+        "en": "الرَّحِيم occurs in 1:3; its meaning is The Most Merciful.",
+        "ar": "يرد اسم الرَّحِيم في 1:3؛ ومعناه: عظيم الرحمة."
+      },
+      "source_reference": "Quran 1:3",
+      "source_url": "https://quran.com/1/3",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "names-03",
+      "category": "names",
+      "difficulty": 1,
+      "question": {
+        "az": "«الْمَلِك» adının mənası hansıdır?",
+        "tr": "“الْمَلِك” isminin anlamı hangisidir?",
+        "ru": "Что означает имя «الْمَلِك»?",
+        "en": "What does the name “الْمَلِك” mean?",
+        "ar": "ما معنى اسم «الْمَلِك»؟"
+      },
+      "options": [
+        {
+          "az": "Mütləq hökmran",
+          "tr": "Mutlak hükümdar",
+          "ru": "Владыка",
+          "en": "The Sovereign",
+          "ar": "الملك ذو السلطان"
+        },
+        {
+          "az": "Yaradan",
+          "tr": "Yaratan",
+          "ru": "Творец",
+          "en": "The Creator",
+          "ar": "الخالق"
+        },
+        {
+          "az": "Hər şeyi eşidən",
+          "tr": "Her şeyi işiten",
+          "ru": "Всеслышащий",
+          "en": "The All-Hearing",
+          "ar": "السميع لكل شيء"
+        },
+        {
+          "az": "Mərhəməti geniş olan",
+          "tr": "Merhameti geniş olan",
+          "ru": "Всемилостивый",
+          "en": "The All-Compassionate",
+          "ar": "واسع الرحمة"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "الْمَلِك adı 59:23 ayəsində işlənir; mənası: Mütləq hökmran.",
+        "tr": "الْمَلِك ismi 59:23 ayetinde geçer; anlamı: Mutlak hükümdar.",
+        "ru": "Имя الْمَلِك встречается в 59:23; значение: Владыка.",
+        "en": "الْمَلِك occurs in 59:23; its meaning is The Sovereign.",
+        "ar": "يرد اسم الْمَلِك في 59:23؛ ومعناه: الملك ذو السلطان."
+      },
+      "source_reference": "Quran 59:23",
+      "source_url": "https://quran.com/59/23",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "names-04",
+      "category": "names",
+      "difficulty": 1,
+      "question": {
+        "az": "«الْقُدُّوس» adının mənası hansıdır?",
+        "tr": "“الْقُدُّوس” isminin anlamı hangisidir?",
+        "ru": "Что означает имя «الْقُدُّوس»?",
+        "en": "What does the name “الْقُدُّوس” mean?",
+        "ar": "ما معنى اسم «الْقُدُّوس»؟"
+      },
+      "options": [
+        {
+          "az": "Müqəddəs, nöqsanlardan uzaq",
+          "tr": "Kutsal, eksiklikten uzak",
+          "ru": "Пресвятой",
+          "en": "The Most Holy",
+          "ar": "المنزّه عن النقائص"
+        },
+        {
+          "az": "Mütləq hökmran",
+          "tr": "Mutlak hükümdar",
+          "ru": "Владыка",
+          "en": "The Sovereign",
+          "ar": "الملك ذو السلطان"
+        },
+        {
+          "az": "Yaradan",
+          "tr": "Yaratan",
+          "ru": "Творец",
+          "en": "The Creator",
+          "ar": "الخالق"
+        },
+        {
+          "az": "Hər şeyi eşidən",
+          "tr": "Her şeyi işiten",
+          "ru": "Всеслышащий",
+          "en": "The All-Hearing",
+          "ar": "السميع لكل شيء"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "الْقُدُّوس adı 59:23 ayəsində işlənir; mənası: Müqəddəs, nöqsanlardan uzaq.",
+        "tr": "الْقُدُّوس ismi 59:23 ayetinde geçer; anlamı: Kutsal, eksiklikten uzak.",
+        "ru": "Имя الْقُدُّوس встречается в 59:23; значение: Пресвятой.",
+        "en": "الْقُدُّوس occurs in 59:23; its meaning is The Most Holy.",
+        "ar": "يرد اسم الْقُدُّوس في 59:23؛ ومعناه: المنزّه عن النقائص."
+      },
+      "source_reference": "Quran 59:23",
+      "source_url": "https://quran.com/59/23",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "names-05",
+      "category": "names",
+      "difficulty": 3,
+      "question": {
+        "az": "«السَّلَام» adının mənası hansıdır?",
+        "tr": "“السَّلَام” isminin anlamı hangisidir?",
+        "ru": "Что означает имя «السَّلَام»?",
+        "en": "What does the name “السَّلَام” mean?",
+        "ar": "ما معنى اسم «السَّلَام»؟"
+      },
+      "options": [
+        {
+          "az": "Hər nöqsandan salamat olan",
+          "tr": "Her kusurdan salim olan",
+          "ru": "Свободный от несовершенства",
+          "en": "Free from every imperfection",
+          "ar": "السالم من كل نقص"
+        },
+        {
+          "az": "Mütləq hökmran",
+          "tr": "Mutlak hükümdar",
+          "ru": "Владыка",
+          "en": "The Sovereign",
+          "ar": "الملك ذو السلطان"
+        },
+        {
+          "az": "Surət və forma verən",
+          "tr": "Şekil ve suret veren",
+          "ru": "Придающий облик",
+          "en": "The Fashioner",
+          "ar": "المعطي الصور"
+        },
+        {
+          "az": "Hər şeyi bilən",
+          "tr": "Her şeyi bilen",
+          "ru": "Всезнающий",
+          "en": "The All-Knowing",
+          "ar": "العالم بكل شيء"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "السَّلَام adı 59:23 ayəsində işlənir; mənası: Hər nöqsandan salamat olan.",
+        "tr": "السَّلَام ismi 59:23 ayetinde geçer; anlamı: Her kusurdan salim olan.",
+        "ru": "Имя السَّلَام встречается в 59:23; значение: Свободный от несовершенства.",
+        "en": "السَّلَام occurs in 59:23; its meaning is Free from every imperfection.",
+        "ar": "يرد اسم السَّلَام في 59:23؛ ومعناه: السالم من كل نقص."
+      },
+      "source_reference": "Quran 59:23",
+      "source_url": "https://quran.com/59/23",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "names-06",
+      "category": "names",
+      "difficulty": 1,
+      "question": {
+        "az": "«الْعَزِيز» adının mənası hansıdır?",
+        "tr": "“الْعَزِيز” isminin anlamı hangisidir?",
+        "ru": "Что означает имя «الْعَزِيز»?",
+        "en": "What does the name “الْعَزِيز” mean?",
+        "ar": "ما معنى اسم «الْعَزِيز»؟"
+      },
+      "options": [
+        {
+          "az": "Yenilməz qüdrət sahibi",
+          "tr": "Yenilmez kudret sahibi",
+          "ru": "Могущественный",
+          "en": "The Almighty",
+          "ar": "الغالب الذي لا يُغلب"
+        },
+        {
+          "az": "Yaradan",
+          "tr": "Yaratan",
+          "ru": "Творец",
+          "en": "The Creator",
+          "ar": "الخالق"
+        },
+        {
+          "az": "Hər şeyi eşidən",
+          "tr": "Her şeyi işiten",
+          "ru": "Всеслышащий",
+          "en": "The All-Hearing",
+          "ar": "السميع لكل شيء"
+        },
+        {
+          "az": "Çox mərhəmətli",
+          "tr": "Çok merhametli",
+          "ru": "Милосердный",
+          "en": "The Most Merciful",
+          "ar": "عظيم الرحمة"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "الْعَزِيز adı 59:23 ayəsində işlənir; mənası: Yenilməz qüdrət sahibi.",
+        "tr": "الْعَزِيز ismi 59:23 ayetinde geçer; anlamı: Yenilmez kudret sahibi.",
+        "ru": "Имя الْعَزِيز встречается в 59:23; значение: Могущественный.",
+        "en": "الْعَزِيز occurs in 59:23; its meaning is The Almighty.",
+        "ar": "يرد اسم الْعَزِيز في 59:23؛ ومعناه: الغالب الذي لا يُغلب."
+      },
+      "source_reference": "Quran 59:23",
+      "source_url": "https://quran.com/59/23",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "names-07",
+      "category": "names",
+      "difficulty": 1,
+      "question": {
+        "az": "«الْخَالِق» adının mənası hansıdır?",
+        "tr": "“الْخَالِق” isminin anlamı hangisidir?",
+        "ru": "Что означает имя «الْخَالِق»?",
+        "en": "What does the name “الْخَالِق” mean?",
+        "ar": "ما معنى اسم «الْخَالِق»؟"
+      },
+      "options": [
+        {
+          "az": "Yaradan",
+          "tr": "Yaratan",
+          "ru": "Творец",
+          "en": "The Creator",
+          "ar": "الخالق"
+        },
+        {
+          "az": "Mütləq hökmran",
+          "tr": "Mutlak hükümdar",
+          "ru": "Владыка",
+          "en": "The Sovereign",
+          "ar": "الملك ذو السلطان"
+        },
+        {
+          "az": "Hər şeyi eşidən",
+          "tr": "Her şeyi işiten",
+          "ru": "Всеслышащий",
+          "en": "The All-Hearing",
+          "ar": "السميع لكل شيء"
+        },
+        {
+          "az": "Mərhəməti geniş olan",
+          "tr": "Merhameti geniş olan",
+          "ru": "Всемилостивый",
+          "en": "The All-Compassionate",
+          "ar": "واسع الرحمة"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "الْخَالِق adı 59:24 ayəsində işlənir; mənası: Yaradan.",
+        "tr": "الْخَالِق ismi 59:24 ayetinde geçer; anlamı: Yaratan.",
+        "ru": "Имя الْخَالِق встречается в 59:24; значение: Творец.",
+        "en": "الْخَالِق occurs in 59:24; its meaning is The Creator.",
+        "ar": "يرد اسم الْخَالِق في 59:24؛ ومعناه: الخالق."
+      },
+      "source_reference": "Quran 59:24",
+      "source_url": "https://quran.com/59/24",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "names-08",
+      "category": "names",
+      "difficulty": 3,
+      "question": {
+        "az": "«الْمُصَوِّر» adının mənası hansıdır?",
+        "tr": "“الْمُصَوِّر” isminin anlamı hangisidir?",
+        "ru": "Что означает имя «الْمُصَوِّر»?",
+        "en": "What does the name “الْمُصَوِّر” mean?",
+        "ar": "ما معنى اسم «الْمُصَوِّر»؟"
+      },
+      "options": [
+        {
+          "az": "Surət və forma verən",
+          "tr": "Şekil ve suret veren",
+          "ru": "Придающий облик",
+          "en": "The Fashioner",
+          "ar": "المعطي الصور"
+        },
+        {
+          "az": "Hər şeyi eşidən",
+          "tr": "Her şeyi işiten",
+          "ru": "Всеслышащий",
+          "en": "The All-Hearing",
+          "ar": "السميع لكل شيء"
+        },
+        {
+          "az": "Mütləq hökmran",
+          "tr": "Mutlak hükümdar",
+          "ru": "Владыка",
+          "en": "The Sovereign",
+          "ar": "الملك ذو السلطان"
+        },
+        {
+          "az": "Yenilməz qüdrət sahibi",
+          "tr": "Yenilmez kudret sahibi",
+          "ru": "Могущественный",
+          "en": "The Almighty",
+          "ar": "الغالب الذي لا يُغلب"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "الْمُصَوِّر adı 59:24 ayəsində işlənir; mənası: Surət və forma verən.",
+        "tr": "الْمُصَوِّر ismi 59:24 ayetinde geçer; anlamı: Şekil ve suret veren.",
+        "ru": "Имя الْمُصَوِّر встречается в 59:24; значение: Придающий облик.",
+        "en": "الْمُصَوِّر occurs in 59:24; its meaning is The Fashioner.",
+        "ar": "يرد اسم الْمُصَوِّر في 59:24؛ ومعناه: المعطي الصور."
+      },
+      "source_reference": "Quran 59:24",
+      "source_url": "https://quran.com/59/24",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "names-09",
+      "category": "names",
+      "difficulty": 3,
+      "question": {
+        "az": "«الْعَلِيم» adının mənası hansıdır?",
+        "tr": "“الْعَلِيم” isminin anlamı hangisidir?",
+        "ru": "Что означает имя «الْعَلِيم»?",
+        "en": "What does the name “الْعَلِيم” mean?",
+        "ar": "ما معنى اسم «الْعَلِيم»؟"
+      },
+      "options": [
+        {
+          "az": "Hər şeyi bilən",
+          "tr": "Her şeyi bilen",
+          "ru": "Всезнающий",
+          "en": "The All-Knowing",
+          "ar": "العالم بكل شيء"
+        },
+        {
+          "az": "Yaradan",
+          "tr": "Yaratan",
+          "ru": "Творец",
+          "en": "The Creator",
+          "ar": "الخالق"
+        },
+        {
+          "az": "Yenilməz qüdrət sahibi",
+          "tr": "Yenilmez kudret sahibi",
+          "ru": "Могущественный",
+          "en": "The Almighty",
+          "ar": "الغالب الذي لا يُغلب"
+        },
+        {
+          "az": "Mütləq hökmran",
+          "tr": "Mutlak hükümdar",
+          "ru": "Владыка",
+          "en": "The Sovereign",
+          "ar": "الملك ذو السلطان"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "الْعَلِيم adı 2:32 ayəsində işlənir; mənası: Hər şeyi bilən.",
+        "tr": "الْعَلِيم ismi 2:32 ayetinde geçer; anlamı: Her şeyi bilen.",
+        "ru": "Имя الْعَلِيم встречается в 2:32; значение: Всезнающий.",
+        "en": "الْعَلِيم occurs in 2:32; its meaning is The All-Knowing.",
+        "ar": "يرد اسم الْعَلِيم في 2:32؛ ومعناه: العالم بكل شيء."
+      },
+      "source_reference": "Quran 2:32",
+      "source_url": "https://quran.com/2/32",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "names-10",
+      "category": "names",
+      "difficulty": 4,
+      "question": {
+        "az": "«السَّمِيع» adının mənası hansıdır?",
+        "tr": "“السَّمِيع” isminin anlamı hangisidir?",
+        "ru": "Что означает имя «السَّمِيع»?",
+        "en": "What does the name “السَّمِيع” mean?",
+        "ar": "ما معنى اسم «السَّمِيع»؟"
+      },
+      "options": [
+        {
+          "az": "Hər şeyi eşidən",
+          "tr": "Her şeyi işiten",
+          "ru": "Всеслышащий",
+          "en": "The All-Hearing",
+          "ar": "السميع لكل شيء"
+        },
+        {
+          "az": "Surət və forma verən",
+          "tr": "Şekil ve suret veren",
+          "ru": "Придающий облик",
+          "en": "The Fashioner",
+          "ar": "المعطي الصور"
+        },
+        {
+          "az": "Mütləq hökmran",
+          "tr": "Mutlak hükümdar",
+          "ru": "Владыка",
+          "en": "The Sovereign",
+          "ar": "الملك ذو السلطان"
+        },
+        {
+          "az": "Müqəddəs, nöqsanlardan uzaq",
+          "tr": "Kutsal, eksiklikten uzak",
+          "ru": "Пресвятой",
+          "en": "The Most Holy",
+          "ar": "المنزّه عن النقائص"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "السَّمِيع adı 2:127 ayəsində işlənir; mənası: Hər şeyi eşidən.",
+        "tr": "السَّمِيع ismi 2:127 ayetinde geçer; anlamı: Her şeyi işiten.",
+        "ru": "Имя السَّمِيع встречается в 2:127; значение: Всеслышащий.",
+        "en": "السَّمِيع occurs in 2:127; its meaning is The All-Hearing.",
+        "ar": "يرد اسم السَّمِيع في 2:127؛ ومعناه: السميع لكل شيء."
+      },
+      "source_reference": "Quran 2:127",
+      "source_url": "https://quran.com/2/127",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "general-01",
+      "category": "general",
+      "difficulty": 1,
+      "question": {
+        "az": "Quran yoxsullara gizli sədəqə verməyi necə qiymətləndirir?",
+        "tr": "Kur’an yoksullara gizlice sadaka vermeyi nasıl değerlendirir?",
+        "ru": "Как Коран оценивает тайную милостыню бедным?",
+        "en": "How does the Quran regard private charity to the poor?",
+        "ar": "كيف يصف القرآن إخفاء الصدقة للفقراء؟"
+      },
+      "options": [
+        {
+          "az": "Daha xeyirli",
+          "tr": "Daha hayırlı",
+          "ru": "Лучше",
+          "en": "Better",
+          "ar": "خير"
+        },
+        {
+          "az": "Həmişə qadağan",
+          "tr": "Her zaman yasak",
+          "ru": "Всегда запрещено",
+          "en": "Always forbidden",
+          "ar": "ممنوع دائماً"
+        },
+        {
+          "az": "Mənasız",
+          "tr": "Anlamsız",
+          "ru": "Бессмысленно",
+          "en": "Meaningless",
+          "ar": "بلا معنى"
+        },
+        {
+          "az": "Yalnız varlılar üçündür",
+          "tr": "Yalnız zenginler içindir",
+          "ru": "Только для богатых",
+          "en": "Only for the rich",
+          "ar": "للأغنياء فقط"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bəqərə 2:271 gizli verməyi daha xeyirli adlandırır.",
+        "tr": "Bakara 2:271 gizli vermeyi daha hayırlı olarak niteler.",
+        "ru": "Аль-Бакара 2:271 называет тайную помощь более благой.",
+        "en": "Al-Baqarah 2:271 calls private giving better.",
+        "ar": "تصف البقرة ٢:٢٧١ إخفاء الصدقة بأنه خير."
+      },
+      "source_reference": "Quran 2:271",
+      "source_url": "https://quran.com/2/271",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "general-02",
+      "category": "general",
+      "difficulty": 2,
+      "question": {
+        "az": "Ali-İmran 3:92 yaxşılığa çatmaq üçün nədən verməyi xatırladır?",
+        "tr": "Âl-i İmran 3:92 iyiliğe ulaşmak için neden vermeyi hatırlatır?",
+        "ru": "Из чего Аль-Имран 3:92 призывает жертвовать ради благочестия?",
+        "en": "What does Ali Imran 3:92 mention giving from to attain righteousness?",
+        "ar": "ممّ تدعو آل عمران ٣:٩٢ إلى الإنفاق لنيل البر؟"
+      },
+      "options": [
+        {
+          "az": "Sevdiklərindən",
+          "tr": "Sevdiklerinden",
+          "ru": "Из любимого",
+          "en": "What one cherishes",
+          "ar": "مما تحبون"
+        },
+        {
+          "az": "Yalnız yararsız əşyalardan",
+          "tr": "Yalnız işe yaramaz eşyalardan",
+          "ru": "Только из ненужного",
+          "en": "Only useless things",
+          "ar": "الأشياء التالفة فقط"
+        },
+        {
+          "az": "Başqasının malından",
+          "tr": "Başkasının malından",
+          "ru": "Из чужого имущества",
+          "en": "Another person’s property",
+          "ar": "مال الآخرين"
+        },
+        {
+          "az": "Yalnız şöhrət üçün",
+          "tr": "Yalnız şöhret için",
+          "ru": "Только ради славы",
+          "en": "Only for fame",
+          "ar": "للشهرة فقط"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayədə sevilən şeylərdən sərf etmək vurğulanır.",
+        "tr": "Ayette sevilen şeylerden harcamak vurgulanır.",
+        "ru": "Аят подчёркивает жертвование из дорогого человеку.",
+        "en": "The verse emphasizes giving from what one values.",
+        "ar": "تؤكد الآية الإنفاق مما يحب الإنسان."
+      },
+      "source_reference": "Quran 3:92",
+      "source_url": "https://quran.com/3/92",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "general-03",
+      "category": "general",
+      "difficulty": 1,
+      "question": {
+        "az": "Bəqərə 2:256 dinə münasibətdə hansı prinsipdən danışır?",
+        "tr": "Bakara 2:256 din konusunda hangi ilkeden söz eder?",
+        "ru": "О каком принципе в религии говорит Аль-Бакара 2:256?",
+        "en": "Which principle about religion is stated in Al-Baqarah 2:256?",
+        "ar": "ما المبدأ المتعلق بالدين في البقرة ٢:٢٥٦؟"
+      },
+      "options": [
+        {
+          "az": "Dində məcburiyyət yoxdur",
+          "tr": "Dinde zorlama yoktur",
+          "ru": "Нет принуждения в религии",
+          "en": "No compulsion in religion",
+          "ar": "لا إكراه في الدين"
+        },
+        {
+          "az": "İsraf məcburidir",
+          "tr": "İsraf zorunludur",
+          "ru": "Расточительство обязательно",
+          "en": "Waste is compulsory",
+          "ar": "الإسراف واجب"
+        },
+        {
+          "az": "Əmanət qaytarılmamalıdır",
+          "tr": "Emanet geri verilmemelidir",
+          "ru": "Доверенное не возвращают",
+          "en": "Trusts should not be returned",
+          "ar": "لا تُرد الأمانات"
+        },
+        {
+          "az": "Salam qadağandır",
+          "tr": "Selam yasaktır",
+          "ru": "Приветствие запрещено",
+          "en": "Greeting is forbidden",
+          "ar": "التحية ممنوعة"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayə dində məcburiyyət olmadığını bildirir.",
+        "tr": "Ayet dinde zorlama olmadığını bildirir.",
+        "ru": "Аят утверждает отсутствие принуждения в религии.",
+        "en": "The verse states that there is no compulsion in religion.",
+        "ar": "تقرر الآية أنه لا إكراه في الدين."
+      },
+      "source_reference": "Quran 2:256",
+      "source_url": "https://quran.com/2/256",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "general-04",
+      "category": "general",
+      "difficulty": 2,
+      "question": {
+        "az": "Quran insanın öz əleyhinə olsa da nəyə sadiq qalmağı öyrədir?",
+        "tr": "Kur’an kişinin kendi aleyhine olsa da neye bağlı kalmasını öğretir?",
+        "ru": "Чему Коран учит следовать даже против собственных интересов?",
+        "en": "What does the Quran teach upholding even against oneself?",
+        "ar": "ماذا يأمر القرآن بإقامته ولو على النفس؟"
+      },
+      "options": [
+        {
+          "az": "Ədalətə",
+          "tr": "Adalete",
+          "ru": "Справедливости",
+          "en": "Justice",
+          "ar": "العدل"
+        },
+        {
+          "az": "Qərəzə",
+          "tr": "Önyargıya",
+          "ru": "Предвзятости",
+          "en": "Bias",
+          "ar": "التحيز"
+        },
+        {
+          "az": "Yalana",
+          "tr": "Yalana",
+          "ru": "Лжи",
+          "en": "Falsehood",
+          "ar": "الكذب"
+        },
+        {
+          "az": "Təkəbbürə",
+          "tr": "Kibre",
+          "ru": "Высокомерию",
+          "en": "Arrogance",
+          "ar": "الكبر"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Nisa 4:135 hətta özünə qarşı olsa belə ədalətli şahidliyi vurğulayır.",
+        "tr": "Nisa 4:135 kendi aleyhine de olsa adil şahitliği vurgular.",
+        "ru": "Ан-Ниса 4:135 подчёркивает справедливое свидетельство даже против себя.",
+        "en": "An-Nisa 4:135 stresses just testimony even against oneself.",
+        "ar": "تؤكد النساء ٤:١٣٥ الشهادة بالعدل ولو على النفس."
+      },
+      "source_reference": "Quran 4:135",
+      "source_url": "https://quran.com/4/135",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "general-05",
+      "category": "general",
+      "difficulty": 1,
+      "question": {
+        "az": "Qurana görə xalqlar və qəbilələrə ayrılmağın məqsədlərindən biri nədir?",
+        "tr": "Kur’an’a göre halklara ve kabilelere ayrılmanın amaçlarından biri nedir?",
+        "ru": "Какова одна из целей различия народов и племён по Корану?",
+        "en": "According to the Quran, what is one purpose of peoples and tribes?",
+        "ar": "ما إحدى غايات جعل الناس شعوباً وقبائل في القرآن؟"
+      },
+      "options": [
+        {
+          "az": "Bir-birini tanımaq",
+          "tr": "Birbirini tanımak",
+          "ru": "Познавать друг друга",
+          "en": "Knowing one another",
+          "ar": "التعارف"
+        },
+        {
+          "az": "Bir-birini alçaltmaq",
+          "tr": "Birbirini küçümsemek",
+          "ru": "Унижать друг друга",
+          "en": "Belittling one another",
+          "ar": "تحقير بعضهم بعضاً"
+        },
+        {
+          "az": "Daim savaşmaq",
+          "tr": "Daima savaşmak",
+          "ru": "Постоянно воевать",
+          "en": "Endless fighting",
+          "ar": "القتال الدائم"
+        },
+        {
+          "az": "Ədalətdən qaçmaq",
+          "tr": "Adaletten kaçmak",
+          "ru": "Избегать справедливости",
+          "en": "Avoiding justice",
+          "ar": "تجنب العدل"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Hucurat 49:13 tanışlığı və təqvanı önə çəkir.",
+        "tr": "Hucurat 49:13 tanışmayı ve takvayı öne çıkarır.",
+        "ru": "Аль-Худжурат 49:13 подчёркивает взаимное познание и богобоязненность.",
+        "en": "Al-Hujurat 49:13 highlights mutual knowledge and taqwa.",
+        "ar": "تبرز الحجرات ٤٩:١٣ التعارف والتقوى."
+      },
+      "source_reference": "Quran 49:13",
+      "source_url": "https://quran.com/49/13",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "general-06",
+      "category": "general",
+      "difficulty": 1,
+      "question": {
+        "az": "Quranda zəkat alanlar arasında hansı qrup açıq çəkilir?",
+        "tr": "Kur’an’da zekât alanlar arasında hangi grup açıkça anılır?",
+        "ru": "Какая группа прямо названа среди получателей закята?",
+        "en": "Which group is explicitly among the recipients of zakat?",
+        "ar": "أي فئة ذُكرت صراحة ضمن مستحقي الزكاة؟"
+      },
+      "options": [
+        {
+          "az": "Yoxsullar və ehtiyacı olanlar",
+          "tr": "Fakirler ve yoksullar",
+          "ru": "Бедные и нуждающиеся",
+          "en": "The poor and needy",
+          "ar": "الفقراء والمساكين"
+        },
+        {
+          "az": "Yalnız varlı hökmdarlar",
+          "tr": "Yalnız zengin hükümdarlar",
+          "ru": "Только богатые правители",
+          "en": "Only wealthy rulers",
+          "ar": "الحكام الأغنياء فقط"
+        },
+        {
+          "az": "Yalnız tacirlər",
+          "tr": "Yalnız tüccarlar",
+          "ru": "Только торговцы",
+          "en": "Only merchants",
+          "ar": "التجار فقط"
+        },
+        {
+          "az": "Yalnız idmançılar",
+          "tr": "Yalnız sporcular",
+          "ru": "Только спортсмены",
+          "en": "Only athletes",
+          "ar": "الرياضيون فقط"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Tövbə 9:60 yoxsulları və miskinləri siyahıya daxil edir.",
+        "tr": "Tevbe 9:60 fakirleri ve yoksulları listeye alır.",
+        "ru": "Ат-Тауба 9:60 включает бедных и нуждающихся.",
+        "en": "At-Tawbah 9:60 includes the poor and needy.",
+        "ar": "تُدرج التوبة ٩:٦٠ الفقراء والمساكين."
+      },
+      "source_reference": "Quran 9:60",
+      "source_url": "https://quran.com/9/60",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "general-07",
+      "category": "general",
+      "difficulty": 2,
+      "question": {
+        "az": "İnfitar 82:10–12-də insanın əməllərini qeyd edənlər necə təqdim olunur?",
+        "tr": "İnfitar 82:10–12’de amelleri kaydedenler nasıl tanıtılır?",
+        "ru": "Как в Аль-Инфитар 82:10–12 представлены записывающие дела?",
+        "en": "How are the recorders of deeds described in Al-Infitar 82:10–12?",
+        "ar": "كيف تصف الانفطار ٨٢:١٠–١٢ كاتبي الأعمال؟"
+      },
+      "options": [
+        {
+          "az": "Şərəfli yazan mələklər",
+          "tr": "Değerli yazıcı melekler",
+          "ru": "Благородные ангелы-писцы",
+          "en": "Honourable recording angels",
+          "ar": "ملائكة كرام كاتبون"
+        },
+        {
+          "az": "Tacirlər",
+          "tr": "Tüccarlar",
+          "ru": "Торговцы",
+          "en": "Merchants",
+          "ar": "تجار"
+        },
+        {
+          "az": "Dənizçilər",
+          "tr": "Denizciler",
+          "ru": "Моряки",
+          "en": "Sailors",
+          "ar": "بحارة"
+        },
+        {
+          "az": "Ustalar",
+          "tr": "Ustalar",
+          "ru": "Мастера",
+          "en": "Craftspeople",
+          "ar": "صنّاع"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayələr əməlləri bilən şərəfli yazanlardan danışır.",
+        "tr": "Ayetler amelleri bilen değerli yazıcılardan söz eder.",
+        "ru": "Аяты говорят о благородных писцах, знающих дела.",
+        "en": "The verses speak of honourable recorders who know people’s deeds.",
+        "ar": "تذكر الآيات كراماً كاتبين يعلمون الأعمال."
+      },
+      "source_reference": "Quran 82:10-12",
+      "source_url": "https://quran.com/82/10-12",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "general-08",
+      "category": "general",
+      "difficulty": 1,
+      "question": {
+        "az": "Quranı Peyğəmbərin qəlbinə endirməklə hansı mələk əlaqələndirilir?",
+        "tr": "Kur’an’ı Peygamber’in kalbine indirmekle hangi melek ilişkilendirilir?",
+        "ru": "Какой ангел связан с ниспосланием Корана в сердце Пророка?",
+        "en": "Which angel is associated with bringing the Quran to the Prophet’s heart?",
+        "ar": "أي مَلَك ارتبط بإنزال القرآن على قلب النبي؟"
+      },
+      "options": [
+        {
+          "az": "Cəbrail",
+          "tr": "Cebrail",
+          "ru": "Джибриль",
+          "en": "Jibril (Gabriel)",
+          "ar": "جبريل"
+        },
+        {
+          "az": "Mikail",
+          "tr": "Mikail",
+          "ru": "Микаиль",
+          "en": "Mikail",
+          "ar": "ميكائيل"
+        },
+        {
+          "az": "Malik",
+          "tr": "Malik",
+          "ru": "Малик",
+          "en": "Malik",
+          "ar": "مالك"
+        },
+        {
+          "az": "Harut",
+          "tr": "Harut",
+          "ru": "Харут",
+          "en": "Harut",
+          "ar": "هاروت"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Bəqərə 2:97-də Cəbrailin adı açıq çəkilir.",
+        "tr": "Bakara 2:97’de Cebrail’in adı açıkça anılır.",
+        "ru": "Аль-Бакара 2:97 прямо называет Джибриля.",
+        "en": "Al-Baqarah 2:97 explicitly names Jibril.",
+        "ar": "تذكر البقرة ٢:٩٧ جبريل بالاسم."
+      },
+      "source_reference": "Quran 2:97",
+      "source_url": "https://quran.com/2/97",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "general-09",
+      "category": "general",
+      "difficulty": 3,
+      "question": {
+        "az": "Bəqərə 2:185 Quranı kimlər üçün hidayət kimi təqdim edir?",
+        "tr": "Bakara 2:185 Kur’an’ı kimler için rehber olarak tanıtır?",
+        "ru": "Для кого Аль-Бакара 2:185 описывает Коран как руководство?",
+        "en": "For whom does Al-Baqarah 2:185 describe the Quran as guidance?",
+        "ar": "لمن تصف البقرة ٢:١٨٥ القرآن بأنه هدى؟"
+      },
+      "options": [
+        {
+          "az": "İnsanlar üçün",
+          "tr": "İnsanlar için",
+          "ru": "Для людей",
+          "en": "For humanity",
+          "ar": "للناس"
+        },
+        {
+          "az": "Yalnız hökmdarlar üçün",
+          "tr": "Yalnız hükümdarlar için",
+          "ru": "Только для правителей",
+          "en": "Only for rulers",
+          "ar": "للحكام فقط"
+        },
+        {
+          "az": "Yalnız bir peşə üçün",
+          "tr": "Yalnız bir meslek için",
+          "ru": "Только для одной профессии",
+          "en": "Only for one profession",
+          "ar": "لمهنة واحدة فقط"
+        },
+        {
+          "az": "Yalnız bir şəhər üçün",
+          "tr": "Yalnız bir şehir için",
+          "ru": "Только для одного города",
+          "en": "Only for one city",
+          "ar": "لمدينة واحدة فقط"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayədə Quran insanlara yol göstərən kitab kimi təsvir olunur.",
+        "tr": "Ayette Kur’an insanlara yol gösteren kitap olarak anlatılır.",
+        "ru": "Аят описывает Коран как руководство для людей.",
+        "en": "The verse describes the Quran as guidance for people.",
+        "ar": "تصف الآية القرآن بأنه هدى للناس."
+      },
+      "source_reference": "Quran 2:185",
+      "source_url": "https://quran.com/2/185",
+      "reviewed": true,
+      "active": true
+    },
+    {
+      "id": "general-10",
+      "category": "general",
+      "difficulty": 4,
+      "question": {
+        "az": "Ali-İmran 3:185-də hər nəfsin nəyi dadacağı bildirilir?",
+        "tr": "Âl-i İmran 3:185’te her nefsin neyi tadacağı bildirilir?",
+        "ru": "Что, согласно Аль-Имран 3:185, вкусит каждая душа?",
+        "en": "What will every soul taste according to Ali Imran 3:185?",
+        "ar": "ماذا تذوق كل نفس بحسب آل عمران ٣:١٨٥؟"
+      },
+      "options": [
+        {
+          "az": "Ölümü",
+          "tr": "Ölümü",
+          "ru": "Смерть",
+          "en": "Death",
+          "ar": "الموت"
+        },
+        {
+          "az": "Hökmdarlığı",
+          "tr": "Hükümdarlığı",
+          "ru": "Власть",
+          "en": "Kingship",
+          "ar": "الملك"
+        },
+        {
+          "az": "Bütün sərvətləri",
+          "tr": "Bütün servetleri",
+          "ru": "Все богатства",
+          "en": "Every fortune",
+          "ar": "كل الثروات"
+        },
+        {
+          "az": "Bütün peşələri",
+          "tr": "Bütün meslekleri",
+          "ru": "Все профессии",
+          "en": "Every profession",
+          "ar": "كل المهن"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "az": "Ayə ölümün hər nəfsə aid olduğunu xatırladır.",
+        "tr": "Ayet ölümün her nefse ait olduğunu hatırlatır.",
+        "ru": "Аят напоминает о смерти каждой души.",
+        "en": "The verse reminds us that every soul will taste death.",
+        "ar": "تذكر الآية أن كل نفس ذائقة الموت."
+      },
+      "source_reference": "Quran 3:185",
+      "source_url": "https://quran.com/3/185",
+      "reviewed": true,
+      "active": true
+    }
+  ]
+}

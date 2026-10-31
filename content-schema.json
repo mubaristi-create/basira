@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Shams source-reviewed content contract",
+  "$defs": {
+    "localized": {"type":"object","required":["az","tr","ru","en","ar"],"properties":{"az":{"type":"string","minLength":1},"tr":{"type":"string","minLength":1},"ru":{"type":"string","minLength":1},"en":{"type":"string","minLength":1},"ar":{"type":"string","minLength":1}}},
+    "question": {"type":"object","required":["id","category","difficulty","question","options","correct","explanation","source_reference","source_url","active","reviewed"],"properties":{"id":{"type":"string"},"category":{"enum":["quran","prophets","history","prayer","ramadan","culture","names","general"]},"difficulty":{"type":"integer","minimum":1,"maximum":4},"question":{"$ref":"#/$defs/localized"},"options":{"type":"array","minItems":4,"maxItems":4,"items":{"$ref":"#/$defs/localized"}},"correct":{"type":"integer","minimum":0,"maximum":3},"explanation":{"$ref":"#/$defs/localized"},"source_reference":{"type":"string"},"source_url":{"type":"string","format":"uri"},"active":{"type":"boolean"},"reviewed":{"type":"boolean"}}},
+    "name": {"type":"object","required":["id","arabic","latin","meaning","explanation","source_reference","source_url","reviewed","audio"],"properties":{"id":{"type":"integer","minimum":1,"maximum":99},"arabic":{"type":"string"},"latin":{"type":"string"},"meaning":{"$ref":"#/$defs/localized"},"explanation":{"$ref":"#/$defs/localized"},"source_reference":{"type":"string"},"source_url":{"type":"string","format":"uri"},"reviewed":{"type":"boolean"},"audio":{"type":["string","null"]},"audio_reviewed":{"type":"boolean"},"audio_license":{"type":"string"},"audio_source_reference":{"type":"string"}}}
+  }
+}

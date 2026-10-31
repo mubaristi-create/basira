@@ -8,12 +8,12 @@ Telefon ekranları üçün Quran, dua, zikr, namaz və Ramazan veb tətbiqi.
 - Hənəfi və Cəfəri üçün ayrı, insan anatomiyasına yaxın namaz təsvirləri və addım-addım izahlar.
 - Ramazan: sahur/iftar saatları, dairəvi geri sayım, əvvəlki illər üçün oruc qeydləri, gün sayı və iftar duası. Ümmül-Qura təqvimi yerli ay müşahidəsinə görə fərqlənə bilər.
 - Axtarılan 17 dua, tam Ayətəl-Kürsi, yeməkdən əvvəl/sonra dualar. Günün duası yerli tarixlə kitabxanadan seçilir.
-- Animasiya ilə təsbeh, dünya şəhərləri üçün namaz vaxtları, oruc təqvimi və statistika.
+- Muncuq səsi və titrəyişlə təsbeh, dünya şəhərləri üçün namaz vaxtları və statistika. Ayrı oruc təqvimi Ramazan jurnalında birləşdirilib.
 - Shams Pro $1.99 təqdimatı və yardım mətni; ödəniş provayderi qoşulmayıb.
 
 ## Lokal açılış
 
-Node.js 20+: `npm start`. Yoxlama: `npm test`. Kitabxana quraşdırmağa və build etməyə ehtiyac yoxdur.
+Node.js 20+: `npm start`. Yoxlama: `npm test`. Əlavə paket tələb olunmur. Məzmun JSON-larını dəyişdikdə `npm run build` işlədin.
 
 ## GitHub Pages
 
@@ -25,6 +25,12 @@ Settings → Pages → Source: GitHub Actions. Actions → Deploy to GitHub Page
 
 ## Yoxlama
 
-19 bölmə, 10 namaz ardıcıllığı, 5 dildə tanışlıq, 6 tema, yaddaşdan bərpa, oruc qeydləri, saat qurşaqları, yay/qış vaxtı, sayğac mərhələləri və dua axtarışı yoxlanılır. Fiziki telefon titrəyişi ayrıca cihaz dəstəyi tələb edir.
+22 bölmə, 10 namaz ardıcıllığı, 5 dildə tanışlıq, 6 tema, yaddaşdan bərpa, oruc qeydləri, saat qurşaqları, yay/qış vaxtı, sayğac mərhələləri və dua axtarışı yoxlanılır. Fiziki telefon titrəyişi ayrıca cihaz dəstəyi tələb edir.
 
 Visual asset provenance and final ImageGen prompts: [ASSETS.md](ASSETS.md).
+
+
+## Yeni modullar
+
+Dua Kitabım, 80 suallıq İslam Bilik Oyunu və Allahın 99 Adı beş dildə əlavə olunub. Altı cosmic tema, karusel və sürüşdürmə ilə keçidlər yenilənib. Adlar üçün yoxlanmış lisenziyalı audio olmadığından səs əlavə edilməyib. Ətraflı fayllar, məzmun mənbələri, yaddaş miqrasiyası, testlər, hədlər və Android PWA quraşdırılması: [INTEGRATION.md](INTEGRATION.md).
+
