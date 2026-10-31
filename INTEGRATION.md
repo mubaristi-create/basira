@@ -1,3 +1,5 @@
+> Bu sənəd v1.1 təhvil qeydidir. Yeni v1.2 Premium/backend üçün [PREMIUM-SETUP.md](PREMIUM-SETUP.md) əsasdır.
+
 # Shams 1.1 — təhvil qeydləri
 
 ## Dəyişikliklər

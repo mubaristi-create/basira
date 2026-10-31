@@ -1,7 +1,13 @@
-node_modules/
+
+private-data/
 .env
 .env.*
-!.env.example
-.DS_Store
+!backend/config.example
+*.sqlite
+*.sqlite-*
+*.key
+*service-account*.json
+backend/config.local
 .openai/
+node_modules/
 *.log
