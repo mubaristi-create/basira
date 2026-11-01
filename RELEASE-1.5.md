@@ -32,10 +32,11 @@ Giriş qərarları 90 saniyəlik server cavabına bağlanır; yerli saatı dəyi
 ## Yoxlama
 
 - `node check.cjs`: mövcud geniş davranış və yaddaş yoxlamaları.
-- `node --test features.test.cjs backend/premium.test.cjs`: 36 test.
+- `node --test features.test.cjs backend/premium.test.cjs`: 37 test.
 - Canlı Supabase-də `check-modules.sql`: anonim/adi istifadəçi yazısı qadağası, admin auditli dəyişiklik, stale revision, yanlış gün, sınaq expiry; hamısı transaction rollback ilə keçib. İstifadəçi məlumatı və test hesabı qalmayıb.
 - Mobil brauzerdə ikonlar, 350px daşma, Sunni/Şiə adları, qeydiyyatsız sınaq girişi və 1080×1920 PNG faktiki yoxlanıb.
 - Android SDK build və APK v2/v3 imzası; asset ZIP yolları və fayl SHA-256 yoxlaması. Eyni package id və imza açarı ilə 1.4 üzərinə yenilənir.
 - Fiziki cihazda WhatsApp-a göndərmə / status paylaşımı aparılmayıb; alıcı seçmə və göndərmə istifadəçiyə məxsusdur. Kompas/vidcet üzrə əvvəlki cihaz sınağı məhdudiyyəti qalır.
 
 Backend sirləri, şəxsi DB, admin şifrəsi və Android imza açarı repoya daxil edilmir.
+
