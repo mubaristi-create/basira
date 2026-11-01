@@ -1,0 +1,25 @@
+/* Intrinsic sizes: never shrink a panel behind its children in Android WebView. */
+#app[data-route=home] .cosmic-home{height:auto;min-height:100%;gap:10px}
+#app .home-carousel-section{flex:1 0 auto;min-height:0}
+#app .home-carousel{flex:0 0 auto;min-height:0;align-items:stretch}
+#app .home-slide{box-sizing:border-box;flex:0 0 100%;height:auto;min-height:0;padding:11px}
+#app .home-slide>div{flex:none;grid-template-rows:repeat(2,minmax(66px,auto));gap:8px}
+#app .home-slide button{min-height:66px;padding:10px;gap:7px;flex-direction:row;align-items:center}
+#app .home-slide button strong{font-size:11px;line-height:1.4}
+#app .home-slide button>span{position:static;align-self:flex-start;font-family:Arial,sans-serif}
+#app .carousel-controls{flex:none;padding-top:7px}
+#app[data-route=prayers]>.card,#app[data-route=tracker]>.card{flex:0 0 auto;min-height:max-content;height:auto;overflow:visible;background:var(--surface)}
+#app[data-route=prayers]>.card>.row,#app[data-route=tracker]>.card>.row{flex:0 0 auto;min-height:48px;box-sizing:border-box;background:transparent}
+#app .prayer-times-card{padding-bottom:14px}
+.azan-master{display:flex;align-items:center;gap:12px;margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid var(--stroke)}
+.azan-master>span{flex:1}.azan-master small{display:block;font-size:10px;line-height:1.6;color:var(--secondary);margin-top:4px}
+.premium-lock{text-align:center;padding:25px 18px}.premium-lock>span{font-size:36px;color:var(--accent)}.premium-lock p{line-height:1.8}.premium-tag{font:700 8px Arial;background:var(--primary);color:var(--primary-text);border-radius:5px;padding:3px 5px;white-space:nowrap}
+#app .home-slide button[data-premium-module]{padding-top:22px}#app .home-slide button[data-premium-module]>span{display:none}#app .home-slide button[data-premium-module]::after{content:'PRO';position:absolute;inset-inline-end:7px;top:5px;font:700 8px Arial;color:var(--primary)}
+header .mobilebrand .shams-mark,.shams-mark{mask:none!important;-webkit-mask:none!important;background:none!important;filter:none!important;width:auto;aspect-ratio:auto;display:inline-flex;align-items:center;gap:8px;color:var(--text)}
+.shams-mark img,header .mobilebrand .shams-mark img{display:block!important;width:38px;height:38px;object-fit:contain;border-radius:10px}.shams-mark b{font:600 20px Georgia,serif;letter-spacing:.2px}
+.ob-brand-hero>.shams-mark{display:flex;justify-content:center;height:auto}.ob-brand-hero>.shams-mark img{width:100px;height:100px}.ob-brand-hero>.shams-mark b{font-size:40px}
+.ob-small-brand .shams-mark{width:auto}.screen-preview>img{width:100%;height:auto;display:block;border-radius:12px}.screen-preview:has(>img){padding:0;overflow:hidden}
+.screen-dua{display:grid;gap:12px}.screen-dua select{width:100%}.screen-preview{position:relative;border-radius:22px;background:linear-gradient(155deg,#102e28,#325247);color:#fff5de;padding:24px 20px;text-align:center;min-height:280px;display:flex;flex-direction:column;justify-content:center;gap:14px;border:1px solid #b79b60}.screen-preview .arabic{color:#fff5de;font-size:25px;line-height:1.9}.screen-preview p{line-height:1.8;font-size:13px;margin:0}.screen-preview small{color:#d3c198}.screen-actions{display:grid;gap:8px}.screen-preview h3{color:#fff5de;font-size:17px;margin:0}.screen-dua .notice{line-height:1.7}.screen-saved{min-height:18px;color:var(--accent)}
+.qibla-panel{overflow:visible}.qibla-panel .compass{flex:none;width:min(65vw,240px);height:min(65vw,240px);margin:12px auto}.qibla-panel .needle{transition:transform .16s linear}.qibla-panel .compass-status{min-height:38px;line-height:1.7}.qibla-map{width:100%;height:140px;background:var(--surface-alt);border:1px solid var(--stroke);border-radius:12px;display:block;margin-top:10px}.qibla-actions{display:grid;gap:8px}.qibla-panel .notice{font-size:11px}.qibla-panel h1{font-size:28px;margin:8px 0}
+@media(max-width:350px){.shams-mark b{font-size:17px}.shams-mark img,header .mobilebrand .shams-mark img{width:31px;height:31px}.shams-mark{gap:5px}#app .home-slide button>span{display:none}#app .home-slide button{padding:8px;gap:6px}#app .home-slide button i{font-size:23px}#app .home-slide button strong{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.qibla-panel .needle{transition:none}}
