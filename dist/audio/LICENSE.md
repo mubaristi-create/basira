@@ -1,3 +1,9 @@
+# Current adhan — v1.4
+
+The selected audio is the file supplied by the project owner as videoplayback.weba. It is copied byte-for-byte to adhan-user.webm (SHA-256 a03a69d92fad31afe13a3f9f2bba70d5db325dd60f88547648ce9cf04de51fbb). No performer or reuse licence was supplied, so no attribution or licence is invented. The owner must retain the necessary distribution rights.
+
+The following credit applies only to the previous, unused recording retained in this source directory.
+
 # Azan recording
 
 Original: **Azan.ogg**, Andrewler, 3 September 2022, 183.484 seconds.
