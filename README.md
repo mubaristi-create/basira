@@ -1,3 +1,9 @@
+# SHAMS 1.5.0
+
+[APK](https://mubaristi-create.github.io/basira/downloads/SHAMS-1.5.0.apk) · [Veb](https://mubaristi-create.github.io/basira/) · [Admin](https://mubaristi-create.github.io/basira/#cloudadmin)
+
+Ortaq Premium ayarları, müddətli sınaq, standart SVG ikonlar, yeni loqo və dua paylaşımı: [RELEASE-1.5.md](RELEASE-1.5.md). Aşağıdakı əvvəlki versiya qeydləri həmin sənədlə tamamlanır.
+
 # SHAMS 1.4.0
 
 Yeni APK: [SHAMS-1.4.0.apk](https://mubaristi-create.github.io/basira/downloads/SHAMS-1.4.0.apk). Dəyişikliklər, sınaqlar və hədlər: [RELEASE-1.4.md](RELEASE-1.4.md).
