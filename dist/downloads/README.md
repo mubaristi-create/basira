@@ -1,3 +1,5 @@
 # SHAMS Android
 
-Latest: [SHAMS 1.4.0](SHAMS-1.4.0.apk) · Android 8.0+. Signed update with the same application id and signing key; install over the old version to preserve local records. See RELEASE-1.4.md for changes and device-test limitations.
+Latest: [SHAMS 1.5.0](SHAMS-1.5.0.apk) · Android 8.0+. Install over the previous SHAMS app without uninstalling to retain local records.
+
+Premium section access settings are shared with the web app through Supabase. See RELEASE-1.5.md.
