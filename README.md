@@ -1,3 +1,7 @@
+# SHAMS 1.4.0
+
+Yeni APK: [SHAMS-1.4.0.apk](https://mubaristi-create.github.io/basira/downloads/SHAMS-1.4.0.apk). Dəyişikliklər, sınaqlar və hədlər: [RELEASE-1.4.md](RELEASE-1.4.md).
+
 # Shams
 
 ## SHAMS 1.3
