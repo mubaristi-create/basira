@@ -11,3 +11,7 @@ backend/config.local
 .openai/
 node_modules/
 *.log
+
+android-build/
+*.p12
+*.jks

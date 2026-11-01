@@ -1,5 +1,10 @@
 # Shams
 
+## SHAMS 1.3
+
+Real azan, paylaşma, bayram/Ramazan namazları, canlı Supabase hesabı və tətbiq admin paneli əlavə edilib. Android APK və mənbə arxivi mövcuddur. Cari quraşdırma, SMTP məhdudiyyəti, testlər və Android məlumatı: [CLOUD-ANDROID.md](CLOUD-ANDROID.md). Aşağıdakı əvvəlki versiya qeydlərinin bulud/APK hissələri bu sənədlə əvəz olunur.
+
+
 Telefon ekranları üçün Quran, dua, zikr, namaz və Ramazan veb tətbiqi.
 
 - Göndərilmiş Shams loqosu bütün 6 temanın rənglərinə uyğunlaşır.
