@@ -19,3 +19,5 @@
 - Audio və loqo istifadəçi tərəfindən verilib. Audio üçün ifaçı/lisenziya uydurulmayıb.
 
 Supabase SMTP və Google Play aktivləşdirmə üzrə əvvəlki CLOUD-ANDROID.md / PREMIUM-SETUP.md qeydləri qüvvədədir. Backend sirləri, admin şifrələri və APK imza açarları repoya daxil edilmir.
+
+APK paketləmə yoxlaması: Windows AAPT2-nin nested asset adlarında yaratdığı əks slash-lar imzalamadan əvvəl düz slash-a normallaşdırılır. İmzalanmış APK içində updates.js, yeni azan və yeni loqo əsillərlə SHA-256 üzrə eynidir; bütün ZIP yolları və məxfi faylların olmaması yoxlanıb. Build bu yoxlamanı gələcək paketlərdə də məcburi aparır.
