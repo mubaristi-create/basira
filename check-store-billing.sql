@@ -1,0 +1,43 @@
+begin;
+do $$
+declare uid uuid; p jsonb; status jsonb; n int; rejected boolean=false;
+begin
+ select id into uid from public.shams_profiles where not disabled limit 1;
+ if uid is null then raise exception 'A confirmed test account is required';end if;
+ if has_function_privilege('anon','public.shams_store_apply(jsonb)','execute') or has_function_privilege('authenticated','public.shams_store_apply(jsonb)','execute') then raise exception 'Public write grant';end if;
+ perform set_config('request.jwt.claims',jsonb_build_object('role','service_role')::text,true);
+ p=jsonb_build_object('store','google','identity','rollback-test-only-16','user_id',uid,'product','shams_premium_yearly','state','active','expires_at',now()+interval '1 day','environment','Production','observed_at',now(),'event_id','rollback-event-16','latest_order','rollback-order-1');
+ perform public.shams_store_apply(p);perform public.shams_store_apply(p);
+ select count(*) into n from shams_private.store_audit where identity='rollback-test-only-16';if n<>1 then raise exception 'Replay accepted';end if;
+ perform set_config('request.jwt.claims',jsonb_build_object('role','authenticated','sub',uid)::text,true);
+ status=public.shams_premium_status();if not (status->>'premium')::boolean then raise exception 'Verified active subscription missing';end if;
+ perform set_config('request.jwt.claims',jsonb_build_object('role','service_role')::text,true);
+ begin perform public.shams_store_apply((p-'event_id')||jsonb_build_object('user_id','00000000-0000-0000-0000-000000000001'));exception when others then rejected=true;end;
+ if not rejected then raise exception 'Cross-account restore accepted';end if;
+ perform public.shams_store_apply((p-'event_id')||jsonb_build_object('state','revoked','observed_at',now()+interval '1 second'));
+ perform public.shams_store_apply((p-'event_id')||jsonb_build_object('observed_at',now()-interval '1 second'));
+ perform set_config('request.jwt.claims',jsonb_build_object('role','authenticated','sub',uid)::text,true);
+ status=public.shams_premium_status();if (status->>'premium')::boolean then raise exception 'Refund or stale result granted access';end if;
+ perform set_config('request.jwt.claims',jsonb_build_object('role','service_role')::text,true);
+ perform public.shams_store_apply((p-'event_id')||jsonb_build_object('environment','Sandbox','observed_at',now()+interval '2 seconds'));
+ perform set_config('request.jwt.claims',jsonb_build_object('role','authenticated','sub',uid)::text,true);
+ status=public.shams_premium_status();if (status->>'premium')::boolean then raise exception 'Unapproved sandbox entitlement';end if;
+ perform set_config('request.jwt.claims',jsonb_build_object('role','service_role')::text,true);
+ perform public.shams_store_apply((p-'event_id')||jsonb_build_object('expires_at',now()-interval '1 second','observed_at',now()+interval '3 seconds'));
+ perform set_config('request.jwt.claims',jsonb_build_object('role','authenticated','sub',uid)::text,true);
+ status=public.shams_premium_status();if (status->>'premium')::boolean then raise exception 'Expired subscription granted access';end if;
+ perform set_config('request.jwt.claims',jsonb_build_object('role','service_role')::text,true);
+ perform public.shams_store_apply((p-'event_id')||jsonb_build_object('observed_at',now()+interval '4 seconds'));
+ perform public.shams_store_void('google','rollback-test-only-16','rollback-order-1');
+ perform public.shams_store_void('google','rollback-test-only-16','rollback-order-1');
+ perform public.shams_store_apply((p-'event_id')||jsonb_build_object('observed_at',now()+interval '5 seconds'));
+ perform set_config('request.jwt.claims',jsonb_build_object('role','authenticated','sub',uid)::text,true);
+ status=public.shams_premium_status();if (status->>'premium')::boolean then raise exception 'Voided order restored';end if;
+ perform set_config('request.jwt.claims',jsonb_build_object('role','service_role')::text,true);
+ perform public.shams_store_apply((p-'event_id')||jsonb_build_object('latest_order','rollback-order-2','observed_at',now()+interval '6 seconds'));
+ perform set_config('request.jwt.claims',jsonb_build_object('role','authenticated','sub',uid)::text,true);
+ status=public.shams_premium_status();if not (status->>'premium')::boolean then raise exception 'New verified renewal blocked by older refund';end if;
+end$$;
+rollback;
+select 'PASS: protected RPC, replay, account binding, refund, stale update, sandbox, server expiry, voided-order replay and renewed order. All fixtures rolled back.' as result;
+

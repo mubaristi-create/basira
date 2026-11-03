@@ -1,13 +1,13 @@
 {
   "name": "shams",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "private": true,
   "description": "Shams — responsive prayer companion",
   "scripts": {
     "start": "node backend/server.cjs",
-    "test": "node check.cjs && node --test features.test.cjs backend/premium.test.cjs",
+    "test": "node check.cjs && node --test features.test.cjs backend/premium.test.cjs && node --test store-billing.test.mjs",
     "content": "node prepare-content.cjs",
-    "build": "node prepare-content.cjs && node check.cjs && node --test features.test.cjs backend/premium.test.cjs",
+    "build": "node prepare-content.cjs && node check.cjs && node --test features.test.cjs backend/premium.test.cjs && node --test store-billing.test.mjs",
     "test:premium": "node --test backend/premium.test.cjs",
     "test:cloud": "node check-cloud.cjs"
   },

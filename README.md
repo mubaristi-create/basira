@@ -1,3 +1,9 @@
+# SHAMS 1.6.0
+
+[APK](https://mubaristi-create.github.io/basira/downloads/SHAMS-1.6.0.apk) · [Veb](https://mubaristi-create.github.io/basira/) · [Admin](https://mubaristi-create.github.io/basira/#cloudadmin)
+
+Native fon azanı, real məscid xəritəsi, ayrıca ekran vidcetləri, yeni SHAMS wordmark və native Google/Apple abunəlik mənbəyi: [RELEASE-1.6.md](RELEASE-1.6.md). Mağaza açarları olmadan ödəniş bağlıdır. [Store Console addımları və çatışmayan məlumatlar](STORE-SETUP-1.6.md). Android/iOS/Supabase mənbələri uyğun ZIP arxivlərindədir. Aşağıdakı əvvəlki qeydlərin store/azan hissələri bu sənədlərlə tamamlanır.
+
 # SHAMS 1.5.0
 
 [APK](https://mubaristi-create.github.io/basira/downloads/SHAMS-1.5.0.apk) · [Veb](https://mubaristi-create.github.io/basira/) · [Admin](https://mubaristi-create.github.io/basira/#cloudadmin)

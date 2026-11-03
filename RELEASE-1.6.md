@@ -1,0 +1,10 @@
+# SHAMS 1.6.0
+
+- Kvadrat xarici keçid işarələri kartlardan çıxarıldı; paylaşım normal paylaş ikonunu saxlayır. Təqdim olunan `yazı.png` dəyişdirilmədən paketləndi, tema rəngi mask vasitəsilə tətbiq olunur.
+- “Bayram namazları” adı sadələşdirildi; Hənəfi/Cəfəri bayram və Ramazan gecə təlimatları saxlanıldı.
+- Daha çox → Yaxınlıqdakı məscidlər: real OSM/Photon nəticələri, interaktiv xəritə, şəhər axtarışı, mövqe, məsafə və marşrut keçidi. Xəritədə swipe əsas səhifələri dəyişmir. Məlumat 15 dəqiqə keşlənir; xidmət nəticələri tam olmaya bilər.
+- Daha çox → Ekran vidcetləri: dua seçimi, preview, Android pin təsdiqi və launcher vasitəsilə əlavə etmə. Hər vidcet öz duanı saxlayır; əvvəlki vidcetlər qorunur. Webdə şəkli saxlayıb fon seçmək mümkündür; brauzer Android native vidceti yarada bilmir.
+- Android azanı JS timer-dən ayrı AlarmManager + foreground media service ilə səslənir. Seçilmiş şəhərin 14 günlük vaxtları saxlanılır, gündəlik job/reboot/vaxt dəyişməsində bərpa edilir. POST_NOTIFICATIONS və dəqiq alarm icazəsi istifadəçi tərəfindən verilir. Namaz vaxtları → Azan icazələrini aç → 10 saniyə sonra sına; ekranı bağlayıb sınaqdan keçirin. Telefonun alarm səsi açıq olmalıdır. Android-in “Force stop” əməliyyatı və bəzi istehsalçıların batareya məhdudiyyətləri OS səviyyəsindədir; tətbiqi yenidən açın və lazım olduqda batareya məhdudiyyətini götürün.
+- Native Google Play Billing 9.1.0, StoreKit 2 iOS layihəsi, Supabase server yoxlaması, account binding, restore, RTDN/V2 webhook-ları və refund order qoruması əlavə olundu. UI strukturu saxlanıldı. İllik USD referansı $3.50; ödənişin real qiyməti mağazadan gəlir. [Aktivləşdirmə və çatışmayan məlumatlar](STORE-SETUP-1.6.md).
+
+Yoxlama: mövcud funksiyalar və store state testləri; geniş `check.cjs`; native timezone/DST testləri; Deno type-check; canlı Supabase rollback təhlükəsizlik testi; APK/AAB build və APK imzası. Real Google/Apple satınalma testləri açarlar və Console məhsulları olmadan aparılmayıb. Fiziki telefonların bütün modellərində fon audio testi aparılmayıb. iOS layihəsi Windows-da compile/sign edilməyib.
