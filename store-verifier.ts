@@ -1,29 +1,13 @@
-import {createClient} from 'npm:@supabase/supabase-js@2';
-import {SignJWT,importPKCS8,createRemoteJWKSet,jwtVerify} from 'npm:jose@6';
-import {AppStoreServerAPIClient,SignedDataVerifier,Environment} from 'npm:@apple/app-store-server-library@3.1.0';
+import {createClient} from '@supabase/supabase-js';
+import {SignJWT,importPKCS8,createRemoteJWKSet,jwtVerify} from 'jose';
+import {AppStoreServerAPIClient,SignedDataVerifier,Environment} from 'apple';
 import {Buffer} from 'node:buffer';
-const PRODUCT='shams_premium_yearly';
-function googleResult(data:any,basePlan:string,now=Date.now()){
- const line=data.lineItems?.find((l:any)=>l.productId===PRODUCT&&l.offerDetails?.basePlanId===basePlan);if(!line)throw Error('Unexpected product/base plan');
- const states:Record<string,string>={SUBSCRIPTION_STATE_ACTIVE:'active',SUBSCRIPTION_STATE_IN_GRACE_PERIOD:'grace',SUBSCRIPTION_STATE_CANCELED:'canceled',SUBSCRIPTION_STATE_PENDING:'pending',SUBSCRIPTION_STATE_PENDING_PURCHASE_CANCELED:'expired',SUBSCRIPTION_STATE_ON_HOLD:'hold',SUBSCRIPTION_STATE_PAUSED:'paused',SUBSCRIPTION_STATE_EXPIRED:'expired'};
- const state=states[data.subscriptionState];if(!state)throw Error('Unknown state');const expiry=Date.parse(line.expiryTime);if(!Number.isFinite(expiry)&&['active','grace','canceled'].includes(state))throw Error('Missing expiry');
- return{state,expires_at:new Date(Number.isFinite(expiry)?expiry:0).toISOString(),renewing:line.autoRenewingPlan?.autoRenewEnabled===true,environment:data.testPurchase?'Sandbox':'Production',active:['active','grace','canceled'].includes(state)&&expiry>now};
-}
-function appleResult(transaction:any,status:number,renewal:any,now=Date.now()){
- if(![1,2,3,4,5].includes(status))throw Error('Unknown Apple subscription status');
- if(transaction.productId!==PRODUCT||transaction.type!=='Auto-Renewable Subscription')throw Error('Unexpected Apple product');
- const expiry=Number(transaction.expiresDate);if(!Number.isFinite(expiry))throw Error('Missing expiry');
- const revoked=!!transaction.revocationDate||status===5;const grace=status===4&&Number(renewal?.gracePeriodExpiresDate)>now;
- return{state:revoked?'revoked':grace?'grace':status===1&&expiry>now?(renewal?.autoRenewStatus===0?'canceled':'active'):status===3?'hold':'expired',expires_at:new Date(grace?Number(renewal.gracePeriodExpiresDate):expiry).toISOString(),renewing:renewal?.autoRenewStatus===1,environment:transaction.environment};
-}
-
-// Public Apple trust anchors downloaded from apple.com.
-const appleRoots=["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"];
-
+import {PRODUCT,googleResult,appleResult} from './model.mjs';
+import {appleRoots} from './roots.ts';
 const env=(k:string)=>Deno.env.get(k)||'';
 const db=createClient(env('SUPABASE_URL'),env('SUPABASE_SERVICE_ROLE_KEY'),{auth:{persistSession:false,autoRefreshToken:false}});
 const cors={'Access-Control-Allow-Origin':'*','Access-Control-Allow-Headers':'authorization,apikey,content-type,x-shams-cron','Access-Control-Allow-Methods':'POST,OPTIONS'};
-const readyGoogle=()=>{try{const sa=JSON.parse(env('PLAY_SERVICE_ACCOUNT_JSON'));return env('PLAY_PACKAGE_NAME')==='app.shams.mobile'&&/^[a-z0-9][a-z0-9-]{0,62}$/.test(env('PLAY_BASE_PLAN_ID'))&&Buffer.from(env('PURCHASE_ENCRYPTION_KEY'),'base64').length===32&&typeof sa.client_email==='string'&&typeof sa.private_key==='string'&&sa.private_key.includes('PRIVATE KEY');}catch{return false;}};
+const readyGoogle=()=>{try{const sa=JSON.parse(env('PLAY_SERVICE_ACCOUNT_JSON'));return ['com.shams.play','app.shams.mobile'].includes(env('PLAY_PACKAGE_NAME'))&&/^[a-z0-9][a-z0-9-]{0,62}$/.test(env('PLAY_BASE_PLAN_ID'))&&Buffer.from(env('PURCHASE_ENCRYPTION_KEY'),'base64').length===32&&typeof sa.client_email==='string'&&typeof sa.private_key==='string'&&sa.private_key.includes('PRIVATE KEY');}catch{return false;}};
 const readyApple=()=>['APPLE_BUNDLE_ID','APPLE_ISSUER_ID','APPLE_KEY_ID'].every(k=>!!env(k))&&Number.isSafeInteger(Number(env('APPLE_APP_ID')))&&Number(env('APPLE_APP_ID'))>0&&env('APPLE_PRIVATE_KEY').includes('PRIVATE KEY');
 const sandbox=()=>env('ALLOW_STORE_SANDBOX')==='true';
 const googleKeys=createRemoteJWKSet(new URL('https://www.googleapis.com/oauth2/v3/certs'));
