@@ -1,9 +1,9 @@
-# SHAMS 1.7.0
+# SHAMS 1.8.0
 
-[APK](https://mubaristi-create.github.io/basira/downloads/SHAMS-1.7.0.apk) · [Veb](https://mubaristi-create.github.io/basira/?v=1.7#home) · [Admin](https://mubaristi-create.github.io/basira/?v=1.7#cloudadmin)
+[Veb](https://mubaristi-create.github.io/basira/?v=1.8#home) · [Admin](https://mubaristi-create.github.io/basira/?v=1.8#cloudadmin) · [APK](https://mubaristi-create.github.io/basira/downloads/SHAMS-1.8.0.apk) · [AAB](https://mubaristi-create.github.io/basira/downloads/SHAMS-1.8.0.aab) · [Play Console paketi](https://mubaristi-create.github.io/basira/downloads/SHAMS-PlayConsole-1.8.zip)
 
-Quran oxu işarələri, qəza qeydləri, Qədr gecələri, xəritə seçimləri, açıq təklif lenti və serverdə hesablanan liderlik: [RELEASE-1.7.md](RELEASE-1.7.md).
+Rəy göndərmə və qaralama qorunması, paylaşım qaydaları, şikayət/bloklama, hesab silmə və Android geri keçidi: [RELEASE-1.8.md](RELEASE-1.8.md).
 
-49 Node testi və canlı rollback server sınaqları. `npm test`, `npm start`. Native Android/Supabase/iOS mənbələri ZIP arxivlərindədir; şifrələr və imza açarları daxil deyil. Yeni SQL dəyişiklikləri `community-schema.sql` faylındadır; mövcud admin UUID-si qorunur.
+56 Node testi keçir; Android lint 0 xəta, 12 xəbərdarlıq. İmzalı AAB bundletool ilə təsdiqlənib. Fiziki telefon, Play satınalma və Pre-launch sınaqları Console-da tamamlanmalıdır. [Play Console addımları](PLAY-CONSOLE-1.8.md).
 
-Google Play/Apple ödənişlərini aktivləşdirmək üçün [STORE-SETUP-1.6.md](STORE-SETUP-1.6.md). Real açarlar olmadan mağaza ödənişləri bağlıdır. Fiziki telefonda fon azanı ayrıca yoxlanmalıdır. iOS mənbə layihəsidir; IPA yığılmayıb.
+Native Android/iOS/Supabase mənbələri ZIP-lərdədir. Məxfi açarlar və reviewer hesabı daxil deyil. Yeni server dəyişiklikləri release18-schema.sql, bütün sxem supabase-schema.sql faylındadır. Ödənişlər real mağaza konfiqurasiyası tamamlanana qədər bağlıdır. iOS mənbə layihəsidir, IPA yığılmayıb.

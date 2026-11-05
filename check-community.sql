@@ -9,7 +9,7 @@ do $$declare u uuid:=gen_random_uuid();v uuid:=gen_random_uuid();r jsonb;r2 json
  update shams_private.module_policy set mode='closed' where module='quiz';
  begin perform public.shams_quiz_start('quran',1);raise exception 'Closed quiz allowed';exception when raise_exception then if sqlerrm<>'Quiz unavailable' then raise;end if;end;
  update shams_private.module_policy set mode='free' where module='quiz';
- idea:=public.shams_idea_post('Rollback test idea','This test is rolled back and never published.');
+ idea:=public.shams_idea_send('Rollback test idea','This test is rolled back and never published.',gen_random_uuid(),'2026-11-04');
  begin perform public.shams_idea_admin(idea,'No','completed',false);raise exception 'Non-admin wrote reply';exception when raise_exception then if sqlerrm<>'Admin required' then raise;end if;end;
  r:=public.shams_quiz_start('quran',1);
  select array_agg(b.correct order by t.n) into ans from jsonb_array_elements_text(r->'questions') with ordinality t(id,n) join shams_private.quiz_bank b on b.id=t.id;
@@ -31,7 +31,7 @@ do $$declare u uuid:=gen_random_uuid();v uuid:=gen_random_uuid();r jsonb;r2 json
  perform public.shams_leader_join('Rollback test',false);
  if exists(select 1 from jsonb_array_elements(public.shams_leaderboard()->'rows') p where p->>'user_id'=u::text) then raise exception 'Opt-out leaked';end if;
  update public.shams_profiles set disabled=true where id=u;
- begin perform public.shams_idea_post('Disabled test','No posting allowed');raise exception 'Disabled user posted';exception when raise_exception then if sqlerrm<>'Sign in required' then raise;end if;end;
+ begin perform public.shams_idea_send('Disabled test','No posting allowed',gen_random_uuid(),'2026-11-04');raise exception 'Disabled user posted';exception when raise_exception then if sqlerrm<>'Sign in required' then raise;end if;end;
 end$$;
 rollback;
 select 'PASS: private grants, server answers, replay, daily credits, ownership, opt-in, hidden posts, admin-only reply and blocked account; fixtures rolled back' as result;

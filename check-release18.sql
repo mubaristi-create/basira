@@ -1,0 +1,42 @@
+-- These identities/posts are disposable fixtures inside one rolled-back transaction.
+begin;
+do $$declare u uuid:=gen_random_uuid();v uuid:=gen_random_uuid();req uuid:=gen_random_uuid();post uuid;again uuid;rid uuid;owner uuid;begin
+ if has_function_privilege('anon','public.shams_idea_send(text,text,uuid,text)','EXECUTE') or has_function_privilege('authenticated','public.shams_delete_user_posts(uuid)','EXECUTE') or has_table_privilege('authenticated','shams_private.idea_reports','SELECT') then raise exception 'Unsafe grants';end if;
+ insert into auth.users(id,email,raw_user_meta_data) values(u,u||'@example.invalid','{"display_name":"Rollback author"}'),(v,v||'@example.invalid','{"display_name":"Rollback reader"}');
+ perform set_config('request.jwt.claim.sub',u::text,true);
+ begin perform public.shams_idea_send('Title','Valid message',req,'no');raise exception 'Rules bypassed';exception when raise_exception then if sqlerrm<>'Posting rules must be accepted' then raise;end if;end;
+ post:=public.shams_idea_send('Title','Valid message',req,'2026-11-04');
+ again:=public.shams_idea_send('Title','Valid message',req,'2026-11-04');
+ if post<>again or (select count(*) from shams_private.ideas where user_id=u)<>1 then raise exception 'Retry duplicated a post';end if;
+ begin perform public.shams_idea_send('Changed','Valid message',req,'2026-11-04');raise exception 'Request rebound';exception when raise_exception then if sqlerrm<>'Request already used' then raise;end if;end;
+ if not exists(select 1 from shams_private.idea_terms where user_id=u and version='2026-11-04') then raise exception 'Consent not recorded';end if;
+ perform public.shams_leader_join('Rollback author',true);
+ perform set_config('request.jwt.claim.sub',v::text,true);
+ perform public.shams_idea_report(post,'abuse','Test report, never published');
+ perform public.shams_idea_report(post,'abuse','Test report, never published');
+ if (select count(*) from shams_private.idea_reports where post_id=post)<>1 then raise exception 'Duplicate report';end if;
+ begin perform public.shams_idea_reports();raise exception 'Reports exposed to regular user';exception when raise_exception then if sqlerrm<>'Admin required' then raise;end if;end;
+ perform public.shams_idea_block(post);
+ if exists(select 1 from jsonb_array_elements(public.shams_ideas_list(300,false)) p where p->>'id'=post::text) then raise exception 'Block failed';end if;
+ if jsonb_array_length(public.shams_idea_blocks())<>1 then raise exception 'Own block list missing';end if;
+ perform public.shams_idea_unblock(u);
+ if not exists(select 1 from jsonb_array_elements(public.shams_ideas_list(300,false)) p where p->>'id'=post::text) then raise exception 'Unblock failed';end if;
+ perform public.shams_user_report(u,'spam','Profile report fixture');
+ perform public.shams_user_block(u);
+ if (select count(*) from shams_private.idea_reports where subject_user=u)<>1 then raise exception 'Profile reporting failed';end if;
+ select user_id into owner from shams_private.admins limit 1;
+ perform set_config('request.jwt.claim.sub',owner::text,true);
+ if not exists(select 1 from jsonb_array_elements(public.shams_idea_reports()) p where p->>'post_id'=post::text) then raise exception 'Admin reports missing';end if;
+ select id into rid from shams_private.idea_reports where post_id=post;
+ perform public.shams_idea_admin(post,'Reviewed','planned',true);
+ perform public.shams_idea_report_resolve(rid);
+ if not exists(select 1 from shams_private.idea_reports where id=rid and resolved) then raise exception 'Report not resolved';end if;
+ begin perform public.shams_delete_user_posts(owner);raise exception 'Admin account cleanup allowed';exception when raise_exception then if sqlerrm<>'Transfer the administrator role before deleting this account' then raise;end if;end;
+ -- Exact cleanup used before the Auth Admin API; then verify Auth FK cascades.
+ perform public.shams_delete_user_posts(u);
+ if exists(select 1 from shams_private.ideas where user_id=u) then raise exception 'Authored posts retained';end if;
+ delete from auth.users where id=u;
+ if exists(select 1 from public.shams_profiles where id=u) or exists(select 1 from shams_private.leader_members where user_id=u) or exists(select 1 from shams_private.idea_blocks where blocked_id=u) then raise exception 'Account cascade incomplete';end if;
+end$$;
+rollback;
+select 'PASS: terms consent, posting/retry idempotency, report privacy, report moderation, block/unblock, profile reporting, deletion cleanup and Auth cascades; all fixtures rolled back' as result;
