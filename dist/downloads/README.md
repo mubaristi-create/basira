@@ -1,6 +1,5 @@
-# SHAMS 1.8.0
+# SHAMS
 
-[Android APK](SHAMS-1.8.0.apk) · [Play Console AAB](SHAMS-1.8.0.aab)
+[Play Console üçün AAB 1.8.1 — com.shams.play](SHAMS-1.8.1-play.aab) · [Mağaza paketi](SHAMS-PlayConsole-1.8.1.zip)
 
-Android 8.0+. Yerli qeydləri saxlamaq üçün əvvəlki tətbiqi silmədən üzərinə quraşdırın.
-Namaz vaxtları → Azan icazələrini aç → 10 saniyə sonra sına. Daha çox → Ekran vidcetləri.
+[Əvvəlki sideload APK 1.8.0 — app.shams.mobile](SHAMS-1.8.0.apk). Bu iki fərqli Android paketidir; avtomatik yerli məlumat köçürməsi yoxdur.
