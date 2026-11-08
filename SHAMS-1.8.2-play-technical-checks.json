@@ -1,0 +1,20 @@
+{
+  "bundleValidation": true,
+  "zipAlignment": true,
+  "pageSize16KB": "Java-only; no packaged ELF libraries",
+  "previousCertificatePreserved": true,
+  "targetSdk": 36,
+  "packageName": "com.shams.play",
+  "lintWarnings": 12,
+  "versionCode": 20,
+  "minSdk": 26,
+  "lintErrors": 0,
+  "nativeSharedLibraries": 0,
+  "bundleToApk": true,
+  "assetChecks": 53,
+  "aabSHA256": "5ce363cd656e84585f606664477637f97457f68632b666ca349c7f3f5d877af6",
+  "aabSignature": true,
+  "apkSHA256": "ea69b8999fa4d300b72ebd54a8a67e2a28d42af0b0404f4dc28627e7dbc611d7",
+  "apkSignature": true,
+  "version": "1.8.2"
+}
