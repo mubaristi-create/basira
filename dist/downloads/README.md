@@ -1,5 +1,7 @@
 # SHAMS
 
-[Play Console üçün AAB 1.8.1 — com.shams.play](SHAMS-1.8.1-play.aab) · [Mağaza paketi](SHAMS-PlayConsole-1.8.1.zip)
+[Latest Play Console AAB 1.8.2 — versionCode 20](SHAMS-1.8.2-play.aab)
 
-[Əvvəlki sideload APK 1.8.0 — app.shams.mobile](SHAMS-1.8.0.apk). Bu iki fərqli Android paketidir; avtomatik yerli məlumat köçürməsi yoxdur.
+Package: com.shams.play. Replace the failed duplicate versionCode 19 upload with this file.
+
+[Legacy sideload APK 1.8.0 — separate app.shams.mobile package](SHAMS-1.8.0.apk).
