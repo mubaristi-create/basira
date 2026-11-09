@@ -1,0 +1,6 @@
+/* Insets already zeroed by the native shell: do not add system padding again. */
+html[data-shell=android] header{height:auto;min-height:57px;flex-wrap:wrap;gap:6px;padding-top:8px;padding-bottom:8px}
+html[data-shell=android] #bottomNav{height:auto;min-height:61px;padding-bottom:4px;align-items:stretch}
+html[data-shell=android] main{padding-bottom:calc(var(--native-nav-height,61px) + 3px)}
+html[data-shell=android] #bottomNav .navitem{white-space:normal;height:auto;line-height:1.35;overflow-wrap:anywhere}
+html[data-shell=android] header button{height:auto;min-height:36px;white-space:normal}
