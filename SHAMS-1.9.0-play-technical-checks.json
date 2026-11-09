@@ -1,0 +1,20 @@
+{
+  "pageSize16KB": "Java-only; no packaged ELF libraries",
+  "apkSHA256": "fc8199d8bd8bfd840c4fb80b167b442de15610820df97fc91af281851ee7294a",
+  "lintWarnings": 11,
+  "bundleValidation": true,
+  "packageName": "com.shams.play",
+  "zipAlignment": true,
+  "bundleToApk": true,
+  "version": "1.9.0",
+  "aabSHA256": "90b27aa8c5ce03ed846c2636c01ca3aa5451dd0c9620eadc48e086eadd1843bd",
+  "previousCertificatePreserved": true,
+  "versionCode": 21,
+  "targetSdk": 36,
+  "assetChecks": 59,
+  "lintErrors": 0,
+  "minSdk": 26,
+  "aabSignature": true,
+  "apkSignature": true,
+  "nativeSharedLibraries": 0
+}

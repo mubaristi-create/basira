@@ -1,4 +1,4 @@
-const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');const root=__dirname,langs=['az','tr','ru','en','ar'],categories=['quran','prophets','history','prayer','ramadan','culture','names','general'];
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');const root=__dirname,langs=['az','tr','ru','en','ar'],categories=['quran','prophets','history','prayer','ramadan','culture','names','general','basics','hadith'];
 const read=f=>JSON.parse(fs.readFileSync(path.join(root,f),'utf8').replace(/^\uFEFF/,''));
 const translations=(v,label)=>{assert(v&&typeof v==='object',label);for(const l of langs)assert(typeof v[l]==='string'&&v[l].trim(),label+': '+l)};
 const quiz=read('content-quiz.json'),names=read('content-names.json');assert(Array.isArray(quiz.questions));assert(Array.isArray(names.names));assert.equal(new Set(quiz.questions.map(q=>q.id)).size,quiz.questions.length,'duplicate question id');
@@ -8,3 +8,5 @@ for(const n of names.names){assert(Number.isInteger(n.id)&&n.id>=1&&n.id<=99);as
 fs.writeFileSync(path.join(root,'dist/quiz-data.js'),'/* Generated from content-quiz.json. Only active, reviewed entries are displayed. */\nconst SHAMS_QUIZ = '+JSON.stringify(quiz.questions)+';\n');
 fs.writeFileSync(path.join(root,'dist/names-data.js'),'/* Generated from content-names.json. Source notes must remain visible in the UI. */\nconst SHAMS_NAMES_SOURCE = '+JSON.stringify(names.source)+';\nconst SHAMS_NAMES = '+JSON.stringify(names.names)+';\n');
 console.log('PASS: content schemas, translations, unique choices, references and audio policy. Generated '+quiz.questions.length+' quiz questions and 99 names.');
+
+require('./prepare-quiz.cjs');

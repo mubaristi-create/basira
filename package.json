@@ -1,15 +1,16 @@
 {
   "name": "shams",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "private": true,
   "description": "Shams — responsive prayer companion",
   "scripts": {
     "start": "node backend/server.cjs",
-    "test": "node check.cjs && node --test features.test.cjs backend/premium.test.cjs && node --test store-billing.test.mjs",
+    "test": "node check.cjs && node --test features.test.cjs quiz-upgrade.test.cjs auth-upgrade.test.cjs backend/premium.test.cjs store-billing.test.mjs",
     "content": "node prepare-content.cjs",
-    "build": "node prepare-content.cjs && node check.cjs && node --test features.test.cjs backend/premium.test.cjs && node --test store-billing.test.mjs",
+    "build": "node prepare-content.cjs && node check.cjs && node --test features.test.cjs quiz-upgrade.test.cjs auth-upgrade.test.cjs backend/premium.test.cjs store-billing.test.mjs",
     "test:premium": "node --test backend/premium.test.cjs",
-    "test:cloud": "node check-cloud.cjs"
+    "test:cloud": "node check-cloud.cjs",
+    "test:quiz": "node --test quiz-upgrade.test.cjs"
   },
   "engines": {
     "node": ">=24"

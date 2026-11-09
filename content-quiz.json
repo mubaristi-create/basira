@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "questions": [
     {
       "id": "quran-01",
@@ -53,7 +53,18 @@
       "source_reference": "Quran 1:2",
       "source_url": "https://quran.com/1/2",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "quran",
+      "tier": 1,
+      "concept_id": "quran-01",
+      "option_ids": [
+        "quran-01:0",
+        "quran-01:1",
+        "quran-01:2",
+        "quran-01:3"
+      ],
+      "correct_option_id": "quran-01:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "quran-02",
@@ -107,7 +118,18 @@
       "source_reference": "Quran 97:1-3",
       "source_url": "https://quran.com/97/1-3",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "quran",
+      "tier": 1,
+      "concept_id": "quran-02",
+      "option_ids": [
+        "quran-02:0",
+        "quran-02:1",
+        "quran-02:2",
+        "quran-02:3"
+      ],
+      "correct_option_id": "quran-02:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "quran-03",
@@ -161,7 +183,18 @@
       "source_reference": "Quran 112:1",
       "source_url": "https://quran.com/112/1",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "quran",
+      "tier": 1,
+      "concept_id": "quran-03",
+      "option_ids": [
+        "quran-03:0",
+        "quran-03:1",
+        "quran-03:2",
+        "quran-03:3"
+      ],
+      "correct_option_id": "quran-03:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "quran-04",
@@ -215,7 +248,18 @@
       "source_reference": "Quran 2:255",
       "source_url": "https://quran.com/2/255",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "quran",
+      "tier": 1,
+      "concept_id": "quran-04",
+      "option_ids": [
+        "quran-04:0",
+        "quran-04:1",
+        "quran-04:2",
+        "quran-04:3"
+      ],
+      "correct_option_id": "quran-04:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "quran-05",
@@ -269,7 +313,18 @@
       "source_reference": "Quran 95:1",
       "source_url": "https://quran.com/95/1",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "quran",
+      "tier": 1,
+      "concept_id": "quran-05",
+      "option_ids": [
+        "quran-05:0",
+        "quran-05:1",
+        "quran-05:2",
+        "quran-05:3"
+      ],
+      "correct_option_id": "quran-05:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "quran-06",
@@ -323,7 +378,18 @@
       "source_reference": "Quran 113:1",
       "source_url": "https://quran.com/113/1",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "quran",
+      "tier": 1,
+      "concept_id": "quran-06",
+      "option_ids": [
+        "quran-06:0",
+        "quran-06:1",
+        "quran-06:2",
+        "quran-06:3"
+      ],
+      "correct_option_id": "quran-06:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "quran-07",
@@ -377,7 +443,18 @@
       "source_reference": "Quran 103:1",
       "source_url": "https://quran.com/103/1",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "quran",
+      "tier": 1,
+      "concept_id": "quran-07",
+      "option_ids": [
+        "quran-07:0",
+        "quran-07:1",
+        "quran-07:2",
+        "quran-07:3"
+      ],
+      "correct_option_id": "quran-07:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "quran-08",
@@ -431,7 +508,18 @@
       "source_reference": "Quran 96:1",
       "source_url": "https://quran.com/96/1",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "quran",
+      "tier": 1,
+      "concept_id": "quran-08",
+      "option_ids": [
+        "quran-08:0",
+        "quran-08:1",
+        "quran-08:2",
+        "quran-08:3"
+      ],
+      "correct_option_id": "quran-08:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "quran-09",
@@ -485,7 +573,18 @@
       "source_reference": "Quran 29:41",
       "source_url": "https://quran.com/29/41",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "quran",
+      "tier": 3,
+      "concept_id": "quran-09",
+      "option_ids": [
+        "quran-09:0",
+        "quran-09:1",
+        "quran-09:2",
+        "quran-09:3"
+      ],
+      "correct_option_id": "quran-09:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "quran-10",
@@ -539,7 +638,18 @@
       "source_reference": "Quran 91:1",
       "source_url": "https://quran.com/91/1",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "quran",
+      "tier": 3,
+      "concept_id": "quran-10",
+      "option_ids": [
+        "quran-10:0",
+        "quran-10:1",
+        "quran-10:2",
+        "quran-10:3"
+      ],
+      "correct_option_id": "quran-10:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prophets-01",
@@ -593,7 +703,18 @@
       "source_reference": "Quran 20:77",
       "source_url": "https://quran.com/20/77",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prophets",
+      "tier": 1,
+      "concept_id": "prophets-01",
+      "option_ids": [
+        "prophets-01:0",
+        "prophets-01:1",
+        "prophets-01:2",
+        "prophets-01:3"
+      ],
+      "correct_option_id": "prophets-01:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prophets-02",
@@ -647,7 +768,18 @@
       "source_reference": "Quran 11:37",
       "source_url": "https://quran.com/11/37",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prophets",
+      "tier": 1,
+      "concept_id": "prophets-02",
+      "option_ids": [
+        "prophets-02:0",
+        "prophets-02:1",
+        "prophets-02:2",
+        "prophets-02:3"
+      ],
+      "correct_option_id": "prophets-02:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prophets-03",
@@ -701,7 +833,18 @@
       "source_reference": "Quran 37:142",
       "source_url": "https://quran.com/37/142",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prophets",
+      "tier": 1,
+      "concept_id": "prophets-03",
+      "option_ids": [
+        "prophets-03:0",
+        "prophets-03:1",
+        "prophets-03:2",
+        "prophets-03:3"
+      ],
+      "correct_option_id": "prophets-03:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prophets-04",
@@ -755,7 +898,18 @@
       "source_reference": "Quran 12:4",
       "source_url": "https://quran.com/12/4",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prophets",
+      "tier": 1,
+      "concept_id": "prophets-04",
+      "option_ids": [
+        "prophets-04:0",
+        "prophets-04:1",
+        "prophets-04:2",
+        "prophets-04:3"
+      ],
+      "correct_option_id": "prophets-04:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prophets-05",
@@ -809,7 +963,18 @@
       "source_reference": "Quran 2:127",
       "source_url": "https://quran.com/2/127",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prophets",
+      "tier": 1,
+      "concept_id": "prophets-05",
+      "option_ids": [
+        "prophets-05:0",
+        "prophets-05:1",
+        "prophets-05:2",
+        "prophets-05:3"
+      ],
+      "correct_option_id": "prophets-05:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prophets-06",
@@ -863,7 +1028,18 @@
       "source_reference": "Quran 4:163",
       "source_url": "https://quran.com/4/163",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prophets",
+      "tier": 1,
+      "concept_id": "prophets-06",
+      "option_ids": [
+        "prophets-06:0",
+        "prophets-06:1",
+        "prophets-06:2",
+        "prophets-06:3"
+      ],
+      "correct_option_id": "prophets-06:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prophets-07",
@@ -917,7 +1093,18 @@
       "source_reference": "Quran 19:34",
       "source_url": "https://quran.com/19/34",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prophets",
+      "tier": 1,
+      "concept_id": "prophets-07",
+      "option_ids": [
+        "prophets-07:0",
+        "prophets-07:1",
+        "prophets-07:2",
+        "prophets-07:3"
+      ],
+      "correct_option_id": "prophets-07:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prophets-08",
@@ -971,7 +1158,18 @@
       "source_reference": "Quran 2:31",
       "source_url": "https://quran.com/2/31",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prophets",
+      "tier": 1,
+      "concept_id": "prophets-08",
+      "option_ids": [
+        "prophets-08:0",
+        "prophets-08:1",
+        "prophets-08:2",
+        "prophets-08:3"
+      ],
+      "correct_option_id": "prophets-08:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prophets-09",
@@ -1025,7 +1223,18 @@
       "source_reference": "Quran 27:18",
       "source_url": "https://quran.com/27/18",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prophets",
+      "tier": 3,
+      "concept_id": "prophets-09",
+      "option_ids": [
+        "prophets-09:0",
+        "prophets-09:1",
+        "prophets-09:2",
+        "prophets-09:3"
+      ],
+      "correct_option_id": "prophets-09:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prophets-10",
@@ -1079,7 +1288,18 @@
       "source_reference": "Quran 19:7",
       "source_url": "https://quran.com/19/7",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prophets",
+      "tier": 3,
+      "concept_id": "prophets-10",
+      "option_ids": [
+        "prophets-10:0",
+        "prophets-10:1",
+        "prophets-10:2",
+        "prophets-10:3"
+      ],
+      "correct_option_id": "prophets-10:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "history-01",
@@ -1133,7 +1353,18 @@
       "source_reference": "Quran 3:123",
       "source_url": "https://quran.com/3/123",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "history",
+      "tier": 1,
+      "concept_id": "history-01",
+      "option_ids": [
+        "history-01:0",
+        "history-01:1",
+        "history-01:2",
+        "history-01:3"
+      ],
+      "correct_option_id": "history-01:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "history-02",
@@ -1187,7 +1418,18 @@
       "source_reference": "Quran 9:25",
       "source_url": "https://quran.com/9/25",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "history",
+      "tier": 2,
+      "concept_id": "history-02",
+      "option_ids": [
+        "history-02:0",
+        "history-02:1",
+        "history-02:2",
+        "history-02:3"
+      ],
+      "correct_option_id": "history-02:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "history-03",
@@ -1241,7 +1483,18 @@
       "source_reference": "Quran 18:9",
       "source_url": "https://quran.com/18/9",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "history",
+      "tier": 1,
+      "concept_id": "history-03",
+      "option_ids": [
+        "history-03:0",
+        "history-03:1",
+        "history-03:2",
+        "history-03:3"
+      ],
+      "correct_option_id": "history-03:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "history-04",
@@ -1295,7 +1548,18 @@
       "source_reference": "Quran 7:73-74",
       "source_url": "https://quran.com/7/73-74",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "history",
+      "tier": 2,
+      "concept_id": "history-04",
+      "option_ids": [
+        "history-04:0",
+        "history-04:1",
+        "history-04:2",
+        "history-04:3"
+      ],
+      "correct_option_id": "history-04:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "history-05",
@@ -1349,7 +1613,18 @@
       "source_reference": "Quran 11:50",
       "source_url": "https://quran.com/11/50",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "history",
+      "tier": 1,
+      "concept_id": "history-05",
+      "option_ids": [
+        "history-05:0",
+        "history-05:1",
+        "history-05:2",
+        "history-05:3"
+      ],
+      "correct_option_id": "history-05:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "history-06",
@@ -1403,7 +1678,18 @@
       "source_reference": "Quran 7:85",
       "source_url": "https://quran.com/7/85",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "history",
+      "tier": 2,
+      "concept_id": "history-06",
+      "option_ids": [
+        "history-06:0",
+        "history-06:1",
+        "history-06:2",
+        "history-06:3"
+      ],
+      "correct_option_id": "history-06:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "history-07",
@@ -1457,7 +1743,18 @@
       "source_reference": "Quran 7:103",
       "source_url": "https://quran.com/7/103",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "history",
+      "tier": 1,
+      "concept_id": "history-07",
+      "option_ids": [
+        "history-07:0",
+        "history-07:1",
+        "history-07:2",
+        "history-07:3"
+      ],
+      "correct_option_id": "history-07:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "history-08",
@@ -1511,7 +1808,18 @@
       "source_reference": "Quran 28:76",
       "source_url": "https://quran.com/28/76",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "history",
+      "tier": 3,
+      "concept_id": "history-08",
+      "option_ids": [
+        "history-08:0",
+        "history-08:1",
+        "history-08:2",
+        "history-08:3"
+      ],
+      "correct_option_id": "history-08:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "history-09",
@@ -1565,7 +1873,18 @@
       "source_reference": "Quran 31:13",
       "source_url": "https://quran.com/31/13",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "history",
+      "tier": 3,
+      "concept_id": "history-09",
+      "option_ids": [
+        "history-09:0",
+        "history-09:1",
+        "history-09:2",
+        "history-09:3"
+      ],
+      "correct_option_id": "history-09:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "history-10",
@@ -1619,7 +1938,18 @@
       "source_reference": "Quran 30:2-3",
       "source_url": "https://quran.com/30/2-3",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "history",
+      "tier": 3,
+      "concept_id": "history-10",
+      "option_ids": [
+        "history-10:0",
+        "history-10:1",
+        "history-10:2",
+        "history-10:3"
+      ],
+      "correct_option_id": "history-10:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prayer-01",
@@ -1673,7 +2003,18 @@
       "source_reference": "Quran 2:144",
       "source_url": "https://quran.com/2/144",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prayer",
+      "tier": 1,
+      "concept_id": "prayer-01",
+      "option_ids": [
+        "prayer-01:0",
+        "prayer-01:1",
+        "prayer-01:2",
+        "prayer-01:3"
+      ],
+      "correct_option_id": "prayer-01:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prayer-02",
@@ -1727,7 +2068,18 @@
       "source_reference": "Quran 5:6",
       "source_url": "https://quran.com/5/6",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prayer",
+      "tier": 1,
+      "concept_id": "prayer-02",
+      "option_ids": [
+        "prayer-02:0",
+        "prayer-02:1",
+        "prayer-02:2",
+        "prayer-02:3"
+      ],
+      "correct_option_id": "prayer-02:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prayer-03",
@@ -1781,7 +2133,18 @@
       "source_reference": "Quran 62:9",
       "source_url": "https://quran.com/62/9",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prayer",
+      "tier": 2,
+      "concept_id": "prayer-03",
+      "option_ids": [
+        "prayer-03:0",
+        "prayer-03:1",
+        "prayer-03:2",
+        "prayer-03:3"
+      ],
+      "correct_option_id": "prayer-03:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prayer-04",
@@ -1835,7 +2198,18 @@
       "source_reference": "Quran 20:14",
       "source_url": "https://quran.com/20/14",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prayer",
+      "tier": 1,
+      "concept_id": "prayer-04",
+      "option_ids": [
+        "prayer-04:0",
+        "prayer-04:1",
+        "prayer-04:2",
+        "prayer-04:3"
+      ],
+      "correct_option_id": "prayer-04:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prayer-05",
@@ -1889,7 +2263,18 @@
       "source_reference": "Quran 7:31",
       "source_url": "https://quran.com/7/31",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prayer",
+      "tier": 2,
+      "concept_id": "prayer-05",
+      "option_ids": [
+        "prayer-05:0",
+        "prayer-05:1",
+        "prayer-05:2",
+        "prayer-05:3"
+      ],
+      "correct_option_id": "prayer-05:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prayer-06",
@@ -1943,7 +2328,18 @@
       "source_reference": "Quran 2:45",
       "source_url": "https://quran.com/2/45",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prayer",
+      "tier": 1,
+      "concept_id": "prayer-06",
+      "option_ids": [
+        "prayer-06:0",
+        "prayer-06:1",
+        "prayer-06:2",
+        "prayer-06:3"
+      ],
+      "correct_option_id": "prayer-06:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prayer-07",
@@ -1997,7 +2393,18 @@
       "source_reference": "Quran 29:45",
       "source_url": "https://quran.com/29/45",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prayer",
+      "tier": 2,
+      "concept_id": "prayer-07",
+      "option_ids": [
+        "prayer-07:0",
+        "prayer-07:1",
+        "prayer-07:2",
+        "prayer-07:3"
+      ],
+      "correct_option_id": "prayer-07:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prayer-08",
@@ -2051,7 +2458,18 @@
       "source_reference": "Quran 2:43",
       "source_url": "https://quran.com/2/43",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prayer",
+      "tier": 1,
+      "concept_id": "prayer-08",
+      "option_ids": [
+        "prayer-08:0",
+        "prayer-08:1",
+        "prayer-08:2",
+        "prayer-08:3"
+      ],
+      "correct_option_id": "prayer-08:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prayer-09",
@@ -2105,7 +2523,18 @@
       "source_reference": "Quran 24:58",
       "source_url": "https://quran.com/24/58",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prayer",
+      "tier": 3,
+      "concept_id": "prayer-09",
+      "option_ids": [
+        "prayer-09:0",
+        "prayer-09:1",
+        "prayer-09:2",
+        "prayer-09:3"
+      ],
+      "correct_option_id": "prayer-09:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "prayer-10",
@@ -2159,7 +2588,18 @@
       "source_reference": "Quran 4:101",
       "source_url": "https://quran.com/4/101",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "prayer",
+      "tier": 3,
+      "concept_id": "prayer-10",
+      "option_ids": [
+        "prayer-10:0",
+        "prayer-10:1",
+        "prayer-10:2",
+        "prayer-10:3"
+      ],
+      "correct_option_id": "prayer-10:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "ramadan-01",
@@ -2213,7 +2653,18 @@
       "source_reference": "Quran 2:183",
       "source_url": "https://quran.com/2/183",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "ramadan",
+      "tier": 1,
+      "concept_id": "ramadan-01",
+      "option_ids": [
+        "ramadan-01:0",
+        "ramadan-01:1",
+        "ramadan-01:2",
+        "ramadan-01:3"
+      ],
+      "correct_option_id": "ramadan-01:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "ramadan-02",
@@ -2267,7 +2718,18 @@
       "source_reference": "Quran 2:185",
       "source_url": "https://quran.com/2/185",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "ramadan",
+      "tier": 1,
+      "concept_id": "ramadan-02",
+      "option_ids": [
+        "ramadan-02:0",
+        "ramadan-02:1",
+        "ramadan-02:2",
+        "ramadan-02:3"
+      ],
+      "correct_option_id": "ramadan-02:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "ramadan-03",
@@ -2321,7 +2783,18 @@
       "source_reference": "Quran 2:185",
       "source_url": "https://quran.com/2/185",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "ramadan",
+      "tier": 2,
+      "concept_id": "ramadan-03",
+      "option_ids": [
+        "ramadan-03:0",
+        "ramadan-03:1",
+        "ramadan-03:2",
+        "ramadan-03:3"
+      ],
+      "correct_option_id": "ramadan-03:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "ramadan-04",
@@ -2375,7 +2848,18 @@
       "source_reference": "Quran 2:185",
       "source_url": "https://quran.com/2/185",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "ramadan",
+      "tier": 1,
+      "concept_id": "ramadan-04",
+      "option_ids": [
+        "ramadan-04:0",
+        "ramadan-04:1",
+        "ramadan-04:2",
+        "ramadan-04:3"
+      ],
+      "correct_option_id": "ramadan-04:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "ramadan-05",
@@ -2429,7 +2913,18 @@
       "source_reference": "Quran 2:187",
       "source_url": "https://quran.com/2/187",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "ramadan",
+      "tier": 2,
+      "concept_id": "ramadan-05",
+      "option_ids": [
+        "ramadan-05:0",
+        "ramadan-05:1",
+        "ramadan-05:2",
+        "ramadan-05:3"
+      ],
+      "correct_option_id": "ramadan-05:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "ramadan-06",
@@ -2483,7 +2978,18 @@
       "source_reference": "Quran 2:187",
       "source_url": "https://quran.com/2/187",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "ramadan",
+      "tier": 2,
+      "concept_id": "ramadan-06",
+      "option_ids": [
+        "ramadan-06:0",
+        "ramadan-06:1",
+        "ramadan-06:2",
+        "ramadan-06:3"
+      ],
+      "correct_option_id": "ramadan-06:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "ramadan-07",
@@ -2537,7 +3043,18 @@
       "source_reference": "Quran 2:187",
       "source_url": "https://quran.com/2/187",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "ramadan",
+      "tier": 3,
+      "concept_id": "ramadan-07",
+      "option_ids": [
+        "ramadan-07:0",
+        "ramadan-07:1",
+        "ramadan-07:2",
+        "ramadan-07:3"
+      ],
+      "correct_option_id": "ramadan-07:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "ramadan-08",
@@ -2591,7 +3108,18 @@
       "source_reference": "Quran 2:183",
       "source_url": "https://quran.com/2/183",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "ramadan",
+      "tier": 1,
+      "concept_id": "ramadan-08",
+      "option_ids": [
+        "ramadan-08:0",
+        "ramadan-08:1",
+        "ramadan-08:2",
+        "ramadan-08:3"
+      ],
+      "correct_option_id": "ramadan-08:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "ramadan-09",
@@ -2645,7 +3173,18 @@
       "source_reference": "Quran 97:3",
       "source_url": "https://quran.com/97/3",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "ramadan",
+      "tier": 3,
+      "concept_id": "ramadan-09",
+      "option_ids": [
+        "ramadan-09:0",
+        "ramadan-09:1",
+        "ramadan-09:2",
+        "ramadan-09:3"
+      ],
+      "correct_option_id": "ramadan-09:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "ramadan-10",
@@ -2699,7 +3238,18 @@
       "source_reference": "Quran 2:184",
       "source_url": "https://quran.com/2/184",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "ramadan",
+      "tier": 3,
+      "concept_id": "ramadan-10",
+      "option_ids": [
+        "ramadan-10:0",
+        "ramadan-10:1",
+        "ramadan-10:2",
+        "ramadan-10:3"
+      ],
+      "correct_option_id": "ramadan-10:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "culture-01",
@@ -2753,7 +3303,18 @@
       "source_reference": "Quran 4:86",
       "source_url": "https://quran.com/4/86",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 1,
+      "concept_id": "culture-01",
+      "option_ids": [
+        "culture-01:0",
+        "culture-01:1",
+        "culture-01:2",
+        "culture-01:3"
+      ],
+      "correct_option_id": "culture-01:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "culture-02",
@@ -2807,7 +3368,18 @@
       "source_reference": "Quran 4:58",
       "source_url": "https://quran.com/4/58",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 1,
+      "concept_id": "culture-02",
+      "option_ids": [
+        "culture-02:0",
+        "culture-02:1",
+        "culture-02:2",
+        "culture-02:3"
+      ],
+      "correct_option_id": "culture-02:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "culture-03",
@@ -2861,7 +3433,18 @@
       "source_reference": "Quran 5:1",
       "source_url": "https://quran.com/5/1",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 2,
+      "concept_id": "culture-03",
+      "option_ids": [
+        "culture-03:0",
+        "culture-03:1",
+        "culture-03:2",
+        "culture-03:3"
+      ],
+      "correct_option_id": "culture-03:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "culture-04",
@@ -2915,7 +3498,18 @@
       "source_reference": "Quran 17:35",
       "source_url": "https://quran.com/17/35",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 1,
+      "concept_id": "culture-04",
+      "option_ids": [
+        "culture-04:0",
+        "culture-04:1",
+        "culture-04:2",
+        "culture-04:3"
+      ],
+      "correct_option_id": "culture-04:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "culture-05",
@@ -2969,7 +3563,18 @@
       "source_reference": "Quran 17:23",
       "source_url": "https://quran.com/17/23",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 1,
+      "concept_id": "culture-05",
+      "option_ids": [
+        "culture-05:0",
+        "culture-05:1",
+        "culture-05:2",
+        "culture-05:3"
+      ],
+      "correct_option_id": "culture-05:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "culture-06",
@@ -3023,7 +3628,18 @@
       "source_reference": "Quran 49:11",
       "source_url": "https://quran.com/49/11",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 2,
+      "concept_id": "culture-06",
+      "option_ids": [
+        "culture-06:0",
+        "culture-06:1",
+        "culture-06:2",
+        "culture-06:3"
+      ],
+      "correct_option_id": "culture-06:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "culture-07",
@@ -3077,7 +3693,18 @@
       "source_reference": "Quran 49:12",
       "source_url": "https://quran.com/49/12",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 2,
+      "concept_id": "culture-07",
+      "option_ids": [
+        "culture-07:0",
+        "culture-07:1",
+        "culture-07:2",
+        "culture-07:3"
+      ],
+      "correct_option_id": "culture-07:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "culture-08",
@@ -3131,7 +3758,18 @@
       "source_reference": "Quran 24:27",
       "source_url": "https://quran.com/24/27",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 1,
+      "concept_id": "culture-08",
+      "option_ids": [
+        "culture-08:0",
+        "culture-08:1",
+        "culture-08:2",
+        "culture-08:3"
+      ],
+      "correct_option_id": "culture-08:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "culture-09",
@@ -3185,7 +3823,18 @@
       "source_reference": "Quran 2:168",
       "source_url": "https://quran.com/2/168",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 3,
+      "concept_id": "culture-09",
+      "option_ids": [
+        "culture-09:0",
+        "culture-09:1",
+        "culture-09:2",
+        "culture-09:3"
+      ],
+      "correct_option_id": "culture-09:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "culture-10",
@@ -3239,7 +3888,18 @@
       "source_reference": "Quran 7:31",
       "source_url": "https://quran.com/7/31",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 3,
+      "concept_id": "culture-10",
+      "option_ids": [
+        "culture-10:0",
+        "culture-10:1",
+        "culture-10:2",
+        "culture-10:3"
+      ],
+      "correct_option_id": "culture-10:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "names-01",
@@ -3293,7 +3953,18 @@
       "source_reference": "Quran 1:3",
       "source_url": "https://quran.com/1/3",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "basics",
+      "tier": 1,
+      "concept_id": "names-01",
+      "option_ids": [
+        "names-01:0",
+        "names-01:1",
+        "names-01:2",
+        "names-01:3"
+      ],
+      "correct_option_id": "names-01:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "names-02",
@@ -3347,7 +4018,18 @@
       "source_reference": "Quran 1:3",
       "source_url": "https://quran.com/1/3",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "basics",
+      "tier": 1,
+      "concept_id": "names-02",
+      "option_ids": [
+        "names-02:0",
+        "names-02:1",
+        "names-02:2",
+        "names-02:3"
+      ],
+      "correct_option_id": "names-02:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "names-03",
@@ -3401,7 +4083,18 @@
       "source_reference": "Quran 59:23",
       "source_url": "https://quran.com/59/23",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "basics",
+      "tier": 1,
+      "concept_id": "names-03",
+      "option_ids": [
+        "names-03:0",
+        "names-03:1",
+        "names-03:2",
+        "names-03:3"
+      ],
+      "correct_option_id": "names-03:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "names-04",
@@ -3455,7 +4148,18 @@
       "source_reference": "Quran 59:23",
       "source_url": "https://quran.com/59/23",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "basics",
+      "tier": 1,
+      "concept_id": "names-04",
+      "option_ids": [
+        "names-04:0",
+        "names-04:1",
+        "names-04:2",
+        "names-04:3"
+      ],
+      "correct_option_id": "names-04:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "names-05",
@@ -3509,7 +4213,18 @@
       "source_reference": "Quran 59:23",
       "source_url": "https://quran.com/59/23",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "basics",
+      "tier": 3,
+      "concept_id": "names-05",
+      "option_ids": [
+        "names-05:0",
+        "names-05:1",
+        "names-05:2",
+        "names-05:3"
+      ],
+      "correct_option_id": "names-05:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "names-06",
@@ -3563,7 +4278,18 @@
       "source_reference": "Quran 59:23",
       "source_url": "https://quran.com/59/23",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "basics",
+      "tier": 1,
+      "concept_id": "names-06",
+      "option_ids": [
+        "names-06:0",
+        "names-06:1",
+        "names-06:2",
+        "names-06:3"
+      ],
+      "correct_option_id": "names-06:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "names-07",
@@ -3617,7 +4343,18 @@
       "source_reference": "Quran 59:24",
       "source_url": "https://quran.com/59/24",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "basics",
+      "tier": 1,
+      "concept_id": "names-07",
+      "option_ids": [
+        "names-07:0",
+        "names-07:1",
+        "names-07:2",
+        "names-07:3"
+      ],
+      "correct_option_id": "names-07:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "names-08",
@@ -3671,7 +4408,18 @@
       "source_reference": "Quran 59:24",
       "source_url": "https://quran.com/59/24",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "basics",
+      "tier": 3,
+      "concept_id": "names-08",
+      "option_ids": [
+        "names-08:0",
+        "names-08:1",
+        "names-08:2",
+        "names-08:3"
+      ],
+      "correct_option_id": "names-08:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "names-09",
@@ -3725,7 +4473,18 @@
       "source_reference": "Quran 2:32",
       "source_url": "https://quran.com/2/32",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "basics",
+      "tier": 3,
+      "concept_id": "names-09",
+      "option_ids": [
+        "names-09:0",
+        "names-09:1",
+        "names-09:2",
+        "names-09:3"
+      ],
+      "correct_option_id": "names-09:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "names-10",
@@ -3779,7 +4538,18 @@
       "source_reference": "Quran 2:127",
       "source_url": "https://quran.com/2/127",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "basics",
+      "tier": 3,
+      "concept_id": "names-10",
+      "option_ids": [
+        "names-10:0",
+        "names-10:1",
+        "names-10:2",
+        "names-10:3"
+      ],
+      "correct_option_id": "names-10:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "general-01",
@@ -3833,7 +4603,18 @@
       "source_reference": "Quran 2:271",
       "source_url": "https://quran.com/2/271",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 1,
+      "concept_id": "general-01",
+      "option_ids": [
+        "general-01:0",
+        "general-01:1",
+        "general-01:2",
+        "general-01:3"
+      ],
+      "correct_option_id": "general-01:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "general-02",
@@ -3887,7 +4668,18 @@
       "source_reference": "Quran 3:92",
       "source_url": "https://quran.com/3/92",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 2,
+      "concept_id": "general-02",
+      "option_ids": [
+        "general-02:0",
+        "general-02:1",
+        "general-02:2",
+        "general-02:3"
+      ],
+      "correct_option_id": "general-02:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "general-03",
@@ -3941,7 +4733,18 @@
       "source_reference": "Quran 2:256",
       "source_url": "https://quran.com/2/256",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 1,
+      "concept_id": "general-03",
+      "option_ids": [
+        "general-03:0",
+        "general-03:1",
+        "general-03:2",
+        "general-03:3"
+      ],
+      "correct_option_id": "general-03:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "general-04",
@@ -3995,7 +4798,18 @@
       "source_reference": "Quran 4:135",
       "source_url": "https://quran.com/4/135",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 2,
+      "concept_id": "general-04",
+      "option_ids": [
+        "general-04:0",
+        "general-04:1",
+        "general-04:2",
+        "general-04:3"
+      ],
+      "correct_option_id": "general-04:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "general-05",
@@ -4049,7 +4863,18 @@
       "source_reference": "Quran 49:13",
       "source_url": "https://quran.com/49/13",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 1,
+      "concept_id": "general-05",
+      "option_ids": [
+        "general-05:0",
+        "general-05:1",
+        "general-05:2",
+        "general-05:3"
+      ],
+      "correct_option_id": "general-05:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "general-06",
@@ -4103,7 +4928,18 @@
       "source_reference": "Quran 9:60",
       "source_url": "https://quran.com/9/60",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 1,
+      "concept_id": "general-06",
+      "option_ids": [
+        "general-06:0",
+        "general-06:1",
+        "general-06:2",
+        "general-06:3"
+      ],
+      "correct_option_id": "general-06:1",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "general-07",
@@ -4157,7 +4993,18 @@
       "source_reference": "Quran 82:10-12",
       "source_url": "https://quran.com/82/10-12",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 2,
+      "concept_id": "general-07",
+      "option_ids": [
+        "general-07:0",
+        "general-07:1",
+        "general-07:2",
+        "general-07:3"
+      ],
+      "correct_option_id": "general-07:0",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "general-08",
@@ -4211,7 +5058,18 @@
       "source_reference": "Quran 2:97",
       "source_url": "https://quran.com/2/97",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 1,
+      "concept_id": "general-08",
+      "option_ids": [
+        "general-08:0",
+        "general-08:1",
+        "general-08:2",
+        "general-08:3"
+      ],
+      "correct_option_id": "general-08:3",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "general-09",
@@ -4265,7 +5123,18 @@
       "source_reference": "Quran 2:185",
       "source_url": "https://quran.com/2/185",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 3,
+      "concept_id": "general-09",
+      "option_ids": [
+        "general-09:0",
+        "general-09:1",
+        "general-09:2",
+        "general-09:3"
+      ],
+      "correct_option_id": "general-09:2",
+      "review_status": "legacy-reviewed"
     },
     {
       "id": "general-10",
@@ -4319,7 +5188,18 @@
       "source_reference": "Quran 3:185",
       "source_url": "https://quran.com/3/185",
       "reviewed": true,
-      "active": true
+      "active": true,
+      "topic": "general",
+      "tier": 3,
+      "concept_id": "general-10",
+      "option_ids": [
+        "general-10:0",
+        "general-10:1",
+        "general-10:2",
+        "general-10:3"
+      ],
+      "correct_option_id": "general-10:1",
+      "review_status": "legacy-reviewed"
     }
   ]
 }

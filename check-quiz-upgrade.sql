@@ -1,0 +1,53 @@
+-- Disposable identities and all state below exist only in this rolled-back transaction.
+begin;
+do $$
+declare u uuid:=gen_random_uuid();v uuid:=gen_random_uuid();admin_id uuid;first_round jsonb;second_round jsonb;response jsonb;events jsonb;answers integer[];fresh_ids text[];q text;shown jsonb;count_before integer;
+begin
+ if has_table_privilege('authenticated','shams_private.quiz_history','SELECT')or has_table_privilege('anon','shams_private.quiz_reports','INSERT')or has_function_privilege('anon','public.shams_quiz_sync(uuid,jsonb,jsonb)','EXECUTE')then raise exception 'Unsafe direct access';end if;
+ if jsonb_array_length(public.shams_quiz_catalog(0))<>80 then raise exception 'Expected 80 reviewed records';end if;
+ if exists(select 1 from shams_private.quiz_bank where payload is not null and correct is distinct from(payload->>'correct')::integer)then raise exception 'Server and translated answer keys differ';end if;
+ insert into auth.users(id,email,raw_user_meta_data)values(u,u||'@example.invalid','{"display_name":"Rollback quiz fixture"}'),(v,v||'@example.invalid','{"display_name":"Rollback other fixture"}');
+ perform set_config('request.jwt.claim.sub',u::text,true);
+ begin perform public.shams_quiz_sync(v,'[]','[]');raise exception 'Owner bypass';exception when raise_exception then if sqlerrm<>'Own account required'then raise;end if;end;
+ q:=(select id from shams_private.quiz_bank order by id limit 1);
+ events:=jsonb_build_array(jsonb_build_object('event_id','fixture:view','question_id',q,'shown_at',1000,'answered_at',0,'selected_id',null));
+ response:=public.shams_quiz_sync(u,events,'[]');response:=public.shams_quiz_sync(u,events,'[]');
+ if(select count(*)from shams_private.quiz_events where user_id=u)<>1 or(response->'history'->q->>'answeredAt')::numeric<>0 then raise exception 'Seen/answered or idempotency failure';end if;
+ events:=jsonb_build_array(jsonb_build_object('event_id','fixture:answer','question_id',q,'shown_at',1000,'answered_at',2000,'selected_id',(select payload->'option_ids'->>correct from shams_private.quiz_bank where id=q)));
+ response:=public.shams_quiz_sync(u,events,jsonb_build_array(jsonb_build_object('id','fixture:report','question_id',q,'language','az','note','Rollback-only test, never published')));
+ response:=public.shams_quiz_sync(u,jsonb_build_array(jsonb_build_object('event_id','fixture:stale','question_id',q,'shown_at',500,'answered_at',0,'selected_id',null)),'[]');
+ if(response->'history'->q->>'answeredAt')::numeric<>2000 then raise exception 'Stale sync erased answer';end if;
+ perform set_config('request.jwt.claim.sub',v::text,true);response:=public.shams_quiz_sync(v,'[]','[]');if response->'history'<>'{}'::jsonb then raise exception 'Another user history exposed';end if;
+ begin perform public.shams_quiz_reports();raise exception 'Reports exposed';exception when raise_exception then if sqlerrm<>'Admin required'then raise;end if;end;
+ begin perform public.shams_quiz_import('[]');raise exception 'Import exposed';exception when raise_exception then if sqlerrm<>'Admin required'then raise;end if;end;
+ perform set_config('request.jwt.claim.sub',u::text,true);perform public.shams_leader_join('Rollback-only quiz fixture',true);
+ -- Temporary policy is transaction-local and is never visible to clients.
+ update shams_private.module_policy set mode='free'where module='quiz';
+ first_round:=public.shams_quiz_start_v2(u,'all',1,'az');
+ if jsonb_array_length(first_round->'questions')<>10 or(select count(distinct x)from jsonb_array_elements_text(first_round->'questions')x)<>10 then raise exception 'Duplicate ranked IDs';end if;
+ select jsonb_agg(jsonb_build_object('event_id','rank-view:'||x,'question_id',x,'shown_at',extract(epoch from now())*1000,'answered_at',0,'selected_id',null))into events from jsonb_array_elements_text(first_round->'questions')x;
+ perform public.shams_quiz_sync(u,events,'[]');second_round:=public.shams_quiz_start_v2(u,'all',3,'az');
+ if exists(select 1 from jsonb_array_elements_text(first_round->'questions')a join jsonb_array_elements_text(second_round->'questions')b on a.value=b.value)then raise exception 'Unseen priority failed';end if;
+ if public.shams_quiz_start_v2(u,'hadith',1,'az')is not null then raise exception 'Empty category fabricated a round';end if;
+ select array_agg(id)into fresh_ids from(select b.id from shams_private.quiz_bank b where not exists(select 1 from shams_private.quiz_history h where h.user_id=u and h.question_id=b.id)order by b.id limit 2)t;
+ insert into shams_private.quiz_history(user_id,question_id,shown_at)select u,id,now()from shams_private.quiz_bank where not(id=any(fresh_ids))on conflict do nothing;
+ response:=public.shams_quiz_start_v2(u,'all',1,'az');
+ if(select count(*)from jsonb_array_elements_text(response->'questions')with ordinality x(id,n)where n<=2 and id=any(fresh_ids))<>2 then raise exception 'Repeats appeared before the last unseen questions';end if;
+ select answer_keys into answers from shams_private.quiz_rounds where id=(first_round->>'id')::uuid;
+ update shams_private.quiz_bank set correct=(correct+1)%4 where id=first_round->'questions'->>0;
+ response:=public.shams_quiz_finish((first_round->>'id')::uuid,answers);if(response->>'awarded')::integer<>100 then raise exception 'Answer snapshot changed';end if;
+ response:=public.shams_quiz_finish((first_round->>'id')::uuid,answers);if(response->>'replayed')::boolean is not true then raise exception 'Score replay not idempotent';end if;
+ select user_id into admin_id from shams_private.admins limit 1;perform set_config('request.jwt.claim.sub',admin_id::text,true);
+ if jsonb_array_length(public.shams_quiz_reports())<1 then raise exception 'Admin report missing';end if;
+ perform public.shams_quiz_report_resolve('fixture:report');
+ shown:=(select payload from shams_private.quiz_bank order by id limit 1);shown:=jsonb_set(shown,'{id}','"rollback-new-question"');
+ foreach q in array array['az','tr','ru','en','ar']loop shown:=jsonb_set(shown,array['question',q],to_jsonb('ROLLBACK TEST ONLY '||q));end loop;
+ begin perform public.shams_quiz_import(jsonb_build_array(shown));raise exception 'Unreviewed activation accepted';exception when raise_exception then if sqlerrm<>'Language approval required'and sqlerrm<>'Independent editorial approval required'then raise;end if;end;
+ if exists(select 1 from shams_private.quiz_bank where id='rollback-new-question')then raise exception 'Invalid content persisted';end if;
+ shown:=(select payload from shams_private.quiz_bank order by id limit 1);
+ shown:=jsonb_set(shown,'{review_status}','"approved"');shown:=jsonb_set(shown,'{review}','{"reviewer":"ROLLBACK TEST ONLY","date":"2026-11-09","source_checked":true}');shown:=jsonb_set(shown,'{translation_review}','{"az":true,"tr":true,"ru":true,"en":true,"ar":true}');
+ shown:=jsonb_set(shown,'{option_ids}','["changed:0","changed:1","changed:2","changed:3"]');shown:=jsonb_set(shown,'{correct_option_id}',to_jsonb('changed:'||(shown->>'correct')));
+ begin perform public.shams_quiz_import(jsonb_build_array(shown));raise exception 'Option identities changed';exception when raise_exception then if sqlerrm<>'Option identifiers are immutable; create a new question ID'then raise;end if;end;
+end$$;
+rollback;
+select 'PASS: own-account access, separate seen/answered, idempotent/stale/offline merges, no shared history, reviewed catalog, fresh ranked rounds, empty category, answer snapshots, score replay, admin reports and review gate. All fixtures rolled back.'as result;

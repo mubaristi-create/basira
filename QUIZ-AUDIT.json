@@ -1,0 +1,40 @@
+{
+  "count": 80,
+  "errors": [],
+  "duplicates": [],
+  "candidates": [],
+  "categories": [
+    {
+      "category": "quran",
+      "count": 10
+    },
+    {
+      "category": "prophets",
+      "count": 10
+    },
+    {
+      "category": "history",
+      "count": 10
+    },
+    {
+      "category": "prayer",
+      "count": 10
+    },
+    {
+      "category": "ramadan",
+      "count": 10
+    },
+    {
+      "category": "basics",
+      "count": 10
+    },
+    {
+      "category": "hadith",
+      "count": 0
+    },
+    {
+      "category": "general",
+      "count": 20
+    }
+  ]
+}
