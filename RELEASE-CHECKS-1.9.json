@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-09",
+  "version": "1.9.0",
+  "automatedTests": {
+    "total": 93,
+    "passed": 93,
+    "failed": 0
+  },
+  "broadRegression": "21 complete quiz rounds and existing feature assertions passed",
+  "nativeJava": [
+    "prayer epochs/timezones/DST",
+    "five notification locales without consecutive repeats",
+    "six insets cases"
+  ],
+  "android": {
+    "bundleToApk": true,
+    "apkSHA256": "e3b4ae83e44e09198c45744e19c35a40490d9eacfe37dbca0d16a4fa3b31f8cd",
+    "assetChecks": 59,
+    "pageSize16KB": "Java-only; no packaged ELF libraries",
+    "versionCode": 21,
+    "version": "1.9.0",
+    "minSdk": 26,
+    "aabSignature": true,
+    "bundleValidation": true,
+    "apkSignature": true,
+    "aabSHA256": "593a330728a573309f08e1636252cb5bf1e7b650e6bd927457b0319dc05fcbf7",
+    "zipAlignment": true,
+    "packageName": "com.shams.play",
+    "lintWarnings": 11,
+    "nativeSharedLibraries": 0,
+    "previousCertificatePreserved": true,
+    "lintErrors": 0,
+    "targetSdk": 36
+  },
+  "liveConfig": {
+    "googleSignIn": true,
+    "emailSignIn": true,
+    "googlePlayBilling": false,
+    "appleBilling": false,
+    "googleOAuthAudience": "In production",
+    "nativeRedirectAllowed": true,
+    "playConsoleBlocker": "Product shams_premium_yearly created; yearly plan editor repeatedly returns changes could not be saved. Not activated.",
+    "playConsoleAccount": "Lumi Play (playlumi00@gmail.com)",
+    "productionAccess": {
+      "closedTestEnrolled": 10,
+      "required": 12,
+      "requiredDays": 14
+    }
+  },
+  "ads": {
+    "mainBuild": "off",
+    "testApkBuilt": true,
+    "liveBlocker": "AdMob requires verified Azerbaijan phone number"
+  },
+  "notVerified": [
+    "physical Android 10-16 device matrix",
+    "real Play purchase/restore/renewal/refund",
+    "physical background azan and widget",
+    "real user Google OAuth end-to-end sign-in"
+  ],
+  "preservation": "No user records or existing scores deleted"
+}
