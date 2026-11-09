@@ -1,7 +1,5 @@
-# SHAMS
+# SHAMS 1.9.0
 
-[Latest Play Console AAB 1.8.2 — versionCode 20](SHAMS-1.8.2-play.aab)
+[APK](SHAMS-1.9.0-play.apk) · [Play AAB](SHAMS-1.9.0-play.aab)
 
-Package: com.shams.play. Replace the failed duplicate versionCode 19 upload with this file.
-
-[Legacy sideload APK 1.8.0 — separate app.shams.mobile package](SHAMS-1.8.0.apk).
+Paket com.shams.play, versionCode 21. Qeydləri saxlamaq üçün uyğun əvvəlki paketin üzərinə quraşdırın. Köhnə app.shams.mobile APK ayrıca tətbiqdir; əvvəlcə Hesabım → ehtiyat nüsxə ilə qeydləri qoruyun. AAB Internal testing üçündür. Real Billing və reklam konfiqurasiyası tamamlanmadan aktiv deyil.
